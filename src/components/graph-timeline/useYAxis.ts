@@ -17,7 +17,6 @@ export default () => {
     yAxisStyle: { width: yWidth },
     getCurrNodeConfig,
     onNodeClick,
-    scrollbarPos,
   } = useContext(GraphTimeService);
 
   const [yAxis, setYAxis] = useSafeState<d3.Selection<SVGGElement, any, any, any>>();

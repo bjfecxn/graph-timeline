@@ -79,7 +79,6 @@ export const useService = ({
   const [transform, setTransform] = useSafeState<d3.ZoomTransform>();
   const debounceTransform = useDebounce(transform, { wait: 500 });
   const [isHeatMap, setIsHeatmap] = useSafeState<boolean>(nodeConfig?.showHeatMap || true);
-  // TODO
   const [scrollbarPos, setScrollbarPos] = useSafeState(0);
   const debounceScrollbarPos = useDebounce(scrollbarPos, { wait: 10 });
 

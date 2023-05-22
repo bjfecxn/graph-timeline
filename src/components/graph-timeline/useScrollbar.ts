@@ -42,6 +42,7 @@ export default () => {
 
     const contentHeight = currZoomAllNodes.length * MAX_HEATMAP_HEIGHT;
     const viewHeight = size.height - PADDING_TOP;
+    setScrollbarPos(0);
     if (contentHeight <= viewHeight) {
       scrollbar.selectAll('rect').remove();
       return;
@@ -81,6 +82,7 @@ export default () => {
       // 根据滑块位置计算滚动位置
       const scrollPosition =
         ((newY - PADDING_TOP) / (viewHeight - handleHeight)) * (contentHeight - viewHeight);
+
       // 更新内容的滚动位置
       setScrollbarPos(scrollPosition);
     });

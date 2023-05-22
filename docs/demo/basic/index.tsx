@@ -95,7 +95,7 @@ export default () => {
       strokeOpacity: 0.3,
       strokeColor: 'rgba(255,0,0,.7)',
       strokeStyle: 'dashed',
-      showHeatMap: false,
+      showHeatMap: true,
     },
     edgeConfig: {
       width: 1,
