@@ -7,6 +7,15 @@ export const MAX_HEATMAP_HEIGHT = 14;
 
 export const TIME_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 
+export const PADDING_TOP = 14;
+export const PADDING_BOTTOM = 14;
+
+// scrollbar
+// 滑块默认高度
+export const DEFAULT_HANDLE_HEIGHT = 30;
+export const DEFAULT_HANDLE_WIDTH = 6;
+export const DEFAULT_TRACK_WIDTH = DEFAULT_HANDLE_WIDTH;
+
 // 定义中文时间格式化字符串
 export const TIME_LOCALE_FORMAT: TimeLocaleDefinition = {
   dateTime: '%x %A %X',

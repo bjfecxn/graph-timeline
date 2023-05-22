@@ -4,6 +4,7 @@ import { useSafeState } from 'ahooks';
 import { axisLeft } from '../../utils';
 import { GraphTimeService } from './service';
 import type { INode, INodeGroupIconStyle } from '../../types';
+import { isUndefined } from 'lodash';
 
 export default () => {
   const {
@@ -16,6 +17,7 @@ export default () => {
     yAxisStyle: { width: yWidth },
     getCurrNodeConfig,
     onNodeClick,
+    scrollbarPos,
   } = useContext(GraphTimeService);
 
   const [yAxis, setYAxis] = useSafeState<d3.Selection<SVGGElement, any, any, any>>();
@@ -57,7 +59,7 @@ export default () => {
     let yAxis = wrapper.select('svg').selectAll('.yAxis').data([size]);
     const yAxisEnter = yAxis.enter().append('g').attr('class', 'axis yAxis') as any;
 
-    yAxis = yAxis.merge(yAxisEnter).attr('transform', (size) => `translate(${size.width}, 0)`);
+    yAxis = yAxis.merge(yAxisEnter);
 
     setYAxis(yAxis as any);
   }, [wrapper, size]);

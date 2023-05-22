@@ -1,5 +1,5 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
-import { assign, map } from 'lodash';
+import { assign, first, map } from 'lodash';
 import * as d3 from 'd3';
 import useNoPaddingSize from '../../hooks/useNoPaddingSize';
 import {
@@ -10,6 +10,8 @@ import {
   DEFAULT_EDGE_TYPE_STYLE,
   TIME_FORMAT,
   TIME_LOCALE_FORMAT,
+  MAX_HEATMAP_HEIGHT,
+  PADDING_TOP,
 } from '../../common/constants';
 import {
   IEdge,
@@ -50,6 +52,7 @@ export interface IServiceProps {
   onNodeClick?: (node: INode, e: MouseEvent) => void;
   onEdgeClick?: TEdgeEvent;
   onEdgeHover?: TEdgeEvent;
+  onEdgeOut?: TEdgeEvent;
 }
 // 数据处理 & 格式转换
 export const useService = ({
@@ -68,6 +71,7 @@ export const useService = ({
   onNodeClick,
   onEdgeClick,
   onEdgeHover,
+  onEdgeOut,
 }: IServiceProps) => {
   const size = useNoPaddingSize(containerRef);
   const [selection, setSelection] =
@@ -75,6 +79,9 @@ export const useService = ({
   const [transform, setTransform] = useSafeState<d3.ZoomTransform>();
   const debounceTransform = useDebounce(transform, { wait: 500 });
   const [isHeatMap, setIsHeatmap] = useSafeState<boolean>(nodeConfig?.showHeatMap || true);
+  // TODO
+  const [scrollbarPos, setScrollbarPos] = useSafeState(0);
+  const debounceScrollbarPos = useDebounce(scrollbarPos, { wait: 10 });
 
   const yAxisStyle = useMemo(() => assign(DEFAULT_YAXIS_STYLE, yAxis), [yAxis]);
   const xAxisStyle = useMemo(() => assign(DEFAULT_XAXIS_STYLE, xAxis), [xAxis]);
@@ -125,7 +132,7 @@ export const useService = ({
     );
   }, [xScale, yAxisStyle.width, size?.width, edges, nodesMap]);
 
-  const insightNodes = useMemo(() => {
+  const currZoomAllNodes = useMemo(() => {
     if (!insightEdges?.length) return;
 
     const nodeIdMap = new Map();
@@ -134,8 +141,17 @@ export const useService = ({
       if (target) nodeIdMap.set(target, 1);
     });
 
-    return nodes.filter((node) => nodeIdMap.has(node.id));
+    const currZoomAllNodes = nodes.filter((node) => nodeIdMap.has(node.id));
+    return currZoomAllNodes;
   }, [insightEdges, nodes]);
+
+  const insightNodes = useMemo(() => {
+    if (!currZoomAllNodes?.length || !size) return;
+
+    const firstIndex = Math.floor(debounceScrollbarPos / MAX_HEATMAP_HEIGHT);
+    const totalNum = Math.floor(size.height / MAX_HEATMAP_HEIGHT);
+    return currZoomAllNodes.slice(firstIndex, totalNum + firstIndex);
+  }, [currZoomAllNodes, debounceScrollbarPos, size]);
 
   const yScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap) return;
@@ -145,8 +161,23 @@ export const useService = ({
     return d3
       .scalePoint()
       .domain(ids)
-      .range([20, size.height - 20]);
+      .range([PADDING_TOP, size.height - PADDING_TOP]);
   }, [selection, edges, nodesMap, size, insightNodes]);
+
+  const yChartScale = useMemo(() => {
+    if (!selection || !edges?.length || !size || !nodesMap || !currZoomAllNodes?.length) return;
+
+    const ids = map(currZoomAllNodes, ({ id }) => id);
+
+    return d3
+      .scalePoint()
+      .domain(ids)
+      .range([
+        PADDING_TOP - debounceScrollbarPos,
+        Math.max(size.height - PADDING_TOP, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
+          debounceScrollbarPos,
+      ]);
+  }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos]);
 
   const getCurrNodeConfig = useCallback(
     (key: keyof INodeGroupStyle, node?: INode) => {
@@ -204,6 +235,7 @@ export const useService = ({
     size,
     nodes,
     nodesMap,
+    currZoomAllNodes,
     insightNodes,
     activeNodeIds,
     minAndMax,
@@ -215,13 +247,17 @@ export const useService = ({
     transform: debounceTransform,
     xScale,
     yScale,
+    yChartScale,
     isHeatMap,
+    scrollbarPos: debounceScrollbarPos,
+    setScrollbarPos,
     setTransform,
     getCurrNodeConfig,
     getCurrEdgeConfig,
     onNodeClick,
     onEdgeClick,
     onEdgeHover,
+    onEdgeOut,
   };
 };
 

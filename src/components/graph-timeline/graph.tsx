@@ -4,6 +4,7 @@ import { useUpdateEffect } from 'ahooks';
 import useXAxis from './useXAxis';
 import useYAxis from './useYAxis';
 import useChart from './useChart';
+import useScrollbar from './useScrollbar';
 import { GraphTimeService } from './service';
 import { getTime } from '../../utils';
 
@@ -11,6 +12,7 @@ export default () => {
   const { wrapper, size, setTransform, edges = [], xScale, yScale } = useContext(GraphTimeService);
   const xAxis = useXAxis();
   const yAxis = useYAxis();
+  const scrollbar = useScrollbar();
   const chart = useChart();
 
   useUpdateEffect(() => {

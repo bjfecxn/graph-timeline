@@ -65,3 +65,16 @@ export const decompileColorId = (colorId: string) => {
       .replace(/p/g, '.')}`;
   return colorId;
 };
+
+export const getYPos = (
+  yScale: Function,
+  yChartScale: Function,
+  flag: string | number,
+  [min, max]: [min: number, max: number],
+) => {
+  const y = yScale(flag);
+  if (y) return y;
+  // y1 真实位置
+  const y1real = yChartScale(flag);
+  return y1real <= 0 ? min : max;
+};

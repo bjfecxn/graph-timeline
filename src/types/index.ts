@@ -7,7 +7,7 @@ export interface IEdge {
   source: string;
   target: string;
   time: TTime;
-  group: string;
+  group?: string;
 }
 
 export interface INode

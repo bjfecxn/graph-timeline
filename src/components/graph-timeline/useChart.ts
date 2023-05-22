@@ -2,8 +2,8 @@ import { useCallback, useContext, useEffect } from 'react';
 import * as d3 from 'd3';
 import { useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
-import { compileColor, getTime } from '../../utils';
-import { DEFAULT_EDGE_TYPE_STYLE } from '../../common/constants';
+import { compileColor, getTime, getYPos } from '../../utils';
+import { DEFAULT_EDGE_TYPE_STYLE, PADDING_BOTTOM, PADDING_TOP } from '../../common/constants';
 import { isString } from 'lodash';
 import type { IEdge, THeatMapItem } from '../../types';
 
@@ -12,21 +12,30 @@ export interface IProps {
   yScale: any;
 }
 
+interface ILineEdge extends IEdge {
+  _x: number | null;
+  _y1: number;
+  _y2: number;
+}
+
 export default () => {
   const {
     wrapper,
     minAndMax,
     edges,
     insightEdges,
+    insightNodes,
     nodesMap,
     size,
     xScale,
     yScale,
+    yChartScale,
     getCurrNodeConfig,
     getCurrEdgeConfig,
     isHeatMap,
     onEdgeClick,
     onEdgeHover,
+    onEdgeOut,
   } = useContext(GraphTimeService);
 
   const [chart, setChart] = useSafeState<d3.Selection<d3.BaseType, null, d3.BaseType, unknown>>();
@@ -157,8 +166,8 @@ export default () => {
 
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]),
       cellHeight = 14;
-    const heatMapChart = chart.selectAll('.__heatmap').data(renderHeatMap);
-    const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__heatmap');
+    const heatMapChart = chart.selectAll('.__h').data(renderHeatMap);
+    const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__h');
 
     heatMapChart
       .merge(heatMapChartEnter)
@@ -177,10 +186,12 @@ export default () => {
     heatMapChart.exit().remove();
   };
 
-  const renderTimelineStart = (insightEdges: IEdge[]) => {
+  const renderTimelineStart = (insightEdges: ILineEdge[]) => {
     if (!chart || !size || !xScale || !yScale) return;
     // start 节点
-    const start = chart.selectAll('.__circle.__start').data(insightEdges);
+    const start = chart
+      .selectAll('.__circle.__start')
+      .data(insightEdges.filter((edge) => yScale(edge.source)));
     const startEnter: any = start.enter().append('circle').attr('class', '__circle __start');
 
     start
@@ -218,14 +229,24 @@ export default () => {
           { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
           e,
         );
+      })
+      .on('mouseout', (e, edge: IEdge) => {
+        return onEdgeOut?.(
+          'source',
+          edge,
+          { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
+          e,
+        );
       });
     start.exit().remove();
   };
 
-  const renderTimelineEnd = (insightEdges: IEdge[]) => {
+  const renderTimelineEnd = (insightEdges: ILineEdge[]) => {
     if (!chart || !size || !xScale || !yScale) return;
     // end 节点（有 end 才绘制，如果没有就不绘制）
-    const end = chart.selectAll('.__circle.__end').data(insightEdges);
+    const end = chart
+      .selectAll('.__circle.__end')
+      .data(insightEdges.filter((edge) => yScale(edge.target)));
     const endEnter: any = end.enter().append('circle').attr('class', '__circle __end');
 
     end
@@ -263,37 +284,41 @@ export default () => {
           { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
           e,
         );
+      })
+      .on('mouseout', (e, edge: IEdge) => {
+        return onEdgeOut?.(
+          'target',
+          edge,
+          { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
+          e,
+        );
       });
     end.exit().remove();
   };
 
-  const renderTimelineLine = (insightEdges: IEdge[]) => {
-    if (!chart || !size || !xScale || !yScale) return;
+  const renderTimelineLine = (insightEdges: ILineEdge[]) => {
+    if (!chart || !size || !xScale || !yChartScale || !yScale) return;
     // 连线（有 start & end 的才画线&在范围内）
-    const line = chart.selectAll('.__line').data(insightEdges);
+    const line = chart
+      .selectAll('.__line')
+      .data(insightEdges.filter((_edge) => _edge._y1 && _edge._y2 && _edge._y1 !== _edge._y2));
     const lineEnter: any = line.enter().insert('line', 'circle').attr('class', '__line');
 
     line
       .merge(lineEnter)
-      .attr('x1', (edge: IEdge) => {
-        return xScale(getTime(edge.time));
-      })
-      .attr('y1', (edge: IEdge) => {
-        return yScale(edge.source) || null;
-      })
-      .attr('x2', (edge: IEdge) => {
-        return xScale(getTime(edge.time));
-      })
-      .attr('y2', (edge: IEdge) => {
+      .attr('x1', (edge: ILineEdge) => edge._x)
+      .attr('y1', (edge: ILineEdge) => edge._y1)
+      .attr('x2', (edge: ILineEdge) => edge._x)
+      .attr('y2', (edge: ILineEdge) => {
         const node = nodesMap?.[edge.target];
         const endRadius = getCurrNodeConfig?.('radius', node) as number;
-        const y2 = yScale(edge.target) || null;
-        const y1 = yScale(edge.source) || null;
+        const y2 = edge._y2;
+        const y1 = edge._y1;
         // 判断箭头方向是否朝上，如果朝上，则偏移量为正
         const upFlag = y2 && y1 && y2 < y1;
         return y2 ? y2 + endRadius * 2 * (upFlag ? 1 : -1) : null;
       })
-      .attr('stroke', (edge: IEdge) => {
+      .attr('stroke', (edge: ILineEdge) => {
         const stroke = getCurrEdgeConfig?.('color', edge) || null;
         if (stroke && stroke !== 'gradient') return stroke;
 
@@ -317,11 +342,13 @@ export default () => {
 
         return `url(#${gradientId})`;
       })
-      .attr('stroke-width', (edge: IEdge) => {
+      .attr('stroke-width', (edge: ILineEdge) => {
         const width = getCurrEdgeConfig?.('width', edge) || null;
         return width;
       })
-      .attr('marker-end', (edge: IEdge) => {
+      .attr('marker-end', (edge: ILineEdge) => {
+        const ytarget = yScale(edge.target);
+        if (!ytarget) return null;
         const stroke = getCurrEdgeConfig?.('color', edge, false);
         const reverse = getCurrEdgeConfig?.('reverse', edge);
         const node = nodesMap?.[reverse ? edge.source : edge.target];
@@ -330,19 +357,27 @@ export default () => {
         const arrowId = insertArrow(`${stroke || color}`, endRadius ? endRadius * 2 : undefined);
         return `url(#${arrowId})`;
       })
-      .on('click', (e, edge: IEdge) => {
+      .on('click', (e, edge: ILineEdge) => {
         return onEdgeClick?.(
           'line',
           edge,
-          { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
+          { x: xScale(getTime(edge.time)), s: edge._y1, t: edge._y2 },
           e,
         );
       })
-      .on('mouseover', (e, edge: IEdge) => {
+      .on('mouseover', (e, edge: ILineEdge) => {
         return onEdgeHover?.(
           'line',
           edge,
-          { x: xScale(getTime(edge.time)), s: yScale(edge.source), t: yScale(edge.target) },
+          { x: xScale(getTime(edge.time)), s: edge._y1, t: edge._y2 },
+          e,
+        );
+      })
+      .on('mouseout', (e, edge: ILineEdge) => {
+        return onEdgeOut?.(
+          'line',
+          edge,
+          { x: xScale(getTime(edge.time)), s: edge._y1, t: edge._y2 },
           e,
         );
       });
@@ -351,15 +386,24 @@ export default () => {
   };
 
   const renderTimeline = (insightEdges: IEdge[]) => {
-    if (!chart || !size) return;
+    if (!chart || !size || !xScale || !yScale || !yChartScale) return;
 
-    chart.selectAll('.__heatmap').remove();
+    chart.selectAll('.__h').remove();
 
-    renderTimelineStart(insightEdges);
+    const calEdges = insightEdges.map((edge) => {
+      return {
+        ...edge,
+        _x: xScale(getTime(edge.time)) || null,
+        _y1: getYPos(yScale, yChartScale, edge.source, [PADDING_TOP, size.height]) || null,
+        _y2: getYPos(yScale, yChartScale, edge.target, [PADDING_TOP, size.height]) || null,
+      };
+    });
 
-    renderTimelineEnd(insightEdges);
+    renderTimelineStart(calEdges);
 
-    renderTimelineLine(insightEdges);
+    renderTimelineEnd(calEdges);
+
+    renderTimelineLine(calEdges);
   };
 
   useEffect(() => {
@@ -404,7 +448,7 @@ export default () => {
       return;
     }
     renderTimeline(insightEdges);
-  }, [chart, size, insightEdges, isHeatMap]);
+  }, [chart, size, insightEdges, isHeatMap, insightNodes]);
 
   return chart;
 };
