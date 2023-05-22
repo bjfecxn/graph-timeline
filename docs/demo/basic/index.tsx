@@ -1,15 +1,22 @@
 import React, { useState } from 'react';
 import { GraphTimeline, INode, IEdge } from 'graph-timeline';
-import demo1Data from './demo1';
+// import demo1Data from './demo1';
+import demo2Data from './demo2';
+import { TooltipContent, TooltipProvider, ToolTipsGlobal } from './toolTips';
+// 自定义的内容区域组件
+const CustomContent: React.FC = () => {
+  return <div>Hello, world!</div>;
+};
 import './index.less';
 import './iconfont/iconfont.css';
 
 export default () => {
   const [activeNodeIds, setActiveNodeIds] = useState<string[]>([]);
+  const [visible, setVisible] = useState(true);
+  const [position, setPosition] = useState({ left: 500, top: 500 });
 
   const onNodeClick = (node: INode, e: MouseEvent) => {
-    console.log('e', e.button);
-    if (e.button !== 2) return;
+    if (e.button !== 0) return;
 
     // 右键点击选中
     const include = activeNodeIds.includes(node.id);
@@ -24,8 +31,28 @@ export default () => {
     edge: IEdge,
     position: { x?: number; s?: number; t?: number },
     e: MouseEvent,
+  ) => {};
+
+  const onEdgeHover = (
+    type: 'source' | 'target' | 'line',
+    edge: IEdge,
+    position: { x?: number; s?: number; t?: number },
+    e: MouseEvent,
   ) => {
-    console.log(type, edge, position, e);
+    setVisible(true);
+    setPosition({
+      left: e.screenX,
+      top: e.screenY,
+    });
+  };
+
+  const onEdgeOut = (
+    type: 'source' | 'target' | 'line',
+    edge: IEdge,
+    position: { x?: number; s?: number; t?: number },
+    e: MouseEvent,
+  ) => {
+    setVisible(false);
   };
 
   const graphConfig = {
@@ -68,6 +95,7 @@ export default () => {
       strokeOpacity: 0.3,
       strokeColor: 'rgba(255,0,0,.7)',
       strokeStyle: 'dashed',
+      showHeatMap: false,
     },
     edgeConfig: {
       width: 1,
@@ -86,15 +114,22 @@ export default () => {
   return (
     <div onContextMenu={(e) => e.preventDefault()}>
       <GraphTimeline
-        {...demo1Data}
+        {...demo2Data}
         {...graphConfig}
         yAxis={{ width: 80 }}
-        style={{ height: 400, padding: 30 }}
+        style={{ height: 400, padding: 50 }}
         onNodeClick={onNodeClick}
         activeNodeIds={activeNodeIds}
         onEdgeClick={onEdgeClick}
-        onEdgeHover={onEdgeClick}
+        onEdgeHover={onEdgeHover}
+        onEdgeOut={onEdgeOut}
       />
+      {/* <ToolTipsGlobal visible={visible} position={{
+        left: `${position.left}px`,
+        top: `${position.top}px`,
+      }}>
+        <CustomContent />
+      </ToolTipsGlobal> */}
     </div>
   );
 };

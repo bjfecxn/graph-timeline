@@ -7,7 +7,7 @@ export default {
     },
     {
       id: 's-1576813199045427200',
-      group: 'SPerson1',
+      group: 'SPerson',
       label: 'node-2',
     },
     {
