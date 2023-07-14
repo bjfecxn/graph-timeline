@@ -3,19 +3,18 @@ export type ValueOf<T> = T[keyof T];
 export type TBaseTime = string | number;
 export type TTime = TBaseTime | { start: TBaseTime; end: TBaseTime };
 
-export interface IEdge {
+export interface IEdge extends Record<string, any> {
   source: string;
   target: string;
   time: TTime;
-  group?: string;
 }
 
 export interface INode
   extends Partial<{
-    group: string;
-    data: Record<string, string>;
-    label: string;
-  }> {
+      data: Record<string, string>;
+      label: string;
+    }>,
+    Record<string, any> {
   id: string;
 }
 
@@ -30,6 +29,16 @@ export interface INodeGroupIconStyle {
   className?: string;
 }
 
+// 分组状态
+export enum EGroupStatus {
+  // 不显示
+  HIDDEN = 0,
+  // 展开
+  DOWN = 1,
+  // 收起
+  UP = 2,
+}
+
 export interface INodeGroupStyle {
   // 节点颜色
   color?: string;
@@ -42,6 +51,8 @@ export interface INodeGroupStyle {
   strokeStyle?: 'solid' | 'dashed' | 'dotted';
   // y轴坐标图标样式
   iconStyle?: INodeGroupIconStyle;
+  // 状态
+  status?: EGroupStatus;
 }
 
 export interface INodeGlobalStyle extends INodeGroupStyle {
@@ -66,7 +77,7 @@ export interface IYAxisStyle {
 
 export interface IXAxisStyle {}
 
-export interface TNoPaddingSize {
+export interface INoPaddingSize {
   width: number;
   height: number;
   paddingLeft: number;
@@ -75,7 +86,7 @@ export interface TNoPaddingSize {
   paddingBottom: number;
 }
 
-export interface THeatMapItem {
+export interface IHeapMapItem {
   nodeId: string;
   count: number;
   index: number;

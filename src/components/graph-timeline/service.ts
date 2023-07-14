@@ -155,28 +155,40 @@ export const useService = ({
   const yScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap) return;
 
-    const ids = map(insightNodes, ({ id }) => id);
+    const domains: string[] = [];
+    const groupHasPushed = new Map();
+    insightNodes?.forEach((node) => {
+      if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
+        domains.push(node[nodeGroupBy]);
+        groupHasPushed.set(node[nodeGroupBy], 1);
+      }
+      domains.push(node.id);
+    });
 
-    return d3
-      .scalePoint()
-      .domain(ids)
-      .range([PADDING_TOP, size.height - PADDING_TOP]);
+    return d3.scalePoint().domain(domains).range([PADDING_TOP, size.height]);
   }, [selection, edges, nodesMap, size, insightNodes]);
 
   const yChartScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap || !currZoomAllNodes?.length) return;
 
-    const ids = map(currZoomAllNodes, ({ id }) => id);
+    const domains: string[] = [];
+    const groupHasPushed = new Map();
+    currZoomAllNodes.forEach((node) => {
+      if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
+        domains.push(node[nodeGroupBy]);
+        groupHasPushed.set(node[nodeGroupBy], 1);
+      }
+      domains.push(node.id);
+    });
 
     return d3
       .scalePoint()
-      .domain(ids)
+      .domain(domains)
       .range([
         PADDING_TOP - debounceScrollbarPos,
-        Math.max(size.height - PADDING_TOP, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
-          debounceScrollbarPos,
+        Math.max(size.height, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) - debounceScrollbarPos,
       ]);
-  }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos]);
+  }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos, nodeGroupBy]);
 
   const getCurrNodeConfig = useCallback(
     (key: keyof INodeGroupStyle, node?: INode) => {

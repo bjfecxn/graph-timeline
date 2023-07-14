@@ -4,7 +4,6 @@ import { useSafeState } from 'ahooks';
 import { axisLeft } from '../../utils';
 import { GraphTimeService } from './service';
 import type { INode, INodeGroupIconStyle } from '../../types';
-import { isUndefined } from 'lodash';
 
 export default () => {
   const {
@@ -80,9 +79,9 @@ export default () => {
     );
 
     // 设置节点统一颜色
-    yAxis
-      .selectAll('.tick')
-      .data(insightNodes)
+    const insightNodeTicks = yAxis.selectAll('.tick').data(insightNodes);
+
+    insightNodeTicks
       .attr('color', (node: INode) => {
         return (getCurrNodeConfig?.('color', node) as string) || null;
       })
@@ -92,6 +91,8 @@ export default () => {
         const isActive = activeNodeIds?.includes(node.id);
         return isActive ? '__active' : null;
       });
+
+    insightNodeTicks.exit().remove();
 
     // 设置线的背景色
     yAxis

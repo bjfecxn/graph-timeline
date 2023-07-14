@@ -3,9 +3,14 @@ import * as d3 from 'd3';
 import { useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
 import { compileColor, getTime, getYPos } from '../../utils';
-import { DEFAULT_EDGE_TYPE_STYLE, PADDING_BOTTOM, PADDING_TOP } from '../../common/constants';
+import {
+  DEFAULT_EDGE_TYPE_STYLE,
+  MAX_HEATMAP_HEIGHT,
+  PADDING_BOTTOM,
+  PADDING_TOP,
+} from '../../common/constants';
 import { isString } from 'lodash';
-import type { IEdge, THeatMapItem } from '../../types';
+import type { IEdge, IHeapMapItem } from '../../types';
 
 export interface IProps {
   xScale: any;
@@ -140,7 +145,7 @@ export default () => {
         }
       }
     }
-    const heatmap: THeatMapItem[] = [];
+    const heatmap: IHeapMapItem[] = [];
     nodeBlockMap.forEach((block, nodeId) => {
       for (let i = 0; i < tickCount; i++) {
         const count = block[i];
@@ -165,7 +170,7 @@ export default () => {
     });
 
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]),
-      cellHeight = 14;
+      cellHeight = MAX_HEATMAP_HEIGHT;
     const heatMapChart = chart.selectAll('.__h').data(renderHeatMap);
     const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__h');
 
