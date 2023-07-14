@@ -3,7 +3,7 @@ import { INodeGroupStyle, IYAxisStyle, IXAxisStyle, IEdgeGroupStyle } from '../t
 
 export const classPrefix = 'graph-timeline';
 
-export const MAX_HEATMAP_HEIGHT = 14;
+export const MAX_HEATMAP_HEIGHT = 24;
 
 export const TIME_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 

@@ -1,7 +1,7 @@
 import { useEffect, useContext, useCallback } from 'react';
 import * as d3 from 'd3';
 import { useSafeState } from 'ahooks';
-import { axisLeft } from '../../utils';
+import { axisLeft, decompileGroup, isGroup } from '../../utils';
 import { GraphTimeService } from './service';
 import type { INode, INodeGroupIconStyle } from '../../types';
 
@@ -69,10 +69,15 @@ export default () => {
     yAxis.attr('transform', `translate(${size.width},0)`);
 
     yAxis.call(
-      axisLeft(yScale)
+      axisLeft(yScale, -yWidth + 20)
         .tickFormat((id: string) => {
-          const node = nodesMap[id];
-          return node?.label || id;
+          const idIsGroup = isGroup(id);
+          if (!idIsGroup) {
+            const node = nodesMap[id];
+            return node?.label || id;
+          }
+          const { name } = decompileGroup(id);
+          return `▼ ${name}`;
         })
         .tickSize(size.width - yWidth)
         .tickPadding(3),
@@ -106,17 +111,16 @@ export default () => {
         return 'currentColor';
       })
       .attr('opacity', (node: INode) => {
-        const opacity = getCurrNodeConfig?.('strokeOpacity', node) || 1;
+        const opacity = getCurrNodeConfig?.('strokeOpacity', node);
         return opacity;
       })
       .attr('stroke-dasharray', (node: INode) => {
         const style = getCurrNodeConfig?.('strokeStyle', node);
-        return style === 'solid' ? null : '5';
+        return style === 'solid' ? null : '3,2';
       });
 
     // y轴图标半径
     const iconRadius = 9;
-
     yAxis
       .selectAll('.tick circle')
       .data(insightNodes)

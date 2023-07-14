@@ -95,6 +95,102 @@ export default {
       group: 'SPerson',
       label: 'node-19',
     },
+    ,
+    {
+      id: 's-1530035685489119232-2',
+      group: 'SPerson',
+      label: 'node-1-2',
+    },
+    {
+      id: 's-1576813199045427200-2',
+      group: 'SPerson',
+      label: 'node-2-2',
+    },
+    {
+      id: 's-1551846825718190080-2',
+      group: 'SPerson',
+      label: 'node-3-2',
+    },
+    {
+      id: 's-1529788513728335872-2',
+      group: 'SPerson',
+      label: 'node-4-2',
+    },
+    {
+      id: 's-1554622223493365760-2',
+      group: 'SPerson',
+      label: 'node-5-2',
+    },
+    {
+      id: 's-1552868052809285632-2',
+      group: 'SPerson',
+      label: 'node-6-2',
+    },
+    {
+      id: 's-1532565666639384576-2',
+      group: 'SPerson',
+      label: 'node-7-2',
+    },
+    {
+      id: 's-1526143777335414784-2',
+      group: 'SPerson',
+      label: 'node-8-2',
+    },
+    {
+      id: 's-1553321703310884864-2',
+      group: 'SPerson',
+      label: 'node-9-2',
+    },
+    {
+      id: 's-1543873163924869120-2',
+      group: 'SPerson',
+      label: 'node-10-2',
+    },
+    {
+      id: 's-1561317454485913600-2',
+      group: 'SPerson',
+      label: 'node-11-2',
+    },
+    {
+      id: 's-1556786460969926656-2',
+      group: 'SPerson',
+      label: 'node-12-2',
+    },
+    {
+      id: 's-1574671578610794496-2',
+      group: 'SPerson',
+      label: 'node-13-2',
+    },
+    {
+      id: 's-1526356294800248832-2',
+      group: 'SPerson',
+      label: 'node-14-2',
+    },
+    {
+      id: 's-1554678192399187968-2',
+      group: 'SPerson',
+      label: 'node-15-2',
+    },
+    {
+      id: 's-1559418765265862656-2',
+      group: 'SPerson',
+      label: 'node-16-2',
+    },
+    {
+      id: 's-1585520168379875328-2',
+      group: 'SPerson',
+      label: 'node-17-2',
+    },
+    {
+      id: 's-1583053087113740288-2',
+      group: 'SPerson',
+      label: 'node-18-2',
+    },
+    {
+      id: 's-1562606794973380608-2',
+      group: 'SPerson',
+      label: 'node-19-2',
+    },
     {
       id: 'e7240e8f-0e60-11ed-9271-0ed7f04f0bae',
       group: 'Device',
@@ -329,101 +425,6 @@ export default {
       id: '232b6668-0e68-11ed-9bd9-5eb4dc640bb8',
       group: 'Device',
       label: 'node-66',
-    },
-    {
-      id: 's-1530035685489119232-2',
-      group: 'SPerson',
-      label: 'node-1-2',
-    },
-    {
-      id: 's-1576813199045427200-2',
-      group: 'SPerson',
-      label: 'node-2-2',
-    },
-    {
-      id: 's-1551846825718190080-2',
-      group: 'SPerson',
-      label: 'node-3-2',
-    },
-    {
-      id: 's-1529788513728335872-2',
-      group: 'SPerson',
-      label: 'node-4-2',
-    },
-    {
-      id: 's-1554622223493365760-2',
-      group: 'SPerson',
-      label: 'node-5-2',
-    },
-    {
-      id: 's-1552868052809285632-2',
-      group: 'SPerson',
-      label: 'node-6-2',
-    },
-    {
-      id: 's-1532565666639384576-2',
-      group: 'SPerson',
-      label: 'node-7-2',
-    },
-    {
-      id: 's-1526143777335414784-2',
-      group: 'SPerson',
-      label: 'node-8-2',
-    },
-    {
-      id: 's-1553321703310884864-2',
-      group: 'SPerson',
-      label: 'node-9-2',
-    },
-    {
-      id: 's-1543873163924869120-2',
-      group: 'SPerson',
-      label: 'node-10-2',
-    },
-    {
-      id: 's-1561317454485913600-2',
-      group: 'SPerson',
-      label: 'node-11-2',
-    },
-    {
-      id: 's-1556786460969926656-2',
-      group: 'SPerson',
-      label: 'node-12-2',
-    },
-    {
-      id: 's-1574671578610794496-2',
-      group: 'SPerson',
-      label: 'node-13-2',
-    },
-    {
-      id: 's-1526356294800248832-2',
-      group: 'SPerson',
-      label: 'node-14-2',
-    },
-    {
-      id: 's-1554678192399187968-2',
-      group: 'SPerson',
-      label: 'node-15-2',
-    },
-    {
-      id: 's-1559418765265862656-2',
-      group: 'SPerson',
-      label: 'node-16-2',
-    },
-    {
-      id: 's-1585520168379875328-2',
-      group: 'SPerson',
-      label: 'node-17-2',
-    },
-    {
-      id: 's-1583053087113740288-2',
-      group: 'SPerson',
-      label: 'node-18-2',
-    },
-    {
-      id: 's-1562606794973380608-2',
-      group: 'SPerson',
-      label: 'node-19-2',
     },
     {
       id: 'e7240e8f-0e60-11ed-9271-0ed7f04f0bae-2',

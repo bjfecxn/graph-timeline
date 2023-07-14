@@ -1,4 +1,5 @@
 // @ts-nocheck
+import { decompileGroup, isGroup } from './common';
 import identity from './identity';
 
 var top = 1,
@@ -29,7 +30,7 @@ function entering() {
   return !this.__axis;
 }
 
-function axis(orient, scale) {
+function axis(orient, scale, yOffset = 0) {
   var tickArguments = [],
     tickValues = null,
     tickFormat = null,
@@ -71,27 +72,33 @@ function axis(orient, scale) {
 
     line = line.merge(
       tickEnter
+        .filter((domain) => !isGroup(domain))
         .append('line')
         .attr('stroke', 'currentColor')
         .attr(x + '2', k * tickSizeInner),
     );
 
-    icon = icon.merge(tickEnter.append('circle'));
+    icon = icon.merge(tickEnter.filter((domain) => !isGroup(domain)).append('circle'));
 
-    iconText = iconText.merge(tickEnter.append('text').attr('class', '_icon'));
+    iconText = iconText.merge(
+      tickEnter
+        .filter((domain) => !isGroup(domain))
+        .append('text')
+        .attr('class', '_icon'),
+    );
 
     label = label.merge(
       tickEnter
         .append('text')
         .attr('fill', 'currentColor')
         .attr('class', '_label')
-        .attr(x, k * spacing)
+        .attr(x, k * spacing + yOffset)
         .attr('dy', orient === top ? '0em' : orient === bottom ? '0.71em' : '0.32em'),
     );
 
     const rectHeight = Math.min(18, scale.step());
     rect = rect
-      .merge(tickEnter.append('rect'))
+      .merge(tickEnter.filter((domain) => !isGroup(domain)).append('rect'))
       .attr('width', tickSizeInner)
       .attr('height', rectHeight)
       .attr('x', k * tickSizeInner)
@@ -125,7 +132,15 @@ function axis(orient, scale) {
 
     line.attr(x + '2', k * tickSizeInner);
     icon.attr('c' + x, k * spacing - 5);
-    label.attr(x, k * spacing - 20).text(format);
+    label
+      .attr(x, (domain) => {
+        const domainIsGroup = isGroup(domain);
+        if (!domainIsGroup) return k * spacing - 20 + yOffset + 24;
+        const { level } = decompileGroup(domain);
+        if (level === 2) return k * spacing - 20 + yOffset + 12;
+        return k * spacing - 20 + yOffset;
+      })
+      .text(format);
     iconText.attr(x, k * spacing - 5);
 
     selection
@@ -133,7 +148,7 @@ function axis(orient, scale) {
       .attr('fill', 'none')
       .attr('font-size', 10)
       .attr('font-family', 'sans-serif')
-      .attr('text-anchor', orient === right ? 'start' : orient === left ? 'end' : 'middle');
+      .attr('text-anchor', 'start');
 
     selection.each(function () {
       this.__axis = position;
@@ -191,6 +206,6 @@ export function axisRight(scale) {
   return axis(right, scale);
 }
 
-export function axisLeft(scale) {
-  return axis(left, scale);
+export function axisLeft(scale, yOffset) {
+  return axis(left, scale, yOffset);
 }

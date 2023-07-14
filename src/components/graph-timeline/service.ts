@@ -1,5 +1,5 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
-import { assign, first, map } from 'lodash';
+import { assign, first, isUndefined, map } from 'lodash';
 import * as d3 from 'd3';
 import useNoPaddingSize from '../../hooks/useNoPaddingSize';
 import {
@@ -23,7 +23,7 @@ import {
   IYAxisStyle,
 } from '../../types';
 import { useDebounce, useSafeState } from 'ahooks';
-import { getServiceToken, getTime } from '../../utils';
+import { compileGroup, getServiceToken, getTime } from '../../utils';
 import dayjs from 'dayjs';
 
 type TEdgeEvent = (
@@ -160,12 +160,12 @@ export const useService = ({
     const groupHasPushed = new Map();
     insightNodes?.forEach((node) => {
       if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
-        domains.push(node[nodeGroupBy]);
-        groupHasPushed.set(node[nodeGroupBy], 1);
+        const groupName = compileGroup(node[nodeGroupBy]);
+        domains.push(groupName);
+        groupHasPushed.set(groupName, 1);
       }
       domains.push(node.id);
     });
-
     return d3.scalePoint().domain(domains).range([PADDING_TOP, size.height]);
   }, [selection, edges, nodesMap, size, insightNodes]);
 
@@ -198,7 +198,7 @@ export const useService = ({
       if (groupKey && nodeGroups?.[groupKey as string]?.[key])
         return nodeGroups[groupKey as string][key] as any;
       // 无分类样式，有统一样式
-      if (nodeConfig?.[key]) return nodeConfig[key];
+      if (nodeConfig?.[key] !== undefined) return nodeConfig[key];
       // 内部默认样式
       return DEFAULT_NODE_TYPE_STYLE[key] || null;
     },

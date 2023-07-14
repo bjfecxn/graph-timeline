@@ -78,3 +78,17 @@ export const getYPos = (
   const y1real = yChartScale(flag);
   return y1real <= 0 ? min : max;
 };
+
+export const compileGroup = (originGroupName: string, level: 1 | 2 = 1) => {
+  return `$_$${originGroupName}$_$${level}`;
+};
+
+export const decompileGroup = (targetGroupName: string) => {
+  if (targetGroupName.indexOf('$_$') < 0) return { name: targetGroupName };
+  const split = targetGroupName.split('$_$');
+  return { name: split[1], level: Number(split[2]) };
+};
+
+export const isGroup = (targetGroupName: string) => {
+  return targetGroupName.indexOf('$_$') >= 0;
+};

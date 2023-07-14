@@ -2,20 +2,14 @@ import React, { useState } from 'react';
 import { GraphTimeline, INode, IEdge } from 'graph-timeline';
 // import demo1Data from './demo1';
 import demo2Data from './demo2';
-import { TooltipContent, TooltipProvider, ToolTipsGlobal } from './toolTips';
-// 自定义的内容区域组件
-const CustomContent: React.FC = () => {
-  return <div>Hello, world!</div>;
-};
 import './index.less';
 import './iconfont/iconfont.css';
 
 export default () => {
   const [activeNodeIds, setActiveNodeIds] = useState<string[]>([]);
-  const [visible, setVisible] = useState(true);
-  const [position, setPosition] = useState({ left: 500, top: 500 });
 
   const onNodeClick = (node: INode, e: MouseEvent) => {
+    console.log('onNodeClick-e', e, node);
     if (e.button !== 0) return;
 
     // 右键点击选中
@@ -31,38 +25,15 @@ export default () => {
     edge: IEdge,
     position: { x?: number; s?: number; t?: number },
     e: MouseEvent,
-  ) => {};
-
-  const onEdgeHover = (
-    type: 'source' | 'target' | 'line',
-    edge: IEdge,
-    position: { x?: number; s?: number; t?: number },
-    e: MouseEvent,
   ) => {
-    setVisible(true);
-    setPosition({
-      left: e.screenX,
-      top: e.screenY,
-    });
-  };
-
-  const onEdgeOut = (
-    type: 'source' | 'target' | 'line',
-    edge: IEdge,
-    position: { x?: number; s?: number; t?: number },
-    e: MouseEvent,
-  ) => {
-    setVisible(false);
+    console.log('onEdgeClick', type, edge, position, e);
   };
 
   const graphConfig = {
     nodeGroupBy: 'group',
     nodeGroups: {
       SPerson: {
-        color: 'rgba(53,127,31,1)',
-        radius: 5,
-        strokeColor: 'rgba(53,127,31,0.7)',
-        strokeStyle: 'solid',
+        color: '#588BEE',
         iconStyle: {
           type: 'icon',
           color: 'white',
@@ -70,19 +41,8 @@ export default () => {
           className: 'iconfont',
         },
       },
-      SPerson1: {
-        color: 'rgba(53,127,31,1)',
-        radius: 5,
-        strokeColor: 'rgba(53,127,31,0.7)',
-        strokeStyle: 'solid',
-        iconStyle: {
-          type: 'text',
-          color: 'white',
-          value: '人',
-        },
-      },
       Device: {
-        color: 'rgb(224,162,30)',
+        color: '#FDB844',
         iconStyle: {
           type: 'img',
           value: 'http://touxiang.fzlol.com/pic/20141216/1275_1418705548_1.jpg',
@@ -90,10 +50,9 @@ export default () => {
       },
     },
     nodeConfig: {
-      radius: 5,
+      radius: 4,
       color: 'rgba(255,0,0,1)',
-      strokeOpacity: 0.3,
-      strokeColor: 'rgba(255,0,0,.7)',
+      strokeColor: '#DBDEE2',
       strokeStyle: 'dashed',
       showHeatMap: true,
     },
@@ -101,14 +60,14 @@ export default () => {
       width: 1,
       reverse: true,
     },
-    edgeGroupBy: 'group',
-    edgeGroups: {
-      COMPANY: {
-        width: 4,
-        arrowRadius: 8,
-        color: 'yellow',
-      },
-    },
+    // edgeGroupBy: 'group',
+    // edgeGroups: {
+    //   COMPANY: {
+    //     width: 4,
+    //     arrowRadius: 8,
+    //     color: '#17C28F',
+    //   },
+    // },
   };
 
   return (
@@ -116,20 +75,12 @@ export default () => {
       <GraphTimeline
         {...demo2Data}
         {...graphConfig}
-        yAxis={{ width: 80 }}
+        yAxis={{ width: 120 }}
         style={{ height: 400, padding: 50 }}
         onNodeClick={onNodeClick}
         activeNodeIds={activeNodeIds}
         onEdgeClick={onEdgeClick}
-        onEdgeHover={onEdgeHover}
-        onEdgeOut={onEdgeOut}
       />
-      {/* <ToolTipsGlobal visible={visible} position={{
-        left: `${position.left}px`,
-        top: `${position.top}px`,
-      }}>
-        <CustomContent />
-      </ToolTipsGlobal> */}
     </div>
   );
 };
