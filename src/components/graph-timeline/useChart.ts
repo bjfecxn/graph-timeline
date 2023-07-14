@@ -41,6 +41,7 @@ export default () => {
     onEdgeClick,
     onEdgeHover,
     onEdgeOut,
+    yAxisStyle,
   } = useContext(GraphTimeService);
 
   const [chart, setChart] = useSafeState<d3.Selection<d3.BaseType, null, d3.BaseType, unknown>>();
@@ -112,7 +113,7 @@ export default () => {
 
     // 当前事件列表数据映射到时间块内的数量统计列表
     const currentTicks = xScale.ticks();
-    const tickTimeGap = currentTicks[1].getTime() - currentTicks[0].getTime();
+    const tickTimeGap = (currentTicks[1].getTime() - currentTicks[0].getTime()) / 4;
     const [minTime, maxTime] = minAndMax;
     if (!minTime || !maxTime) return;
     const totalTimeGap = maxTime - minTime;
@@ -161,12 +162,12 @@ export default () => {
     const opacityScale = d3.scaleLinear([0, maxCount], [0, 1]);
 
     const leftX = xScale(currentTicks[0].getTime());
-    const rightX = xScale(currentTicks[currentTicks.length - 1].getTime());
+    const rightX = xScale(currentTicks[currentTicks.length - 2].getTime());
 
     const renderHeatMap = heatmap.filter((item) => {
       const x = xScale(minTime + item.index * tickTimeGap);
       const y = yScale(item.nodeId);
-      return y && x >= leftX && x <= rightX;
+      return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
     });
 
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]),

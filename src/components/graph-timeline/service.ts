@@ -112,7 +112,8 @@ export const useService = ({
     const scale = d3
       .scaleTime()
       .domain(map(minAndMax, (time) => dayjs(time, TIME_FORMAT)))
-      .range([yAxisStyle.width, size.width])
+      //设置X轴缩放的宽度映射
+      .range([0, size.width])
       .nice();
     return transform?.rescaleX(scale) || scale;
   }, [selection, minAndMax, size, transform]);
