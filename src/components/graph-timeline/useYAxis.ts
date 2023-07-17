@@ -84,7 +84,7 @@ export default () => {
     );
 
     // 设置节点统一颜色
-    const insightNodeTicks = yAxis.selectAll('.tick').data(insightNodes);
+    const insightNodeTicks = yAxis.selectAll('.tick._node').data(insightNodes);
 
     insightNodeTicks
       .attr('color', (node: INode) => {
@@ -101,7 +101,7 @@ export default () => {
 
     // 设置线的背景色
     yAxis
-      .selectAll('.tick line')
+      .selectAll('.tick._node line')
       .data(insightNodes)
       .attr('stroke', (node: INode) => {
         const strokeColor = getCurrNodeConfig?.('strokeColor', node);
@@ -122,7 +122,7 @@ export default () => {
     // y轴图标半径
     const iconRadius = 9;
     yAxis
-      .selectAll('.tick circle')
+      .selectAll('.tick._node circle')
       .data(insightNodes)
       .attr('r', iconRadius)
       .attr('fill', (node: INode) => {
@@ -169,7 +169,7 @@ export default () => {
     if (!yAxis || !yScale || !insightNodes?.length) return;
 
     yAxis
-      .selectAll('.tick')
+      .selectAll('.tick._node')
       .data(insightNodes)
       .attr('class', (node: INode) => {
         const isActive = activeNodeIds?.includes(node.id);

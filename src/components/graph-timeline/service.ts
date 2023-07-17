@@ -1,5 +1,5 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
-import { assign, first, isUndefined, map } from 'lodash';
+import { assign, first, groupBy, isUndefined, map } from 'lodash';
 import * as d3 from 'd3';
 import useNoPaddingSize from '../../hooks/useNoPaddingSize';
 import {
@@ -150,36 +150,54 @@ export const useService = ({
 
     const firstIndex = Math.floor(debounceScrollbarPos / MAX_HEATMAP_HEIGHT);
     const totalNum = Math.floor(size.height / MAX_HEATMAP_HEIGHT);
-    return currZoomAllNodes.slice(firstIndex, totalNum + firstIndex);
-  }, [currZoomAllNodes, debounceScrollbarPos, size]);
+    const insightMaxNodes = currZoomAllNodes.slice(firstIndex, totalNum + firstIndex + 1);
+    if (!nodeGroupBy) return insightMaxNodes;
+    const groupMap = new Map();
+    let groupNum = 0,
+      i = 0;
+    for (let l = insightMaxNodes.length; i < l; i++) {
+      const node = insightMaxNodes[i];
+      if (!groupMap.get(node[nodeGroupBy])) {
+        groupNum += 1;
+      }
+      // i + 1是当前 node 数量，groupNum是当前分组数量，总数超过最大数量
+      if (i + 1 + groupNum > insightMaxNodes.length) break;
+      groupMap.set(node[nodeGroupBy], 1);
+    }
+    return insightMaxNodes.slice(0, i);
+  }, [currZoomAllNodes, debounceScrollbarPos, size, nodeGroupBy]);
 
   const yScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap) return;
 
-    const domains: string[] = [];
+    const domains: Set<string> = new Set();
     const groupHasPushed = new Map();
     insightNodes?.forEach((node) => {
       if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
         const groupName = compileGroup(node[nodeGroupBy]);
-        domains.push(groupName);
+        domains.add(groupName);
         groupHasPushed.set(groupName, 1);
       }
-      domains.push(node.id);
+      domains.add(node.id);
     });
-    return d3.scalePoint().domain(domains).range([PADDING_TOP, size.height]);
+
+    return d3
+      .scalePoint()
+      .domain(domains)
+      .range([PADDING_TOP, size.height - PADDING_TOP]);
   }, [selection, edges, nodesMap, size, insightNodes]);
 
   const yChartScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap || !currZoomAllNodes?.length) return;
 
-    const domains: string[] = [];
+    const domains: Set<string> = new Set();
     const groupHasPushed = new Map();
     currZoomAllNodes.forEach((node) => {
       if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
-        domains.push(node[nodeGroupBy]);
+        domains.add(node[nodeGroupBy]);
         groupHasPushed.set(node[nodeGroupBy], 1);
       }
-      domains.push(node.id);
+      domains.add(node.id);
     });
 
     return d3
@@ -187,7 +205,8 @@ export const useService = ({
       .domain(domains)
       .range([
         PADDING_TOP - debounceScrollbarPos,
-        Math.max(size.height, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) - debounceScrollbarPos,
+        Math.max(size.height - PADDING_TOP, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
+          debounceScrollbarPos,
       ]);
   }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos, nodeGroupBy]);
 

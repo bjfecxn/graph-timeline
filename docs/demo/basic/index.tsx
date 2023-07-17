@@ -50,7 +50,7 @@ export default () => {
       },
     },
     nodeConfig: {
-      radius: 4,
+      radius: 3.5,
       color: 'rgba(255,0,0,1)',
       strokeColor: '#DBDEE2',
       strokeStyle: 'dashed',
@@ -59,6 +59,7 @@ export default () => {
     edgeConfig: {
       width: 1,
       reverse: true,
+      arrowRadius: 7,
     },
     // edgeGroupBy: 'group',
     // edgeGroups: {

@@ -69,6 +69,7 @@ function axis(orient, scale, yOffset = 0) {
       iconText = tick.select('text._icon');
 
     tick = tick.merge(tickEnter);
+    tickEnter.filter((domain) => !isGroup(domain)).attr('class', 'tick _node');
 
     line = line.merge(
       tickEnter
@@ -90,7 +91,8 @@ function axis(orient, scale, yOffset = 0) {
     label = label.merge(
       tickEnter
         .append('text')
-        .attr('fill', 'currentColor')
+        // .attr('fill', 'currentColor')
+        .attr('fill', '#0A1B39')
         .attr('class', '_label')
         .attr(x, k * spacing + yOffset)
         .attr('dy', orient === top ? '0em' : orient === bottom ? '0.71em' : '0.32em'),
