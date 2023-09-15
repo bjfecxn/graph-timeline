@@ -24,7 +24,7 @@ export default () => {
     setXAxisTop(xAxisTop);
 
     //为了实现不同高度线的X轴，需要再增加一个X轴，采用不同的样式
-    let xAxisTopSmall: any = wrapper.select('svg').selectAll('.xAxisTopSamll').data([null]);
+    let xAxisTopSmall: any = wrapper.select('svg').selectAll('.xAxisTopSmall').data([null]);
     const xAxisTopEnterSmall: any = xAxisTopSmall
       .enter()
       .append('g')
@@ -34,7 +34,7 @@ export default () => {
 
     setXAxisTopSmall(xAxisTopSmall);
 
-    let xAxisBottomSmall: any = wrapper.select('svg').selectAll('.xAxisBottomSamll').data([null]);
+    let xAxisBottomSmall: any = wrapper.select('svg').selectAll('.xAxisBottomSmall').data([null]);
     const xAxisBottomEnterSmall: any = xAxisBottomSmall
       .enter()
       .append('g')
