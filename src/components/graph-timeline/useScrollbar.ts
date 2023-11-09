@@ -41,7 +41,7 @@ export default () => {
     if (!scrollbar || !size || !currZoomAllNodes) return;
 
     const contentHeight = currZoomAllNodes.length * MAX_HEATMAP_HEIGHT;
-    const viewHeight = size.height - PADDING_TOP;
+    const viewHeight = size.height - PADDING_TOP - PADDING_BOTTOM;
     setScrollbarPos(0);
     if (contentHeight <= viewHeight) {
       scrollbar.selectAll('rect').remove();
