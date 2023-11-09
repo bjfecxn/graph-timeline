@@ -73,7 +73,7 @@ export default () => {
       timeFormat = (time: any) => {
         const year = d3.timeFormat('%Y')(time);
         const month = d3.timeFormat('%m')(time);
-        return `${year}年${month}月`;
+        return `${year}-${month}`;
       };
     } else if (tickTimeGap >= 24 * 60 * 60 * 1000) {
       timeFormat = d3.timeFormat('%m-%d'); // 月-日
@@ -119,7 +119,7 @@ export default () => {
       timeFormat = (time: any) => {
         const year = d3.timeFormat('%Y')(time);
         const month = d3.timeFormat('%m')(time);
-        return `${year}年${month}月`;
+        return `${year}-${month}`;
       };
     } else if (tickTimeGap >= 24 * 60 * 60 * 1000) {
       timeFormat = d3.timeFormat('%m-%d'); // 月-日
