@@ -5,6 +5,7 @@ import { GraphTimeService } from './service';
 import { compileColor, getTime, getYPos } from '../../utils';
 import {
   DEFAULT_EDGE_TYPE_STYLE,
+  HEATMAP_SQUARE_HEIGHT,
   MAX_HEATMAP_HEIGHT,
   PADDING_BOTTOM,
   PADDING_TOP,
@@ -170,8 +171,8 @@ export default () => {
       return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
     });
 
-    const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]),
-      cellHeight = MAX_HEATMAP_HEIGHT;
+    const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]);
+    const cellHeight = HEATMAP_SQUARE_HEIGHT;
     const heatMapChart = chart.selectAll('.__h').data(renderHeatMap);
     const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__h');
 
