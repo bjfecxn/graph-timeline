@@ -5,6 +5,9 @@ export const classPrefix = 'graph-timeline';
 
 export const MAX_HEATMAP_HEIGHT = 24;
 
+//热力泳道图的方块高度
+export const HEATMAP_SQUARE_HEIGHT = 7;
+
 export const TIME_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 
 export const PADDING_TOP = 14;
