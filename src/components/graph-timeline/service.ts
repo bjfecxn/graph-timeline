@@ -258,7 +258,7 @@ export const useService = ({
     const ratio = timeGap / timeGapTotal;
     //时间跨度
     const xAxisDays = (right - theLeft) / 3600 / 24000;
-    if (xAxisDays > 2) {
+    if (xAxisDays > 1) {
       return setIsHeatmap(true);
     }
     //比例

@@ -12,7 +12,7 @@ import {
   PADDING_TOP,
 } from '../../common/constants';
 import { isString } from 'lodash';
-import type { IEdge, IHeapMapItem } from '../../types';
+import type { IColorStripes, IEdge, IHeapMapItem } from '../../types';
 
 export interface IProps {
   xScale: any;
@@ -24,6 +24,36 @@ interface ILineEdge extends IEdge {
   _y1: number;
   _y2: number;
 }
+
+const calculateHeatmapValue = (
+  theMap = new Map(),
+  group = '',
+  node = '',
+  tickCount: number,
+  i: number,
+) => {
+  const nodeBlockMap = theMap.get(group);
+  if (nodeBlockMap) {
+    const arr = nodeBlockMap.get(node);
+    if (arr) {
+      arr[i]++;
+    } else {
+      const temp = new Array(tickCount).fill(0);
+      temp[i]++;
+      nodeBlockMap.set(node, temp);
+    }
+  } else {
+    theMap.set(group, new Map());
+  }
+};
+
+const calculateHeatmapColorScale = (min: number, max: number, type: string) => {
+  let color: any = COLOR_SCHEME.yellow;
+  if (type == '人员') {
+    color = COLOR_SCHEME.blue;
+  }
+  return d3.scaleQuantize().domain([min, max]).range(color.hexStripes);
+};
 
 export default () => {
   const {
@@ -119,87 +149,76 @@ export default () => {
     const [minTime, maxTime] = minAndMax;
     if (!minTime || !maxTime) return;
     const totalTimeGap = maxTime - minTime;
+    //时间块的数量
     const tickCount = Math.floor(totalTimeGap / tickTimeGap);
 
-    const nodeBlockMap = new Map();
+    const theNodeBlockMap = new Map();
     for (const edge of edges) {
       const timeStamp = getTime(edge.time);
       const i = Math.floor((timeStamp - minTime) / tickTimeGap);
       if (edge.source) {
         const node = edge.source;
-        const arr = nodeBlockMap.get(node);
-        if (arr) {
-          arr[i]++;
-        } else {
-          const temp = new Array(tickCount).fill(0);
-          temp[i]++;
-          nodeBlockMap.set(node, temp);
-        }
+        const { group = '' } = nodesMap[node];
+        calculateHeatmapValue(theNodeBlockMap, group, node, tickCount, i);
       }
       if (edge.target) {
         const node = edge.target;
-        const arr = nodeBlockMap.get(node);
-        if (arr) {
-          arr[i]++;
-        } else {
-          const temp = new Array(tickCount).fill(0);
-          temp[i]++;
-          nodeBlockMap.set(node, temp);
-        }
+        const { group = '' } = nodesMap[node];
+        calculateHeatmapValue(theNodeBlockMap, group, node, tickCount, i);
       }
     }
-    const heatmap: IHeapMapItem[] = [];
-    nodeBlockMap.forEach((block, nodeId) => {
-      for (let i = 0; i < tickCount; i++) {
-        const count = block[i];
-        if (count <= 0) continue;
-        heatmap.push({
-          nodeId,
-          index: i,
-          count: block[i],
-        });
-      }
-    });
-    const maxCount = d3.max(heatmap, (d) => d.count) || 1;
-    const minCount = d3.min(heatmap, (d) => d.count) || 0;
 
-    const opacityScale = d3.scaleLinear([0, maxCount], [0, 1]);
-    const colorScale = d3
-      .scaleQuantize()
-      .domain([minCount, maxCount])
-      .range(COLOR_SCHEME.pink.hexStripes.slice(0, 9) as any);
+    const theHeatmap: IHeapMapItem[] = [];
+    const groupedStats = new Map();
+    theNodeBlockMap.forEach((theMap, group) => {
+      const heatmap: IHeapMapItem[] = [];
+      theMap.forEach((block: any, nodeId: string) => {
+        for (let i = 0; i < tickCount; i++) {
+          const count = block[i];
+          if (count <= 0) continue;
+          heatmap.push({
+            nodeId,
+            index: i,
+            count: block[i],
+          });
+        }
+      });
+      groupedStats.set(group, heatmap);
+    });
 
     const leftX = xScale(currentTicks[0].getTime());
     const rightX = xScale(currentTicks[currentTicks.length - 2].getTime());
 
-    const renderHeatMap = heatmap.filter((item) => {
-      const x = xScale(minTime + item.index * tickTimeGap);
-      const y = yScale(item.nodeId);
-      return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
-    });
-
-    //console.log('renderHeatMap',renderHeatMap.map(i=>i.count))
-
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]);
     const cellHeight = HEATMAP_SQUARE_HEIGHT;
-    const heatMapChart = chart.selectAll('.__h').data(renderHeatMap);
-    const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__h');
-
-    heatMapChart
-      .merge(heatMapChartEnter)
-      .attr('x', (item) => {
+    const heatMapChart = chart.selectAll('.__h').data([]);
+    groupedStats.forEach((heatmapList, group) => {
+      const renderHeatMap: IHeapMapItem[] = heatmapList.filter((item: IHeapMapItem) => {
         const x = xScale(minTime + item.index * tickTimeGap);
-        return x;
-      })
-      .attr('y', (item) => {
-        return (yScale(item.nodeId) as number) - cellHeight / 2;
-      })
-      .attr('width', cellWidth)
-      .attr('height', cellHeight)
-      .attr('fill', (d) => colorScale(d.count));
-    //.attr('fill', (d) => getCurrNodeConfig?.('color', nodesMap?.[d.nodeId]) || null)
-    // .attr('fill-opacity', (d) => opacityScale(d.count));
+        const y = yScale(item.nodeId);
+        return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
+      });
+      const heatMapChartUpdate = heatMapChart.data(renderHeatMap); // 更新数据绑定
+      const heatMapChartEnter: any = heatMapChartUpdate.enter().append('rect').attr('class', '__h');
+      const minCount = d3.min(heatmapList, (i: IHeapMapItem) => i.count) || 0;
+      const maxCount = d3.max(heatmapList, (i: IHeapMapItem) => i.count) || 1;
+      const colorScale = calculateHeatmapColorScale(minCount, maxCount, group);
 
+      heatMapChartUpdate
+        .merge(heatMapChartEnter)
+        .attr('x', (item) => {
+          const x = xScale(minTime + item.index * tickTimeGap);
+          return x;
+        })
+        .attr('y', (item) => {
+          return (yScale(item.nodeId) as number) - cellHeight / 2;
+        })
+        .attr('width', cellWidth)
+        .attr('height', cellHeight)
+        .attr('fill', (d) => colorScale(d.count));
+
+      heatMapChartUpdate.exit().remove();
+    });
     heatMapChart.exit().remove();
   };
 

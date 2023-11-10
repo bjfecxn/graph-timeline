@@ -90,6 +90,7 @@ export interface IHeapMapItem {
   nodeId: string;
   count: number;
   index: number;
+  // group: string;
 }
 
 //配色
