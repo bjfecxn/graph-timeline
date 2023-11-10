@@ -4,6 +4,7 @@ import { useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
 import { compileColor, getTime, getYPos } from '../../utils';
 import {
+  COLOR_SCHEME,
   DEFAULT_EDGE_TYPE_STYLE,
   HEATMAP_SQUARE_HEIGHT,
   MAX_HEATMAP_HEIGHT,
@@ -160,7 +161,13 @@ export default () => {
       }
     });
     const maxCount = d3.max(heatmap, (d) => d.count) || 1;
+    const minCount = d3.min(heatmap, (d) => d.count) || 0;
+
     const opacityScale = d3.scaleLinear([0, maxCount], [0, 1]);
+    const colorScale = d3
+      .scaleQuantize()
+      .domain([minCount, maxCount])
+      .range(COLOR_SCHEME.pink.hexStripes.slice(0, 9) as any);
 
     const leftX = xScale(currentTicks[0].getTime());
     const rightX = xScale(currentTicks[currentTicks.length - 2].getTime());
@@ -170,6 +177,8 @@ export default () => {
       const y = yScale(item.nodeId);
       return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
     });
+
+    //console.log('renderHeatMap',renderHeatMap.map(i=>i.count))
 
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]);
     const cellHeight = HEATMAP_SQUARE_HEIGHT;
@@ -187,8 +196,9 @@ export default () => {
       })
       .attr('width', cellWidth)
       .attr('height', cellHeight)
-      .attr('fill', (d) => getCurrNodeConfig?.('color', nodesMap?.[d.nodeId]) || null)
-      .attr('fill-opacity', (d) => opacityScale(d.count));
+      .attr('fill', (d) => colorScale(d.count));
+    //.attr('fill', (d) => getCurrNodeConfig?.('color', nodesMap?.[d.nodeId]) || null)
+    // .attr('fill-opacity', (d) => opacityScale(d.count));
 
     heatMapChart.exit().remove();
   };

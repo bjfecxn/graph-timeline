@@ -252,12 +252,18 @@ export const useService = ({
     if (!xScale || !timeGapTotal || !size?.width) return;
     const left = xScale.invert(yAxisStyle.width).getTime();
     const right = xScale.invert(size.width).getTime();
+    const theLeft = xScale.invert(0).getTime();
     const timeGap = right - left;
     const ratio = timeGap / timeGapTotal;
-
-    if (ratio && ratio > 0.5) {
+    //时间跨度
+    const xAxisDays = (right - theLeft) / 3600 / 24000;
+    if (xAxisDays > 2) {
       return setIsHeatmap(true);
     }
+    //比例
+    // if (ratio && ratio > 0.5) {
+    //   return setIsHeatmap(true);
+    // }
     setIsHeatmap(false);
   }, [xScale, size?.width, yAxisStyle.width, timeGapTotal, nodeConfig?.showHeatMap]);
 

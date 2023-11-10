@@ -91,3 +91,22 @@ export interface IHeapMapItem {
   count: number;
   index: number;
 }
+
+//配色
+enum IColorType {
+  Blue = 'blue',
+  Green = 'green',
+  Yellow = 'yellow',
+  Red = 'red',
+  Cyan = 'cyan',
+  Pink = 'pink',
+}
+export type IColorScheme = {
+  [key in IColorType]: IColorStripes;
+};
+export type IColorStripes = {
+  mainColor: string;
+  mainColorLab: [number, number, number];
+  labStripes: [number, number, number][];
+  hexStripes: Array<string>;
+};
