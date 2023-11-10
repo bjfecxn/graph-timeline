@@ -1,5 +1,5 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
-import { assign, first, groupBy, isUndefined, map } from 'lodash';
+import { assign, map } from 'lodash';
 import * as d3 from 'd3';
 import useNoPaddingSize from '../../hooks/useNoPaddingSize';
 import {
@@ -12,6 +12,7 @@ import {
   TIME_LOCALE_FORMAT,
   MAX_HEATMAP_HEIGHT,
   PADDING_TOP,
+  PADDING_BOTTOM,
 } from '../../common/constants';
 import {
   IEdge,
@@ -184,7 +185,7 @@ export const useService = ({
     return d3
       .scalePoint()
       .domain(domains)
-      .range([PADDING_TOP, size.height - PADDING_TOP]);
+      .range([PADDING_TOP, size.height - PADDING_BOTTOM]);
   }, [selection, edges, nodesMap, size, insightNodes]);
 
   const yChartScale = useMemo(() => {
@@ -205,7 +206,7 @@ export const useService = ({
       .domain(domains)
       .range([
         PADDING_TOP - debounceScrollbarPos,
-        Math.max(size.height - PADDING_TOP, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
+        Math.max(size.height - PADDING_BOTTOM, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
           debounceScrollbarPos,
       ]);
   }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos, nodeGroupBy]);
