@@ -55,6 +55,25 @@ const calculateHeatmapColorScale = (min: number, max: number, type: string) => {
   return d3.scaleQuantize().domain([min, max]).range(color.hexStripes);
 };
 
+const addHoverRect = (svg: d3.Selection<d3.BaseType, null, d3.BaseType, unknown>, edge: IEdge) => {
+  const { _x, _y1, _y2 } = edge;
+  const height = _y2 >= 400 ? _y2 - _y1 + 7 : _y2 - _y1 + 14;
+  svg
+    .append('rect')
+    .attr('class', '_hover-rect')
+    .attr('x', _x - 7.5)
+    .attr('y', _y1 - 7)
+    .attr('width', 15)
+    .attr('height', height)
+    .attr('rx', 8) // 圆角的横向半径
+    .attr('ry', 8) // 圆角的纵向半径
+    .style('fill', '#0A1B39')
+    .style('opacity', 0.08);
+};
+const removeHoverRect = (svg: d3.Selection<d3.BaseType, null, d3.BaseType, unknown>) => {
+  svg.selectAll('._hover-rect').remove();
+};
+
 export default () => {
   const {
     wrapper,
@@ -142,6 +161,7 @@ export default () => {
     if (!chart || !xScale || !yScale || !minAndMax || !edges) return;
     chart.selectAll('.__circle').remove();
     chart.selectAll('.__line').remove();
+    removeHoverRect(chart);
 
     // 当前事件列表数据映射到时间块内的数量统计列表
     const currentTicks = xScale.ticks();
@@ -259,6 +279,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: IEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'source',
           edge,
@@ -267,6 +288,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: IEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'source',
           edge,
@@ -314,6 +336,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: IEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'target',
           edge,
@@ -322,6 +345,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: IEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'target',
           edge,
@@ -402,6 +426,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: ILineEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'line',
           edge,
@@ -410,6 +435,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: ILineEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'line',
           edge,
