@@ -1,4 +1,4 @@
-import React, { useContext, useMemo } from 'react';
+import React, { useContext, useEffect, useMemo } from 'react';
 import * as d3 from 'd3';
 import { useUpdateEffect } from 'ahooks';
 import useXAxis from './useXAxis';
@@ -9,26 +9,35 @@ import { GraphTimeService } from './service';
 import { getTime } from '../../utils';
 
 export default () => {
-  const { wrapper, size, setTransform, edges = [], xScale, yScale } = useContext(GraphTimeService);
+  const {
+    wrapper,
+    size,
+    setTransform,
+    edges = [],
+    xScale,
+    yScale,
+    yAxisStyle,
+  } = useContext(GraphTimeService);
   const xAxis = useXAxis();
-  const yAxis = useYAxis();
+  // const yAxis = useYAxis();
   const scrollbar = useScrollbar();
   const chart = useChart();
 
-  useUpdateEffect(() => {
+  useEffect(() => {
     if (!wrapper || !size) return;
     // 更新画布大小
     wrapper
       .selectAll('svg')
       .data([size])
-      .attr('width', (d) => d.width)
-      .attr('height', (d) => d.height);
-  }, [wrapper, size]);
+      .attr('width', (d) => d.width - yAxisStyle.width)
+      .attr('height', (d) => d.height)
+      .style('transform', () => `translateX(${yAxisStyle.width}px)`);
+  }, [wrapper, size?.width, size?.height, yAxisStyle.width]);
 
   /**
-   * 监听时间轴的缩放
+   * 缩放系数计算
    */
-  const edgesExtent = useMemo(() => {
+  const maxScale = useMemo(() => {
     if (!edges?.length) return;
     const timeStamps = new Set(edges.map((edge) => getTime(edge.time)));
     const timeArray = [...timeStamps].sort();
@@ -38,26 +47,29 @@ export default () => {
       minGap = Math.min(minGap, diff);
     }
     const maxGap = timeArray[timeArray.length - 1] - timeArray[0];
-    return {
-      maxScale: maxGap / minGap,
-    };
+    return maxGap / minGap;
   }, [edges]);
 
   useUpdateEffect(() => {
-    if (!wrapper || !size || !edgesExtent || !xScale) return;
+    if (!wrapper || !size || !maxScale || !xScale) return;
     const zoomed: any = d3
       .zoom()
       .on('zoom', (event) => {
         setTransform?.(event.transform);
       })
-      .scaleExtent([0.1, edgesExtent.maxScale * 0.6])
+      .scaleExtent([0.1, maxScale * 0.6])
       .translateExtent([
-        [-size.width / 2, 0],
+        [-size.width, 0],
         [size?.width * 1.5, size.height],
       ]);
 
     wrapper.select('svg').call(zoomed);
   }, [wrapper, size]);
 
-  return <svg></svg>;
+  return (
+    <>
+      <svg></svg>
+      <div className="axis yAxis" style={{ width: size.width, height: size.height }}></div>
+    </>
+  );
 };

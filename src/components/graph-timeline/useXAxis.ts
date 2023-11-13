@@ -2,6 +2,7 @@ import { useEffect, useContext } from 'react';
 import * as d3 from 'd3';
 import { useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
+import { axisTop, axisBottom } from '../../utils/xAxis';
 
 export default () => {
   const { wrapper, size, xScale } = useContext(GraphTimeService);
@@ -14,7 +15,7 @@ export default () => {
     useSafeState<d3.Selection<SVGGElement, any, any, any>>();
 
   useEffect(() => {
-    if (!wrapper || !size) return;
+    if (!wrapper || !size?.height) return;
     // top
     let xAxisTop: any = wrapper.select('svg').selectAll('.xAxisTop').data([null]);
     const xAxisTopEnter: any = xAxisTop.enter().append('g').attr('class', 'axis xAxisTop');
@@ -58,6 +59,7 @@ export default () => {
     setXAxisBottom(xAxisBottom);
   }, [wrapper, size]);
 
+  // 头部 x 轴
   useEffect(() => {
     if (!xAxisTop || !xScale || !xAxisTopSmall) return;
     const currentTicks = xScale.ticks();
@@ -90,11 +92,9 @@ export default () => {
     } else {
       timeFormat = d3.timeFormat('%M:%S'); // 分:秒
     }
-    xAxisTop.call(d3.axisTop(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
-    xAxisTopSmall.call(d3.axisTop(xScale).ticks(100).tickSize(6));
+    xAxisTop.call(axisTop(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
+    xAxisTopSmall.call(axisTop(xScale).ticks(100).tickSize(6));
     xAxisTopSmall.selectAll('text').remove();
-    xAxisTop.selectAll('.domain').remove();
-    xAxisTopSmall.selectAll('.domain').remove();
     xAxisTop
       .selectAll('.tick text')
       .attr('fill', 'black')
@@ -103,9 +103,10 @@ export default () => {
       .style('text-anchor', 'start');
   }, [xAxisTop, xScale, xAxisTopSmall]);
 
+  // 底部 x 轴
   useEffect(() => {
     if (!xAxisBottom || !xScale || !xAxisBottomSmall) return;
-    xAxisBottom.call(d3.axisBottom(xScale));
+    xAxisBottom.call(axisBottom(xScale));
     const currentTicks = xScale.ticks();
     const tickTimeGap = currentTicks[1].getTime() - currentTicks[0].getTime();
     // 根据时间跨度选择日期格式
@@ -136,8 +137,8 @@ export default () => {
     } else {
       timeFormat = d3.timeFormat('%M:%S'); // 分:秒
     }
-    xAxisBottom.call(d3.axisTop(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
-    xAxisBottomSmall.call(d3.axisTop(xScale).ticks(100).tickSize(6));
+    xAxisBottom.call(axisTop(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
+    xAxisBottomSmall.call(axisTop(xScale).ticks(100).tickSize(6));
     xAxisBottomSmall.selectAll('text').remove();
     xAxisBottom.selectAll('.domain').remove();
     xAxisBottomSmall.selectAll('.domain').remove();
@@ -151,6 +152,6 @@ export default () => {
 
   return {
     xAxisTop,
-    xAxisBottom,
+    // xAxisBottom,
   };
 };

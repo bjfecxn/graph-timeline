@@ -80,10 +80,6 @@ export interface IXAxisStyle {}
 export interface INoPaddingSize {
   width: number;
   height: number;
-  paddingLeft: number;
-  paddingRight: number;
-  paddingTop: number;
-  paddingBottom: number;
 }
 
 export interface IHeapMapItem {

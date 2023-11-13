@@ -414,7 +414,7 @@ export default () => {
   };
 
   useEffect(() => {
-    if (!wrapper) return;
+    if (!wrapper || !size) return;
     // init chart Element
     let chart = wrapper.select('svg').selectAll('g.__chart').data([null]);
     const chartEnter: any = chart.enter().append('g').attr('class', '__chart');
@@ -438,6 +438,7 @@ export default () => {
       .enter()
       .append('defs')
       .attr('class', '__arrow');
+
     wrapper
       .select('svg')
       .selectAll('defs.__icon')

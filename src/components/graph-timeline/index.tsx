@@ -1,21 +1,19 @@
 import React, { CSSProperties, useRef } from 'react';
-import { classPrefix } from '../../common/constants';
 import { useService, GraphTimeService } from './service';
 import Graph from './graph';
 import type { IServiceProps } from './service';
 
 import './index.less';
+import { INNER_PADDING } from '../../common/constants';
 
 export interface IProps extends Omit<IServiceProps, 'containerRef'> {
-  wrapperClassName?: string;
   className?: string;
   style?: CSSProperties;
 }
 
 const GraphTimeline: React.FC<IProps> = ({
-  wrapperClassName = '',
   className = '',
-  style,
+  style = {},
   yAxis: yStyleSettings,
   xAxis: xStyleSettings,
   ...data
@@ -28,11 +26,23 @@ const GraphTimeline: React.FC<IProps> = ({
     ...data,
   });
 
+  const { size } = value;
+
   return (
     <GraphTimeService.Provider value={value}>
-      <div className={`${classPrefix}-wrapper ${wrapperClassName}`}>
-        <div className={`${classPrefix} ${className}`} ref={containerRef} style={style}>
-          <Graph />
+      <div className={`graph-timeline-outer ${className}`} ref={containerRef} style={{ ...style }}>
+        <div
+          className="graph-timeline-inner"
+          style={{
+            paddingTop: INNER_PADDING[0],
+            paddingRight: INNER_PADDING[1],
+            paddingBottom: INNER_PADDING[2],
+            paddingLeft: INNER_PADDING[3],
+          }}
+        >
+          <div className="graph-timeline" style={{ width: size?.width, height: size?.height }}>
+            <Graph />
+          </div>
         </div>
       </div>
     </GraphTimeService.Provider>

@@ -1,7 +1,7 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
 import { assign, map } from 'lodash';
 import * as d3 from 'd3';
-import useNoPaddingSize from '../../hooks/useNoPaddingSize';
+import useContentSize from '../../hooks/useContentSize';
 import {
   DEFAULT_YAXIS_STYLE,
   FROM_KEY,
@@ -74,7 +74,11 @@ export const useService = ({
   onEdgeHover,
   onEdgeOut,
 }: IServiceProps) => {
-  const size = useNoPaddingSize(containerRef);
+  const size = useContentSize(containerRef);
+  const chartWidth = useMemo(() => {
+    if (!size?.width) return;
+    return size.width - (yAxis?.width || 0);
+  }, [size?.width, yAxis?.width]);
   const [selection, setSelection] =
     useState<d3.Selection<HTMLDivElement, unknown, null, undefined>>();
   const [transform, setTransform] = useSafeState<d3.ZoomTransform>();
@@ -94,44 +98,44 @@ export const useService = ({
     return m;
   }, [nodes]);
 
-  const timeGapTotal = useMemo(() => {
-    if (!edges?.length) return;
-    const minAndMax = d3.extent(edges, ({ time }) => getTime(time));
-    return Number(minAndMax[1]) - Number(minAndMax[0]);
-  }, [edges]);
-
+  // 最小最大时间
   const minAndMax = useMemo(() => {
     if (!edges?.length) return;
     return d3.extent(edges, ({ time }) => getTime(time));
   }, [edges]);
 
+  // 最小最大时间差
+  const timeGapTotal = useMemo(() => {
+    if (!minAndMax) return;
+    return Number(minAndMax[1]) - Number(minAndMax[0]);
+  }, [minAndMax]);
+
   const xScale = useMemo(() => {
-    if (!selection || !size || !minAndMax) return;
+    if (!selection || !chartWidth || !minAndMax) return;
 
     d3.timeFormatDefaultLocale(TIME_LOCALE_FORMAT);
 
     const scale = d3
       .scaleTime()
       .domain(map(minAndMax, (time) => dayjs(time, TIME_FORMAT)))
-      //设置X轴缩放的宽度映射
-      .range([0, size.width])
+      .range([-yAxisStyle.width, chartWidth])
       .nice();
     return transform?.rescaleX(scale) || scale;
-  }, [selection, minAndMax, size, transform]);
+  }, [selection, minAndMax, chartWidth, transform]);
 
+  // 可视区域内的边
   const insightEdges = useMemo(() => {
-    if (!size || !xScale) return;
-    // 可视区域内的边
+    if (!chartWidth || !xScale) return;
     return edges.filter(
       (edge) =>
-        xScale(getTime(edge.time)) >= yAxisStyle.width &&
-        xScale(getTime(edge.time)) <= size.width &&
+        xScale(getTime(edge.time)) >= 0 &&
+        xScale(getTime(edge.time)) <= chartWidth &&
         edge.source &&
         nodesMap[edge.source] &&
         edge.target &&
         nodesMap[edge.target],
     );
-  }, [xScale, yAxisStyle.width, size?.width, edges, nodesMap]);
+  }, [xScale, chartWidth, edges, nodesMap]);
 
   const currZoomAllNodes = useMemo(() => {
     if (!insightEdges?.length) return;
@@ -250,9 +254,9 @@ export const useService = ({
       setIsHeatmap(false);
       return;
     }
-    if (!xScale || !timeGapTotal || !size?.width) return;
-    const left = xScale.invert(yAxisStyle.width).getTime();
-    const right = xScale.invert(size.width).getTime();
+    if (!xScale || !timeGapTotal || !chartWidth) return;
+    const left = xScale.invert(-yAxisStyle.width).getTime();
+    const right = xScale.invert(chartWidth).getTime();
     const timeGap = right - left;
     const ratio = timeGap / timeGapTotal;
 
@@ -260,11 +264,11 @@ export const useService = ({
       return setIsHeatmap(true);
     }
     setIsHeatmap(false);
-  }, [xScale, size?.width, yAxisStyle.width, timeGapTotal, nodeConfig?.showHeatMap]);
+  }, [xScale, chartWidth, yAxisStyle.width, timeGapTotal, nodeConfig?.showHeatMap]);
 
   return {
     wrapper: selection,
-    size,
+    size: { ...size, chartWidth },
     nodes,
     nodesMap,
     currZoomAllNodes,

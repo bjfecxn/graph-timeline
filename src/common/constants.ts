@@ -1,7 +1,7 @@
 import { TimeLocaleDefinition } from 'd3';
 import { INodeGroupStyle, IYAxisStyle, IXAxisStyle, IEdgeGroupStyle } from '../types';
 
-export const classPrefix = 'graph-timeline';
+export const INNER_PADDING: [number, number, number, number] = [50, 50, 50, 50];
 
 export const MAX_HEATMAP_HEIGHT = 24;
 

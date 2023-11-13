@@ -1,14 +1,23 @@
-@prefixCls: ~'graph-timeline';
-
-.@{prefixCls}-wrapper {
-  margin: 0;
-  padding: 0;
+.graph-timeline-outer {
+  height: 100%;
 }
+.graph-timeline {
+  position: relative;
+  background: #ffffff;
+  .axis {
+    color: #dbdee2;
+  }
 
-.@{prefixCls} {
-  margin: 0;
+  > .yAxis {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: pink;
+  }
 
   > svg {
+    position: relative;
+    z-index: 2;
     overflow: visible;
     g {
       &.tick {

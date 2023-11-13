@@ -106,12 +106,14 @@ export default () => {
   };
 
   return (
-    <div onContextMenu={(e) => e.preventDefault()}>
+    <div
+      onContextMenu={(e) => e.preventDefault()}
+      style={{ height: 800, margin: 16, boxShadow: '6px 6px 6px 6px rgba(0, 0, 0, 0.2)' }}
+    >
       <GraphTimeline
         {...demoData}
         {...graphConfig}
-        yAxis={{ width: 120 }}
-        style={{ height: 400, padding: 50 }}
+        yAxis={{ width: 200 }}
         onNodeClick={onNodeClick}
         activeNodeIds={activeNodeIds}
         onEdgeClick={onEdgeClick}
