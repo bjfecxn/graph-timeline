@@ -1,5 +1,5 @@
 import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
-import { assign, map } from 'lodash';
+import { assign, flatMap, groupBy, keys, map } from 'lodash';
 import * as d3 from 'd3';
 import useContentSize from '../../hooks/useContentSize';
 import {
@@ -13,6 +13,7 @@ import {
   MAX_HEATMAP_HEIGHT,
   PADDING_TOP,
   PADDING_BOTTOM,
+  SINGLE_ITEM_HEIGHT,
 } from '../../common/constants';
 import {
   IEdge,
@@ -86,9 +87,18 @@ export const useService = ({
   const [isHeatMap, setIsHeatmap] = useSafeState<boolean>(nodeConfig?.showHeatMap || true);
   const [scrollbarPos, setScrollbarPos] = useSafeState(0);
   const debounceScrollbarPos = useDebounce(scrollbarPos, { wait: 10 });
+  const [expandedKeys, setExpandedKeys] = useState<string[]>([]);
 
   const yAxisStyle = useMemo(() => assign(DEFAULT_YAXIS_STYLE, yAxis), [yAxis]);
   const xAxisStyle = useMemo(() => assign(DEFAULT_XAXIS_STYLE, xAxis), [xAxis]);
+
+  useEffect(() => {
+    if (!nodes?.length || !nodeGroupBy) {
+      setExpandedKeys([]);
+      return;
+    }
+    setExpandedKeys(keys(groupBy(nodes, nodeGroupBy)));
+  }, [nodes, nodeGroupBy]);
 
   const nodesMap = useMemo(() => {
     const m: Record<string, INode> = {};
@@ -118,7 +128,9 @@ export const useService = ({
     const scale = d3
       .scaleTime()
       .domain(map(minAndMax, (time) => dayjs(time, TIME_FORMAT)))
+      // TODO test
       .range([-yAxisStyle.width, chartWidth])
+      // .range([0, chartWidth])
       .nice();
     return transform?.rescaleX(scale) || scale;
   }, [selection, minAndMax, chartWidth, transform]);
@@ -151,8 +163,30 @@ export const useService = ({
     return currZoomAllNodes;
   }, [insightEdges, nodes]);
 
+  const currZoomAllNodesTree: any = useMemo(() => {
+    if (!currZoomAllNodes?.length) return [];
+    const groups = groupBy(currZoomAllNodes, nodeGroupBy);
+    return keys(groups).map((key) => {
+      return {
+        key: key,
+        title: key,
+        children: groups[key].map((d) => ({ ...d, key: d.id, title: d.label })),
+      };
+    });
+  }, [currZoomAllNodes]);
+
+  const currZoomAllFlatNodes = useMemo(() => {
+    return flatMap(currZoomAllNodesTree, (group) => {
+      return [
+        { id: group.key, label: group.title },
+        ...(expandedKeys?.includes(group.title) ? group.children : []),
+      ];
+    });
+  }, [currZoomAllNodesTree, expandedKeys]);
+
   // 缩放 & y 轴滚动
   const insightNodes = useMemo(() => {
+    return currZoomAllNodes;
     if (!currZoomAllNodes?.length || !size?.height) return;
 
     const firstIndex = Math.floor(debounceScrollbarPos / MAX_HEATMAP_HEIGHT);
@@ -172,47 +206,17 @@ export const useService = ({
       groupMap.set(node[nodeGroupBy], 1);
     }
     return insightMaxNodes.slice(0, i);
-  }, [currZoomAllNodes, debounceScrollbarPos, size?.height, nodeGroupBy]);
+  }, [currZoomAllNodes, size?.height, nodeGroupBy]);
 
+  // TODO y轴的刻度应该是所有的 Node，而不应该是部分的
   const yScale = useMemo(() => {
-    if (!selection || !edges?.length || !size?.height || !nodesMap) return;
-
-    const domains: Set<string> = new Set();
-    const groupHasPushed = new Map();
-    insightNodes?.forEach((node) => {
-      if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
-        const groupName = compileGroup(node[nodeGroupBy]);
-        domains.add(groupName);
-        groupHasPushed.set(groupName, 1);
-      }
-      domains.add(node.id);
-    });
-
-    return d3.scalePoint().domain(domains).range([0, size.height]);
-  }, [selection, edges, nodesMap, size?.height, insightNodes]);
-
-  const yChartScale = useMemo(() => {
-    if (!selection || !edges?.length || !size || !nodesMap || !currZoomAllNodes?.length) return;
-
-    const domains: Set<string> = new Set();
-    const groupHasPushed = new Map();
-    currZoomAllNodes.forEach((node) => {
-      if (nodeGroupBy && node?.[nodeGroupBy] && !groupHasPushed.get(node[nodeGroupBy])) {
-        domains.add(node[nodeGroupBy]);
-        groupHasPushed.set(node[nodeGroupBy], 1);
-      }
-      domains.add(node.id);
-    });
+    if (!selection || !currZoomAllFlatNodes?.length) return;
 
     return d3
       .scalePoint()
-      .domain(domains)
-      .range([
-        PADDING_TOP - debounceScrollbarPos,
-        Math.max(size.height - PADDING_BOTTOM, currZoomAllNodes.length * MAX_HEATMAP_HEIGHT) -
-          debounceScrollbarPos,
-      ]);
-  }, [selection, edges, nodesMap, size, currZoomAllNodes, debounceScrollbarPos, nodeGroupBy]);
+      .domain(currZoomAllFlatNodes)
+      .range([0, currZoomAllFlatNodes.length * SINGLE_ITEM_HEIGHT]);
+  }, [selection, currZoomAllFlatNodes]);
 
   const getCurrNodeConfig = useCallback(
     (key: keyof INodeGroupStyle, node?: INode) => {
@@ -271,6 +275,7 @@ export const useService = ({
     nodes,
     nodesMap,
     currZoomAllNodes,
+    currZoomAllNodesTree,
     insightNodes,
     activeNodeIds,
     minAndMax,
@@ -282,7 +287,7 @@ export const useService = ({
     transform: debounceTransform,
     xScale,
     yScale,
-    yChartScale,
+    expandedKeys,
     isHeatMap,
     scrollbarPos: debounceScrollbarPos,
     setScrollbarPos,

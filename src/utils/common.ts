@@ -68,15 +68,14 @@ export const decompileColorId = (colorId: string) => {
 
 export const getYPos = (
   yScale: Function,
-  yChartScale: Function,
   flag: string | number,
   [min, max]: [min: number, max: number],
 ) => {
   const y = yScale(flag);
-  if (y) return y;
+  return y;
+  // if (y) return y;
   // y1 真实位置
-  const y1real = yChartScale(flag);
-  return y1real <= 0 ? min : max;
+  // return y <= 0 ? min : max;
 };
 
 export const compileGroup = (originGroupName: string, level: 1 | 2 = 1) => {

@@ -17,7 +17,7 @@ export default () => {
   useEffect(() => {
     if (!wrapper || !size?.height) return;
     // top
-    let xAxisTop: any = wrapper.select('svg').selectAll('.xAxisTop').data([null]);
+    let xAxisTop: any = wrapper.select('svg.xAxisTop').selectAll('g.xAxisTop').data([null]);
     const xAxisTopEnter: any = xAxisTop.enter().append('g').attr('class', 'axis xAxisTop');
 
     xAxisTop = xAxisTop.merge(xAxisTopEnter);
@@ -25,7 +25,10 @@ export default () => {
     setXAxisTop(xAxisTop);
 
     //为了实现不同高度线的X轴，需要再增加一个X轴，采用不同的样式
-    let xAxisTopSmall: any = wrapper.select('svg').selectAll('.xAxisTopSmall').data([null]);
+    let xAxisTopSmall: any = wrapper
+      .select('svg.xAxisTop')
+      .selectAll('g.xAxisTopSmall')
+      .data([null]);
     const xAxisTopEnterSmall: any = xAxisTopSmall
       .enter()
       .append('g')
@@ -35,24 +38,25 @@ export default () => {
 
     setXAxisTopSmall(xAxisTopSmall);
 
-    let xAxisBottomSmall: any = wrapper.select('svg').selectAll('.xAxisBottomSmall').data([null]);
+    let xAxisBottomSmall: any = wrapper
+      .select('svg.xAxisBottom')
+      .selectAll('g.xAxisBottomSmall')
+      .data([null]);
     const xAxisBottomEnterSmall: any = xAxisBottomSmall
       .enter()
       .append('g')
-      .attr('class', 'axis xAxisBottomSmall')
-      .attr('transform', `translate(0, ${size.height + 6})`);
+      .attr('class', 'axis xAxisBottomSmall');
 
     xAxisBottomSmall = xAxisBottomSmall.merge(xAxisBottomEnterSmall);
 
     setXAxisBottomSmall(xAxisBottomSmall);
 
     // bottom
-    let xAxisBottom: any = wrapper.select('svg').selectAll('.xAxisBottom').data([null]);
-    const xAxisBottomEnter: any = xAxisBottom
-      .enter()
-      .append('g')
-      .attr('class', 'axis xAxisBottom')
-      .attr('transform', `translate(0, ${size.height + 12})`);
+    let xAxisBottom: any = wrapper
+      .select('svg.xAxisBottom')
+      .selectAll('g.xAxisBottom')
+      .data([null]);
+    const xAxisBottomEnter: any = xAxisBottom.enter().append('g').attr('class', 'axis xAxisBottom');
 
     xAxisBottom = xAxisBottom.merge(xAxisBottomEnter);
 
@@ -137,16 +141,14 @@ export default () => {
     } else {
       timeFormat = d3.timeFormat('%M:%S'); // 分:秒
     }
-    xAxisBottom.call(axisTop(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
-    xAxisBottomSmall.call(axisTop(xScale).ticks(100).tickSize(6));
+    xAxisBottom.call(axisBottom(xScale).ticks(10).tickSize(12).tickFormat(timeFormat));
+    xAxisBottomSmall.call(axisBottom(xScale).ticks(100).tickSize(6));
     xAxisBottomSmall.selectAll('text').remove();
-    xAxisBottom.selectAll('.domain').remove();
-    xAxisBottomSmall.selectAll('.domain').remove();
     xAxisBottom
       .selectAll('.tick text')
       .attr('fill', 'black')
       .attr('font-size', 12)
-      .attr('dy', '36px')
+      .attr('dy', '12px')
       .style('text-anchor', 'start');
   }, [xAxisBottom, xScale, xAxisBottomSmall]);
 

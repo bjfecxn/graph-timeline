@@ -6,7 +6,9 @@ import useYAxis from './useYAxis';
 import useChart from './useChart';
 import useScrollbar from './useScrollbar';
 import { GraphTimeService } from './service';
+import YAxis from '../yAxis';
 import { getTime } from '../../utils';
+import { INNER_PADDING } from '../../common/constants';
 
 export default () => {
   const {
@@ -24,14 +26,29 @@ export default () => {
   const chart = useChart();
 
   useEffect(() => {
-    if (!wrapper || !size) return;
+    if (!wrapper || !size?.width || !size?.height) return;
     // 更新画布大小
     wrapper
-      .selectAll('svg')
+      .selectAll('svg.chart')
       .data([size])
       .attr('width', (d) => d.width - yAxisStyle.width)
       .attr('height', (d) => d.height)
       .style('transform', () => `translateX(${yAxisStyle.width}px)`);
+
+    wrapper
+      .selectAll('svg.xAxis')
+      .data([size, size])
+      .attr('width', (d) => d.width - yAxisStyle.width)
+      .attr('height', () => INNER_PADDING[2])
+      .style(
+        'transform',
+        () => `translateX(${yAxisStyle.width}px) translateY(${INNER_PADDING[0]}px)`,
+      );
+
+    wrapper
+      .selectAll('svg.xAxisBottom')
+      .data([size])
+      .style('transform', () => `translateX(${yAxisStyle.width}px) translateY(0)`);
   }, [wrapper, size?.width, size?.height, yAxisStyle.width]);
 
   /**
@@ -51,7 +68,7 @@ export default () => {
   }, [edges]);
 
   useUpdateEffect(() => {
-    if (!wrapper || !size || !maxScale || !xScale) return;
+    if (!wrapper || !size?.width || !size?.height || !maxScale || !xScale) return;
     const zoomed: any = d3
       .zoom()
       .on('zoom', (event) => {
@@ -63,13 +80,13 @@ export default () => {
         [size?.width * 1.5, size.height],
       ]);
 
-    wrapper.select('svg').call(zoomed);
-  }, [wrapper, size]);
+    wrapper.select('svg.chart').call(zoomed);
+  }, [wrapper, size?.width, size?.height]);
 
   return (
     <>
-      <svg></svg>
-      <div className="axis yAxis" style={{ width: size.width, height: size.height }}></div>
+      <svg className="chart"></svg>
+      <YAxis />
     </>
   );
 };

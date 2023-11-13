@@ -6,7 +6,7 @@ import { INNER_PADDING } from '../common/constants';
 
 export default (target: RefObject<HTMLDivElement>) => {
   const size = useSize(target);
-  const [contentSize, setContentSize] = useState<INoPaddingSize>();
+  const [contentSize, setContentSize] = useState<INoPaddingSize>({ width: 0, height: 0 });
 
   useEffect(() => {
     if (!size || !target.current) return;

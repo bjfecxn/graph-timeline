@@ -3,7 +3,9 @@ import { INodeGroupStyle, IYAxisStyle, IXAxisStyle, IEdgeGroupStyle } from '../t
 
 export const INNER_PADDING: [number, number, number, number] = [50, 50, 50, 50];
 
-export const MAX_HEATMAP_HEIGHT = 24;
+export const MAX_HEATMAP_HEIGHT = 24.5;
+
+export const SINGLE_ITEM_HEIGHT = 24.5;
 
 //热力泳道图的方块高度
 export const HEATMAP_SQUARE_HEIGHT = 7;

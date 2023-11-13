@@ -35,7 +35,6 @@ export default () => {
     size,
     xScale,
     yScale,
-    yChartScale,
     getCurrNodeConfig,
     getCurrEdgeConfig,
     isHeatMap,
@@ -304,7 +303,7 @@ export default () => {
   };
 
   const renderTimelineLine = (insightEdges: ILineEdge[]) => {
-    if (!chart || !size || !xScale || !yChartScale || !yScale) return;
+    if (!chart || !size || !xScale || !yScale) return;
     // 连线（有 start & end 的才画线&在范围内）
     const line = chart
       .selectAll('.__line')
@@ -393,7 +392,7 @@ export default () => {
   };
 
   const renderTimeline = (insightEdges: IEdge[]) => {
-    if (!chart || !size || !xScale || !yScale || !yChartScale) return;
+    if (!chart || !size || !xScale || !yScale) return;
 
     chart.selectAll('.__h').remove();
 
@@ -401,8 +400,8 @@ export default () => {
       return {
         ...edge,
         _x: xScale(getTime(edge.time)) || null,
-        _y1: getYPos(yScale, yChartScale, edge.source, [PADDING_TOP, size.height]) || null,
-        _y2: getYPos(yScale, yChartScale, edge.target, [PADDING_TOP, size.height]) || null,
+        _y1: getYPos(yScale, edge.source, [PADDING_TOP, size.height]) || null,
+        _y2: getYPos(yScale, edge.target, [PADDING_TOP, size.height]) || null,
       };
     });
 
@@ -416,14 +415,14 @@ export default () => {
   useEffect(() => {
     if (!wrapper || !size) return;
     // init chart Element
-    let chart = wrapper.select('svg').selectAll('g.__chart').data([null]);
+    let chart = wrapper.select('svg.chart').selectAll('g.__chart').data([null]);
     const chartEnter: any = chart.enter().append('g').attr('class', '__chart');
     chart = chart.merge(chartEnter);
     setChart(chart);
 
     // init gradient defs
     wrapper
-      .select('svg')
+      .select('svg.chart')
       .selectAll('defs.__gradient')
       .data([null])
       .enter()
@@ -432,7 +431,7 @@ export default () => {
 
     // init arrow marker defs
     wrapper
-      .select('svg')
+      .select('svg.chart')
       .selectAll('defs.__arrow')
       .data([null])
       .enter()
@@ -440,7 +439,7 @@ export default () => {
       .attr('class', '__arrow');
 
     wrapper
-      .select('svg')
+      .select('svg.chart')
       .selectAll('defs.__icon')
       .data([null])
       .enter()

@@ -34,15 +34,17 @@ const GraphTimeline: React.FC<IProps> = ({
         <div
           className="graph-timeline-inner"
           style={{
-            paddingTop: INNER_PADDING[0],
+            // paddingTop: INNER_PADDING[0],
             paddingRight: INNER_PADDING[1],
-            paddingBottom: INNER_PADDING[2],
+            // paddingBottom: INNER_PADDING[2],
             paddingLeft: INNER_PADDING[3],
           }}
         >
+          <svg className="xAxis xAxisTop"></svg>
           <div className="graph-timeline" style={{ width: size?.width, height: size?.height }}>
             <Graph />
           </div>
+          <svg className="xAxis xAxisBottom"></svg>
         </div>
       </div>
     </GraphTimeService.Provider>
