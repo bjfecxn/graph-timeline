@@ -123,7 +123,7 @@ export const useService = ({
     return transform?.rescaleX(scale) || scale;
   }, [selection, minAndMax, chartWidth, transform]);
 
-  // 可视区域内的边
+  // 缩放的时候可视时间范围内的 edge
   const insightEdges = useMemo(() => {
     if (!chartWidth || !xScale) return;
     return edges.filter(
@@ -137,6 +137,7 @@ export const useService = ({
     );
   }, [xScale, chartWidth, edges, nodesMap]);
 
+  // 缩放的时候可视时间范围内的 node
   const currZoomAllNodes = useMemo(() => {
     if (!insightEdges?.length) return;
 
@@ -150,8 +151,9 @@ export const useService = ({
     return currZoomAllNodes;
   }, [insightEdges, nodes]);
 
+  // 缩放 & y 轴滚动
   const insightNodes = useMemo(() => {
-    if (!currZoomAllNodes?.length || !size) return;
+    if (!currZoomAllNodes?.length || !size?.height) return;
 
     const firstIndex = Math.floor(debounceScrollbarPos / MAX_HEATMAP_HEIGHT);
     const totalNum = Math.floor(size.height / MAX_HEATMAP_HEIGHT);
@@ -170,10 +172,10 @@ export const useService = ({
       groupMap.set(node[nodeGroupBy], 1);
     }
     return insightMaxNodes.slice(0, i);
-  }, [currZoomAllNodes, debounceScrollbarPos, size, nodeGroupBy]);
+  }, [currZoomAllNodes, debounceScrollbarPos, size?.height, nodeGroupBy]);
 
   const yScale = useMemo(() => {
-    if (!selection || !edges?.length || !size || !nodesMap) return;
+    if (!selection || !edges?.length || !size?.height || !nodesMap) return;
 
     const domains: Set<string> = new Set();
     const groupHasPushed = new Map();
@@ -186,11 +188,8 @@ export const useService = ({
       domains.add(node.id);
     });
 
-    return d3
-      .scalePoint()
-      .domain(domains)
-      .range([PADDING_TOP, size.height - PADDING_BOTTOM]);
-  }, [selection, edges, nodesMap, size, insightNodes]);
+    return d3.scalePoint().domain(domains).range([0, size.height]);
+  }, [selection, edges, nodesMap, size?.height, insightNodes]);
 
   const yChartScale = useMemo(() => {
     if (!selection || !edges?.length || !size || !nodesMap || !currZoomAllNodes?.length) return;

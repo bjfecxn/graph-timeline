@@ -38,10 +38,10 @@ export default () => {
 
   // 在滚动条容器内生成 scrollbar
   useEffect(() => {
-    if (!scrollbar || !size || !currZoomAllNodes) return;
+    if (!scrollbar || !size?.height || !currZoomAllNodes) return;
 
     const contentHeight = currZoomAllNodes.length * MAX_HEATMAP_HEIGHT;
-    const viewHeight = size.height - PADDING_TOP - PADDING_BOTTOM;
+    const viewHeight = size.height;
     setScrollbarPos(0);
     if (contentHeight <= viewHeight) {
       scrollbar.selectAll('rect').remove();

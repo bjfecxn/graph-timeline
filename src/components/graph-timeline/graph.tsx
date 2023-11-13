@@ -20,7 +20,7 @@ export default () => {
   } = useContext(GraphTimeService);
   const xAxis = useXAxis();
   // const yAxis = useYAxis();
-  const scrollbar = useScrollbar();
+  // const scrollbar = useScrollbar();
   const chart = useChart();
 
   useEffect(() => {
