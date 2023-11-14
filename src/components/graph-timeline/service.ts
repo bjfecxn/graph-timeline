@@ -1,18 +1,14 @@
-import { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
+import React, { RefObject, useCallback, useEffect, useMemo, useState } from 'react';
 import { assign, flatMap, groupBy, keys, map } from 'lodash';
 import * as d3 from 'd3';
 import useContentSize from '../../hooks/useContentSize';
 import {
   DEFAULT_YAXIS_STYLE,
-  FROM_KEY,
   DEFAULT_XAXIS_STYLE,
   DEFAULT_NODE_TYPE_STYLE,
   DEFAULT_EDGE_TYPE_STYLE,
   TIME_FORMAT,
   TIME_LOCALE_FORMAT,
-  MAX_HEATMAP_HEIGHT,
-  PADDING_TOP,
-  PADDING_BOTTOM,
   SINGLE_ITEM_HEIGHT,
 } from '../../common/constants';
 import {
@@ -25,7 +21,7 @@ import {
   IYAxisStyle,
 } from '../../types';
 import { useDebounce, useSafeState } from 'ahooks';
-import { compileGroup, getServiceToken, getTime } from '../../utils';
+import { getServiceToken, getTime } from '../../utils';
 import dayjs from 'dayjs';
 
 type TEdgeEvent = (
@@ -43,7 +39,7 @@ export interface IServiceProps {
   nodes?: INode[];
   nodeGroupBy?: string;
   // 分类型
-  nodeGroups?: Record<string, INodeGroupStyle>;
+  nodeGroups?: Record<string, INodeGroupStyle & { nodeGroupBy?: string }>;
   // 没有类型，统一设置所有节点样式
   nodeConfig?: INodeGlobalStyle;
   activeNodeIds?: string[];
@@ -63,7 +59,7 @@ export const useService = ({
   xAxis,
   nodes = [],
   edges = [],
-  nodeGroupBy = FROM_KEY['group'],
+  nodeGroupBy,
   nodeGroups,
   nodeConfig,
   edgeGroupBy,
@@ -85,9 +81,8 @@ export const useService = ({
   const [transform, setTransform] = useSafeState<d3.ZoomTransform>();
   const debounceTransform = useDebounce(transform, { wait: 500 });
   const [isHeatMap, setIsHeatmap] = useSafeState<boolean>(nodeConfig?.showHeatMap || true);
-  const [scrollbarPos, setScrollbarPos] = useSafeState(0);
-  const debounceScrollbarPos = useDebounce(scrollbarPos, { wait: 10 });
   const [expandedKeys, setExpandedKeys] = useState<React.Key[]>([]);
+  const [translateY, setTranslateY] = useState(0);
 
   const yAxisStyle = useMemo(() => assign(DEFAULT_YAXIS_STYLE, yAxis), [yAxis]);
   const xAxisStyle = useMemo(() => assign(DEFAULT_XAXIS_STYLE, xAxis), [xAxis]);
@@ -163,50 +158,49 @@ export const useService = ({
     return currZoomAllNodes;
   }, [insightEdges, nodes]);
 
+  // TODO 两层 Tree 结构的数据获取(数据结构处理优化，避免循环嵌套)
   const currZoomAllNodesTree: any = useMemo(() => {
     if (!currZoomAllNodes?.length) return [];
+    if (!nodeGroupBy) return currZoomAllNodes;
     const groups = groupBy(currZoomAllNodes, nodeGroupBy);
     return keys(groups).map((key) => {
+      const children = groups[key];
+      const subNodeGroupBy = nodeGroups?.[key]?.['nodeGroupBy'];
+      if (!subNodeGroupBy)
+        return {
+          id: key,
+          label: key,
+          children: groups[key],
+        };
+      const subGroups = groupBy(children, subNodeGroupBy);
       return {
-        key: key,
-        title: key,
-        children: groups[key].map((d) => ({ ...d, key: d.id, title: d.label })),
+        id: key,
+        label: key,
+        children: keys(subGroups).map((subKey) => ({
+          id: subKey,
+          label: subKey,
+          children: subGroups[subKey],
+        })),
       };
     });
-  }, [currZoomAllNodes]);
+  }, [currZoomAllNodes, nodeGroupBy, nodeGroups]);
 
+  // TODO 两层 Tree 结构的数据获取(数据结构处理优化，避免循环嵌套)
   const currZoomAllFlatNodes = useMemo(() => {
     return flatMap(currZoomAllNodesTree, (group) => {
       return [
-        { id: group.key, label: group.title },
-        ...(expandedKeys?.includes(group.title) ? group.children : []),
+        { id: group.id, label: group.label },
+        ...(expandedKeys?.includes(group.id)
+          ? flatMap(group.children, (subGroup) => {
+              return [
+                { id: subGroup.id, label: subGroup.label },
+                ...(expandedKeys?.includes(subGroup.label) ? subGroup.children : []),
+              ];
+            })
+          : []),
       ];
     });
   }, [currZoomAllNodesTree, expandedKeys]);
-
-  // 缩放 & y 轴滚动
-  const insightNodes = useMemo(() => {
-    return currZoomAllNodes;
-    if (!currZoomAllNodes?.length || !size?.height) return;
-
-    const firstIndex = Math.floor(debounceScrollbarPos / MAX_HEATMAP_HEIGHT);
-    const totalNum = Math.floor(size.height / MAX_HEATMAP_HEIGHT);
-    const insightMaxNodes = currZoomAllNodes.slice(firstIndex, totalNum + firstIndex + 1);
-    if (!nodeGroupBy) return insightMaxNodes;
-    const groupMap = new Map();
-    let groupNum = 0,
-      i = 0;
-    for (let l = insightMaxNodes.length; i < l; i++) {
-      const node = insightMaxNodes[i];
-      if (!groupMap.get(node[nodeGroupBy])) {
-        groupNum += 1;
-      }
-      // i + 1是当前 node 数量，groupNum是当前分组数量，总数超过最大数量
-      if (i + 1 + groupNum > insightMaxNodes.length) break;
-      groupMap.set(node[nodeGroupBy], 1);
-    }
-    return insightMaxNodes.slice(0, i);
-  }, [currZoomAllNodes, size?.height, nodeGroupBy]);
 
   const yScale = useMemo(() => {
     if (!selection || !currZoomAllFlatNodes?.length) return;
@@ -220,9 +214,16 @@ export const useService = ({
   const getCurrNodeConfig = useCallback(
     (key: keyof INodeGroupStyle, node?: INode) => {
       const groupKey = node?.[nodeGroupBy as keyof INode];
-      // 有分类样式
-      if (groupKey && nodeGroups?.[groupKey as string]?.[key])
-        return nodeGroups[groupKey as string][key] as any;
+      // 有分类
+      if (groupKey && nodeGroups?.[groupKey as string]) {
+        const subGroupKey = nodeGroups[groupKey].nodeGroupBy;
+        // 有二层分类样式
+        if (subGroupKey && nodeGroups[subGroupKey]?.[key])
+          return nodeGroups[subGroupKey][key] as any;
+        // 没有二层分类，只有一层分类
+        if (nodeGroups[groupKey][key]) return nodeGroups[groupKey][key] as any;
+      }
+
       // 无分类样式，有统一样式
       if (nodeConfig?.[key] !== undefined) return nodeConfig[key];
       // 内部默认样式
@@ -244,6 +245,28 @@ export const useService = ({
     },
     [edgeGroups, edgeConfig, edgeGroupBy],
   );
+
+  const getYPos = (nodeId: string) => {
+    if (!yScale) return;
+    // 没有分组
+    if (!nodeGroupBy) {
+      return yScale(nodeId);
+    }
+
+    const node = nodesMap[nodeId];
+    const level1ScaleKey = node[nodeGroupBy];
+
+    // 一层收起
+    if (!expandedKeys?.includes(level1ScaleKey)) return yScale(level1ScaleKey);
+    // 一层展开
+    // 二层收起
+    const level2GroupBy = nodeGroups?.[node?.[nodeGroupBy]]?.['nodeGroupBy'];
+    if (level2GroupBy && !expandedKeys?.includes(node[level2GroupBy]))
+      return yScale(node[level2GroupBy]);
+
+    // 全部展开
+    return yScale(nodeId);
+  };
 
   useEffect(() => {
     if (!containerRef.current || !size) return;
@@ -275,7 +298,6 @@ export const useService = ({
     nodesMap,
     currZoomAllNodes,
     currZoomAllNodesTree,
-    insightNodes,
     activeNodeIds,
     minAndMax,
     edges,
@@ -289,8 +311,6 @@ export const useService = ({
     expandedKeys,
     setExpandedKeys,
     isHeatMap,
-    scrollbarPos: debounceScrollbarPos,
-    setScrollbarPos,
     setTransform,
     getCurrNodeConfig,
     getCurrEdgeConfig,
@@ -298,6 +318,9 @@ export const useService = ({
     onEdgeClick,
     onEdgeHover,
     onEdgeOut,
+    getYPos,
+    translateY,
+    setTranslateY,
   };
 };
 

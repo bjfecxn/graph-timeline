@@ -78,9 +78,13 @@ export default () => {
     nodeGroups: {
       人员: {
         color: '#588BEE',
+        nodeGroupBy: 'gender',
       },
       摄像头: {
         color: '#EE6159',
+      },
+      未知: {
+        color: '#e5e5e5',
       },
     },
     nodeConfig: {

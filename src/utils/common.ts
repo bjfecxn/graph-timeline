@@ -66,18 +66,6 @@ export const decompileColorId = (colorId: string) => {
   return colorId;
 };
 
-export const getYPos = (
-  yScale: Function,
-  flag: string | number,
-  [min, max]: [min: number, max: number],
-) => {
-  const y = yScale(flag);
-  return y;
-  // if (y) return y;
-  // y1 真实位置
-  // return y <= 0 ? min : max;
-};
-
 export const compileGroup = (originGroupName: string, level: 1 | 2 = 1) => {
   return `$_$${originGroupName}$_$${level}`;
 };

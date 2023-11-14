@@ -2,15 +2,9 @@ import { useCallback, useContext, useEffect } from 'react';
 import * as d3 from 'd3';
 import { useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
-import { compileColor, getTime, getYPos } from '../../utils';
-import {
-  DEFAULT_EDGE_TYPE_STYLE,
-  HEATMAP_SQUARE_HEIGHT,
-  MAX_HEATMAP_HEIGHT,
-  PADDING_BOTTOM,
-  PADDING_TOP,
-} from '../../common/constants';
-import { isString } from 'lodash';
+import { compileColor, getTime } from '../../utils';
+import { DEFAULT_EDGE_TYPE_STYLE, HEATMAP_SQUARE_HEIGHT } from '../../common/constants';
+import { isString, maxBy, minBy } from 'lodash';
 import type { IEdge, IHeapMapItem } from '../../types';
 
 export interface IProps {
@@ -31,6 +25,7 @@ export default () => {
     edges,
     insightEdges,
     currZoomAllNodes,
+    expandedKeys,
     nodesMap,
     size,
     xScale,
@@ -42,6 +37,8 @@ export default () => {
     onEdgeHover,
     onEdgeOut,
     yAxisStyle,
+    getYPos,
+    translateY,
   } = useContext(GraphTimeService);
 
   const [chart, setChart] = useSafeState<d3.Selection<d3.BaseType, null, d3.BaseType, unknown>>();
@@ -217,8 +214,8 @@ export default () => {
       .attr('cx', (edge: IEdge) => {
         return xScale(getTime(edge.time));
       })
-      .attr('cy', (edge: IEdge) => {
-        return yScale(edge.source) || null;
+      .attr('cy', (edge: ILineEdge) => {
+        return edge._y1 || null;
       })
       .on('click', (e, edge: IEdge) => {
         return onEdgeClick?.(
@@ -249,10 +246,8 @@ export default () => {
 
   const renderTimelineEnd = (insightEdges: ILineEdge[]) => {
     if (!chart || !size || !xScale || !yScale) return;
-    // end 节点（有 end 才绘制，如果没有就不绘制）
-    const end = chart
-      .selectAll('.__circle.__end')
-      .data(insightEdges.filter((edge) => yScale(edge.target)));
+    const end = chart.selectAll('.__circle.__end').data(insightEdges);
+
     const endEnter: any = end.enter().append('circle').attr('class', '__circle __end');
 
     end
@@ -272,8 +267,8 @@ export default () => {
       .attr('cx', (edge: IEdge) => {
         return xScale(getTime(edge.time));
       })
-      .attr('cy', (edge: IEdge) => {
-        return yScale(edge.target) || null;
+      .attr('cy', (edge: ILineEdge) => {
+        return edge._y2 || null;
       })
       .on('click', (e, edge: IEdge) => {
         return onEdgeClick?.(
@@ -307,7 +302,7 @@ export default () => {
     // 连线（有 start & end 的才画线&在范围内）
     const line = chart
       .selectAll('.__line')
-      .data(insightEdges.filter((_edge) => _edge._y1 && _edge._y2 && _edge._y1 !== _edge._y2));
+      .data(insightEdges.filter((_edge) => _edge._y1 !== _edge._y2));
     const lineEnter: any = line.enter().insert('line', 'circle').attr('class', '__line');
 
     line
@@ -353,7 +348,7 @@ export default () => {
         return width;
       })
       .attr('marker-end', (edge: ILineEdge) => {
-        const ytarget = yScale(edge.target);
+        const ytarget = edge._y2;
         if (!ytarget) return null;
         const stroke = getCurrEdgeConfig?.('color', edge, false);
         const reverse = getCurrEdgeConfig?.('reverse', edge);
@@ -400,8 +395,8 @@ export default () => {
       return {
         ...edge,
         _x: xScale(getTime(edge.time)) || null,
-        _y1: getYPos(yScale, edge.source, [PADDING_TOP, size.height]) || null,
-        _y2: getYPos(yScale, edge.target, [PADDING_TOP, size.height]) || null,
+        _y1: getYPos(edge.source) as number,
+        _y2: getYPos(edge.target) as number,
       };
     });
 
@@ -447,7 +442,17 @@ export default () => {
       return;
     }
     renderTimeline(insightEdges);
-  }, [chart, size, insightEdges, isHeatMap, currZoomAllNodes]);
+  }, [chart, size, insightEdges, isHeatMap, currZoomAllNodes, expandedKeys]);
+
+  useEffect(() => {
+    if (!wrapper) return;
+
+    // TODO y 轴滚动，热力图重绘区域内的内容
+    wrapper
+      .select('svg.chart')
+      .select('g.__chart')
+      .style('transform', `translateY(${isHeatMap ? 0 : translateY}px)`);
+  }, [wrapper, isHeatMap, translateY]);
 
   return chart;
 };

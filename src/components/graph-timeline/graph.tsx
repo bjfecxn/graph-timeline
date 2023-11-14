@@ -74,7 +74,7 @@ export default () => {
       .on('zoom', (event) => {
         setTransform?.(event.transform);
       })
-      .scaleExtent([0.1, maxScale * 0.6])
+      .scaleExtent([0.1, maxScale * 0.3])
       .translateExtent([
         [-size.width, 0],
         [size?.width * 1.5, size.height],

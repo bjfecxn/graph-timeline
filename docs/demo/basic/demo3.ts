@@ -8,20926 +8,9820 @@ export default {
     {
       id: '436498554282864469',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/45538_0_1699522312_27109_RL-752-800-544-512.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589270867366379520',
       label: '王*森',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/45482_59455_1699522302_27085_RL-1456-192-304-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434908791968907268',
       label: '韩*强',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C7827496/20834_49031_1699522203_5214_RL-608-416-160-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1538790178905133056',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C71E2AF6/6665_0_1699522295_2836_RL-1350-176-128-172-V10-CS3a8aabdd7144_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436522467083710776',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/45114_58671_1699522260_26954_RL-1088-640-432-432.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1536261114273206272',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/10010_93559_1699522141_44571_RL-1152-368-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436258976745672825',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/43738_0_1699522098_26575_RL-1296-176-336-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1545985104625537024',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C75FFAAD/24050_15535_1699522105_18935_RL-992-368-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436335969738715739',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9922_93407_1699522040_44542_RL-704-272-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1530417636846866432',
       label: '李*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/43210_55791_1699522013_26417_RL-1504-224-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467795782074922805',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C797552B/78866_26697_1699521978_75666_RL-896-304-224-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436356197591839562',
       label: '袁*力',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9890_93295_1699521940_44525_RL-736-272-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436520676333998201',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71FCEA6/74330_40519_1699521780_16711_RL-448-816-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436506672811241301',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/41562_53255_1699521802_25965_RL-672-16-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1566946108519743488',
       label: '胡*清',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C70F28D7/15834_23159_1699521628_3326_RL-1232-464-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436227975352971576',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9834_93151_1699521692_44502_RL-608-272-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436463956979108972',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7DEA506/1234_0_1699521453_591_RL-16-368-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526328100697149440',
       label: '王*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C761AB5B/25298_0_1699521468_23987_RL-352-816-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225207233511424',
       label: '郭*骞',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/97090_3871_1699521444_93219_RL-880-1248-256-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434044028875461705',
       label: '王*璇',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/96810_1911_1699521391_93008_RL-1232-912-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436372369183895381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/40538_50127_1699521336_25487_RL-1936-208-336-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526521582636240896',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/38866_26087_1699521303_64355_RL-2064-464-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436230431134741083',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/38842_24967_1699521236_64205_RL-2032-656-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436610439422440266',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/72538_29111_1699521166_29313_RL-1664-80-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1528956263243714560',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C756F795/1024_0_1699521117_45_RL-1556-182-136-186-V10-CS6ca33df360b6_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567385312768819200',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C8D2B6/37962_71023_1699521129_71015_RL-800-1184-272-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589226526920933376',
       label: '杜*芹',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7024F53/12450_16599_1699521123_2668_RL-1360-272-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589230026354589696',
       label: '郑*烨',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78D8164/60370_35079_1699520971_14975_RL-736-608-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434504036801078311',
       label: '别*富',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9746_92959_1699520810_44468_RL-896-368-176-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1531793761112166400',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/22066_90191_1699520814_34848_RL-2032-336-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436607199691698488',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7862B4A/28498_0_1699520751_11194_RL-784-352-496-464.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589270162815582208',
       label: '王*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C722FDBC/29074_65447_1699520584_21110_RL-1200-320-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1567103848831516672',
       label: '胡*泗',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71CE238/4410_15599_1699520547_1729_RL-800-272-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589233551558049792',
       label: '阮*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/34050_83055_1699520519_17314_RL-624-1008-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436535979721903212',
       label: '黄*乔',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C766FBBF/20506_37047_1699520545_4779_RL-720-496-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436392431580115256',
       label: '陈*彤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72E9A1A/7594_90239_1699520553_57082_RL-1648-1216-256-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1540664845794283520',
       label: '许*安',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/63266_15455_1699520497_39031_RL-1296-544-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436381406147408184',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9594_92655_1699520148_44417_RL-672-288-144-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438532875978043671',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/94994_76911_1699520137_90107_RL-832-496-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1572881011337854976',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7ECBB91/49754_65977_1699520031_58856_RL-736-656-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1573628264595849216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/21682_89343_1699519919_34747_RL-1856-96-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1527080770508689408',
       label: '别*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72E9A1A/7530_87999_1699519874_56951_RL-1184-304-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1586186712852201472',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C758E645/91914_0_1699519865_44817_RL-720-32-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436939572463554651',
       label: '李*蓉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C758E645/91890_0_1699519860_44803_RL-1792-128-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1558210394198114304',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C77CAC23/23018_42703_1699519669_11261_RL-928-608-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1553254391341907968',
       label: '袁*厚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C741621F/8210_77023_1699519738_9205_RL-2352-896-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436375678573637944',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C76C6242/34066_75311_1699519640_10727_RL-736-800-384-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '439015395169432388',
       label: '高*春',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71C0535/17170_55165_1699519636_27610_RL-176-624-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589271416581128192',
       label: '刘*妮',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/4826_83031_1699519605_9815_RL-864-720-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436657960500872238',
       label: '赵*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7096647/4818_17511_1699519518_14453_RL-768-848-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436380196040364153',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C758E645/90242_30071_1699519581_44424_RL-144-528-352-336.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589232985188597760',
       label: '阮*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7B42732/17242_62751_1699519508_7623_RL-1360-464-160-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526355072819138560',
       label: '刘*芬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C720B5B2/25314_71407_1699519495_7283_RL-1536-864-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589929956241047552',
       label: '慎*强',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C720B5B2/25306_71399_1699519466_7281_RL-1968-848-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434330928630756247',
       label: '袁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C743FCB5/2682_0_1699518810_82965_RL-2352-528-208-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589262901997207552',
       label: '胡*高',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/4282_76247_1699519411_9054_RL-1072-752-304-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589438968947015680',
       label: '朱*丽',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/61186_0_1699519311_15610_RL-784-384-256-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436235867925802837',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70A3D30/2522_72575_1699519386_6839_RL-1232-736-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1536227366349574144',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/3954_72567_1699519237_8519_RL-544-448-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075195963719684',
       label: '李*兵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C09F99/1826_28895_1699519221_2000_RL-656-768-336-336.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436253115423944533',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C758E645/87946_25423_1699519133_43807_RL-2128-16-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1528915471485636608',
       label: '向*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7DE820D/14898_47927_1699519090_30863_RL-704-752-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456345041808420142',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/8314_61295_1699519037_24625_RL-1776-288-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1543005588399591424',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/8122_61239_1699519021_24595_RL-1680-384-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1540505248227921920',
       label: '韩*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C75FFAAD/23850_11113_1699518924_18831_RL-1088-448-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436389352558325589',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/3674_69735_1699519006_8081_RL-1696-592-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435075000609820212',
       label: '林*满',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6994_9479_1699518984_11892_RL-560-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231967411372032',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C74FE253/31130_33143_1699518963_9325_RL-1104-0-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589266909763731456',
       label: '胡*森',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C75437C4/6466_2231_1699518784_27833_RL-2096-528-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436247125840392021',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7CAB440/47681_0_1699518818_7769_RL-760-150-108-128-V00-CS639c9d3b304e_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1566940439137746944',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73BCC92/2570_21559_1699518850_51602_RL-1392-624-240-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1528700513871204352',
       label: '王*晶',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C743FCB5/2690_8079_1699518812_82968_RL-2112-736-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1532700363499507712',
       label: '杨*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C721D193/2258_78063_1699518733_2121_RL-2304-944-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589267503450685440',
       label: '王*霞',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/36978_90495_1699518792_59876_RL-1664-688-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1553198404685791232',
       label: '刘*燕',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C725B60B/40954_15063_1699518790_27283_RL-1520-608-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1571013115674361856',
       label: '周*伦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6986_9303_1699518639_11881_RL-464-752-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1580506863634481152',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C75AD90F/71322_14439_1699518625_51033_RL-576-288-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589271080898396160',
       label: '胡*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/63098_13527_1699518624_38893_RL-1328-448-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1528185886565470208',
       label: '闵*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/63090_13495_1699518596_38888_RL-1568-576-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589223646772068352',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79186CD/4602_33903_1699518590_4211_RL-944-288-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1563809236192854016',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A502BE/39426_27975_1699518583_32528_RL-1408-352-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434039769878513928',
       label: '毛*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7126D53/41722_1519_1699518547_28022_RL-1232-224-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526509033643577344',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C725B60B/40938_14975_1699518499_27270_RL-80-816-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1530477521974333440',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/21146_0_1699518539_34600_RL-720-0-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562611814645104640',
       label: '汪*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/20458_71463_1699518505_19532_RL-1456-784-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589271336738357248',
       label: '杜*胜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/63074_13393_1699518489_38882_RL-1040-528-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434043237611630654',
       label: '袁*生',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C77729D3/11914_0_1699518357_7897_RL-1408-0-432-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436247328593047864',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/3378_65487_1699518362_7570_RL-0-960-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436250258800930645',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E4069D/1370_10635_1699518221_1231_RL-928-528-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589234679234428928',
       label: '胡*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33898_80815_1699518212_17225_RL-1264-944-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436392292077564216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C4DD05/7682_51273_1699518207_7321_RL-1776-272-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1563803190871195648',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/89882_41137_1699518138_95881_RL-1696-528-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462414519906364738',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230527/capture/DFC-RZ-05240017C7E29BBE/67922_81639_1685150129_88862_RL-832-672-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1582219584075726848',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C7B9B3/18994_99961_1699518102_41621_RL-928-672-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1576023803727708160',
       label: '赵*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70CC4EC/626_25359_1699518102_2205_RL-928-944-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436525654687642203',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E69333/25290_43903_1699518101_45906_RL-976-272-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436968891420274011',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7957261/77178_43463_1699518064_42732_RL-384-896-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589929287668989952',
       label: '周*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C734679E/7634_80743_1699518034_11700_RL-1360-976-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526130217444184064',
       label: '王*金',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/63050_12927_1699518007_38848_RL-1056-448-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436234887280742521',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/99130_7889_1699517968_76679_RL-1088-352-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436945919737355542',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73BCC92/1866_20039_1699517900_51398_RL-656-944-352-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1572882033154195456',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C758E645/1818_94559_1699347249_30724_RL-1008-864-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435075143048392450',
       label: '袁*胜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C75FFAAD/23810_9697_1699517815_18794_RL-1136-400-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1576140480201097216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/99058_7577_1699517581_76641_RL-1664-448-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265783962206208',
       label: '邓*桂',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78EAD39/7594_0_1699517579_7035_RL-1328-448-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526444094509813760',
       label: '何*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78EAD39/7586_56503_1699517578_7033_RL-320-416-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589259823164162048',
       label: '刘*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62994_12503_1699517521_38822_RL-2080-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075398766713847',
       label: '邓*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62970_12463_1699517475_38814_RL-1856-896-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436479977744003675',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7ED0C69/10178_15959_1699517527_16876_RL-96-544-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436470878084034872',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/9042_91223_1699517528_44189_RL-1344-240-160-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589930620329394176',
       label: '王*婷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33874_80247_1699517511_17212_RL-1472-960-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1566935241698836480',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E69333/25058_42167_1699517373_45740_RL-1024-1104-416-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589228075730599936',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7DE820D/14810_45135_1699517362_30666_RL-880-480-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589225087972671488',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/99018_0_1699517299_76604_RL-784-576-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436655513980139274',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C70EB38F/73402_19895_1699517281_36601_RL-1440-192-144-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567093868648726528',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/72810_90847_1699400264_69123_RL-1760-1040-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438479616454192496',
       label: '胡*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/98986_6951_1699517220_76577_RL-592-512-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589442104214421504',
       label: '张*琼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/5938_0_1699500623_42678_RL-576-256-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1580345826423603200',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7475D5A/72514_25057_1699517045_15498_RL-368-0-192-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589441477119836160',
       label: '杨*秀',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33866_79821_1699517023_17204_RL-1664-1056-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436380718583541589',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/7954_37759_1699516991_4701_RL-848-608-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436433609042195035',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C746317D/15682_43535_1699517085_25806_RL-688-1040-320-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539033622361673728',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6970_8895_1699516933_11863_RL-1184-928-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589232240141795328',
       label: '闫*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7367825/25026_60967_1699516891_6967_RL-1104-112-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435079087220870708',
       label: '代*露',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/89242_38079_1699517001_95551_RL-1136-624-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436487353377256266',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/98970_0_1699516892_76540_RL-1120-352-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438882531681530613',
       label: '杨*楷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C747DA04/27938_83207_1699516813_9027_RL-240-464-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436395619687353452',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/98938_6145_1699516690_76497_RL-1696-736-272-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435227475857932155',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7667AD5/12618_72305_1699516688_23428_RL-448-528-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1556125658436861952',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79186CD/4418_32519_1699516670_4040_RL-1120-400-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1539056087460745216',
       label: '周*银',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C747F472/58778_19255_1699516522_15483_RL-224-832-256-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589270027167596544',
       label: '胡*治',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06200017C7CB1126/29394_0_1699516580_15150_RL-240-176-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526143933292220416',
       label: '胡*玲',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7DEA506/1202_6319_1699516407_582_RL-1264-624-320-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435648379414927420',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C761AB5B/24882_0_1699516387_23536_RL-1296-912-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1532161038949027840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7565CD5/29602_98135_1699516343_28335_RL-160-352-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589265829923389440',
       label: '袁*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/7930_37679_1699516276_4689_RL-2352-976-208-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467082104774090163',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/94474_64871_1699516272_88857_RL-752-784-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075004451799044',
       label: '彭*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C725B60B/40698_13967_1699516206_27135_RL-432-912-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229576481931264',
       label: '胡*逸',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/36738_89279_1699516147_59712_RL-1728-768-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231604239171584',
       label: '熊*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7BC8630/31642_71055_1699515769_9148_RL-1376-368-304-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435169995706625794',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A5E385/11890_26567_1699515806_12128_RL-528-1024-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589230314314530816',
       label: '郭*瑶',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/36698_88431_1699515787_59600_RL-1776-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435077444664315444',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7983946/12642_23927_1699515595_3570_RL-1168-512-128-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435074712024930358',
       label: '胡*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71833BB/818_31025_1699515524_27270_RL-2064-832-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589258824940781568',
       label: '袁*强',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71D2112/10290_93599_1699515402_5487_RL-928-656-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589935691901435904',
       label: '汪*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C74FBC64/61466_66743_1699515477_64284_RL-1264-480-224-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435084823585902132',
       label: '胡*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78EAD39/7530_54879_1699515449_6956_RL-1856-480-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1554998380084592640',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06210017C76A6A5B/25746_46023_1699515368_34228_RL-144-688-176-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589229076877410304',
       label: '杜*枚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7D06BCD/8090_98943_1699515171_3444_RL-1968-512-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589260377101697024',
       label: '邓*壵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/37786_21631_1699486403_22982_RL-800-304-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589231849249439744',
       label: '周*柱',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33810_78175_1699515020_17163_RL-2128-1120-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1540850385592258560',
       label: '张*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C751AC54/75498_58287_1699515031_7761_RL-832-416-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1576123184317464576',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78EAD39/7514_54439_1699514882_6935_RL-2144-512-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527643345294200832',
       label: '赵*霜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7836465/20_0_1699514800_15_RL-1140-232-136-172-V01-CS178d8a7547f0_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1530444316470677504',
       label: '邓*辉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E61B20/8746_57415_1699514688_63183_RL-2128-848-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589259663520563200',
       label: '毛*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/60466_0_1699514559_15463_RL-720-512-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527783903652220928',
       label: '雷*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C74FBC64/61418_65783_1699514641_64234_RL-400-848-400-432.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589235970497052672',
       label: '周*忠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C73E2063/8682_12815_1699514186_1971_RL-1248-496-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589262620882370560',
       label: '彭*武',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7D5D137/42906_91295_1699514137_29721_RL-32-544-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589441254096109568',
       label: '向*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7083768/29186_39239_1699513769_11720_RL-48-992-336-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1574003775130042368',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74F054C/50482_27383_1699513775_23766_RL-144-688-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436318101299032376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/91410_0_1699513642_28180_RL-544-320-320-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435519999839325722',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C75DB2A3/3770_76839_1699513634_8552_RL-672-656-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436473905733988181',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/8586_89855_1699513555_43973_RL-1824-288-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589261165790232576',
       label: '谭*香',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C722FDBC/28786_63663_1699513460_20879_RL-1008-448-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589270548481835008',
       label: '吴*清',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/20234_0_1699513393_34340_RL-1232-112-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435080015823002615',
       label: '李*蓉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7126D53/40994_98327_1699513461_27674_RL-1648-416-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438590261874945392',
       label: '杨*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CCA430/10874_41439_1699513303_3601_RL-1200-528-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1554789911893114880',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72FA6FB/4506_87023_1699513288_28513_RL-288-592-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231828235976704',
       label: '余*会',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C77C3B4E/13165_0_1699513272_8855_RL-970-324-114-158-V11-CSae62187f2cdd_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1564478040602312704',
       label: '胡*然',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/71858_0_1699513273_28955_RL-1824-320-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1572767484023406592',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-04560017C70C9E01/22194_24375_1699513203_14637_RL-1744-624-320-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436482017870246491',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33746_76663_1699513057_17140_RL-1280-944-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526344397816336384',
       label: '高*玖',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CC5258/5698_5087_1699513113_10947_RL-2352-720-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589223751038271488',
       label: '邓*灿',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78EAD39/7450_52975_1699513002_6872_RL-1376-320-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1540160988630749184',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7749F3D/61874_18983_1699512963_53955_RL-992-528-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589929214914592768',
       label: '李*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62538_9159_1699512855_38584_RL-1696-640-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589270347146854400',
       label: '吴*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76B7F2A/4466_93191_1699512723_1098_RL-1008-96-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436632751240672074',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C78D1C47/10425_0_1699500201_5956_RL-1430-728-164-158-V08-CSf4b9bd7df2dd_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589438651614363648',
       label: '王*坤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7CFE91E/10938_23793_1699512571_26906_RL-1344-704-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1568437953603043328',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70302F0/94242_37175_1699512453_33600_RL-336-160-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589229805906165760',
       label: '梁*葵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15898_79671_1699512482_15084_RL-1712-1104-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589262641413488640',
       label: '谭*光',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/7810_36959_1699512289_4603_RL-1952-592-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225258051698688',
       label: '杨*春',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C726ACF1/29226_38849_1699512318_15564_RL-496-896-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1574612447191367680',
       label: '周*翠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C4DD05/7586_48097_1699512242_7221_RL-1968-496-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526514474989654016',
       label: '刘*彬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/39146_40055_1699512251_24437_RL-2032-0-192-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589268415137185792',
       label: '杨*权',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7361331/1346_93591_1699512180_7984_RL-336-512-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436393713023863916',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7426FC3/79450_27079_1699512049_94024_RL-752-416-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539056044456546304',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/20202_58359_1699512015_19263_RL-304-656-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1528241068355620864',
       label: '秦*福',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33666_75759_1699511964_17114_RL-1312-928-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455943190474681651',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C70A5C79/50234_59487_1699511918_6030_RL-448-448-592-576.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436390627995841115',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C78E6E5F/13426_94469_1699075684_14647_RL-752-464-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526150246634098688',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74C07A5/8178_36745_1699511743_3789_RL-1088-784-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '484337137647374409',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15874_79511_1699511690_15064_RL-2208-848-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1538845420665442304',
       label: '周*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CA436F/8578_55551_1699511741_18149_RL-1440-1280-192-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589259634454036480',
       label: '别*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C724872C/27042_42495_1699511735_30528_RL-928-496-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1529348867898740736',
       label: '袁*婷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78E6E5F/37058_84759_1699511480_42180_RL-816-448-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434207258117697598',
       label: '汪*新',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C797552B/77194_1975_1699511435_72666_RL-1312-288-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589223682071330816',
       label: '赵*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C747F426/7282_91383_1699511318_9111_RL-48-784-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589227919488581632',
       label: '刘*蓉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62402_7647_1699511382_38489_RL-2160-576-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526745015462662144',
       label: '丁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C70EB38F/72442_11679_1699511356_36025_RL-1776-224-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434313474034659390',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62338_7425_1699511182_38472_RL-768-576-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436446417121211210',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/20130_56943_1699511163_19224_RL-944-496-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265577719889920',
       label: '王*铭',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C7918619/8498_13759_1699192717_1855_RL-1312-336-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436242254777053013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/88170_26383_1699511104_94561_RL-176-928-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436250351058841912',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A77377/23226_48583_1699511040_42383_RL-1232-608-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265129826942976',
       label: '杨*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62298_7239_1699510987_38461_RL-2240-624-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436388954653084780',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7201AA6/52290_2239_1699485725_15355_RL-1568-640-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436955797121948950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/97954_99559_1699510757_75805_RL-1264-336-208-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539545132963991552',
       label: '王*元',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06200017C74ED140/6234_58463_1699510713_7369_RL-1664-1008-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1534124863755653120',
       label: '吴*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78E6E5F/37010_83663_1699510689_42111_RL-544-912-384-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589264533786984448',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C7B38BCD/63002_46169_1699510578_32597_RL-400-1120-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589274802609192960',
       label: '梁*庚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62250_6849_1699510564_38443_RL-1152-560-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436428643858673976',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C720B5B2/25146_70175_1699510413_7147_RL-1760-976-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436250193671779146',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/90698_0_1699510395_27956_RL-384-256-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589259189878784000',
       label: '屈*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CB8B2D/21370_51705_1699510362_7576_RL-1856-1152-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1535200131232567296',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62226_6561_1699510338_38424_RL-1504-624-208-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526897568385077248',
       label: '杨*秀',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79997F3/106_7729_1699510289_354_RL-1888-576-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589263484753805312',
       label: '刘*婷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7426FC3/79090_22303_1699510327_93642_RL-288-384-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562582053227069440',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76FB3B9/19490_46511_1699510216_6477_RL-1152-688-336-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434908201276698370',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/71482_21681_1699510221_28791_RL-2032-768-272-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526152500460130304',
       label: '王*柱',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6914_8135_1699510112_11817_RL-608-704-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589221384762949632',
       label: '何*锦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C759BD2E/12706_59799_1699510059_24974_RL-2048-1008-336-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1574305287249068032',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C70EB38F/71986_8789_1699508667_35848_RL-1456-256-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435080720113749556',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C76DD03B/8370_69873_1699509967_47216_RL-736-848-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526486545693937664',
       label: '袁*满',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/62114_6055_1699509935_38386_RL-1408-512-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589228163240558592',
       label: '赵*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C797552B/77074_0_1699509864_72403_RL-768-416-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1553290226569314304',
       label: '毛*安',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C741621F/8090_76143_1699509752_9092_RL-1424-768-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458235967665361053',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C747F426/7234_91063_1699509269_9075_RL-688-544-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '439024924728782209',
       label: '周*富',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C747DA04/27850_81463_1699509218_8935_RL-336-448-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589234644157464576',
       label: '程*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C747F426/7210_91031_1699509089_9071_RL-208-624-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436360907728122698',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C738BAED/36434_0_1699509200_27448_RL-1392-16-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526425089434718208',
       label: '徐*美',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7957261/76778_41001_1699509176_42434_RL-912-592-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1545009466078924800',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/90138_71271_1699508996_27773_RL-1264-0-224-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436487507895415387',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7503E53/46298_49_1699508906_14708_RL-176-848-448-416.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589233470184357888',
       label: '别*宇',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/71130_0_1699508818_28670_RL-1312-288-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435079639510044212',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/61882_3935_1699508013_38295_RL-1856-576-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589268434183520256',
       label: '胡*明',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/13538_0_1699417373_12761_RL-1664-864-240-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589268011225710592',
       label: '杜*霜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C743FCC1/59602_41295_1699508444_18357_RL-1904-0-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526722315100884992',
       label: '姚*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15778_79119_1699508409_15010_RL-1872-672-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436499318803812473',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/97634_97217_1699508485_75535_RL-1344-496-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589266131670007808',
       label: '杨*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25106_31337_1699485711_21839_RL-1312-848-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589274140794159104',
       label: '姚*芬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7475D5A/71722_23343_1699508189_15295_RL-0-16-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1548618261673807872',
       label: '陈*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/26498_0_1699507971_23258_RL-1632-960-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1583393288549826560',
       label: '张*曦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/89938_0_1699507654_27678_RL-1520-160-304-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436481524703982410',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C766CCAD/46482_32721_1699507673_67296_RL-1872-816-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589441084952412160',
       label: '李*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C747DA04/27802_80991_1699507406_8889_RL-272-608-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526336086136066048',
       label: '周*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C721D193/2210_77943_1699507388_2104_RL-1088-752-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438702411490553200',
       label: '魏*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7DAADA1/4018_65071_1699507234_3457_RL-1024-576-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589224015250063360',
       label: '章*伦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/59978_14263_1699507319_15319_RL-768-512-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436355359737662572',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7F9583B/32506_22833_1699487420_43069_RL-2032-960-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1566946277915099136',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78E6E5F/36810_78991_1699507195_41780_RL-624-384-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436493798999094090',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C738BAED/36362_0_1699506890_27377_RL-1440-32-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589441207354785792',
       label: '袁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CDC011/15202_39207_1699506811_10244_RL-2176-704-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455359826625577995',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C7E785EE/9682_687_1699505961_6340_RL-1232-304-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456343084830058371',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-06680017C75443DD/21106_94647_1699415747_11965_RL-880-384-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589438885383897088',
       label: '高*元',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C74F4B47/13730_8247_1699505823_8345_RL-736-624-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436934413167643681',
       label: '黄*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E61B20/8730_22543_1699505806_59966_RL-2096-736-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1539545800391004160',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C779996D/18146_0_1699505628_6142_RL-128-144-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436225957842406508',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/61706_2177_1699505748_38216_RL-304-640-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526402813607809024',
       label: '赵*桂',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7957261/76434_39809_1699505700_42265_RL-1712-704-304-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435664519667142347',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C76C6242/32770_0_1699505221_10245_RL-592-336-304-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589268511216107520',
       label: '江*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7F04E7D/55378_0_1699505216_20722_RL-64-256-352-368.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589438481480810496',
       label: '陈*翠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C70F28D7/15578_22575_1699505054_3247_RL-1264-512-144-128.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589929994514071552',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/61626_1481_1699504958_38186_RL-912-512-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434613076407378983',
       label: '娄*兵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/39002_36921_1699504875_24241_RL-1632-112-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589233975862231040',
       label: '李*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7B12B59/26122_72777_1699504652_15035_RL-2208-80-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589231061169078272',
       label: '袁*兴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06210017C76A6A5B/24178_32911_1699504498_32980_RL-736-688-160-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589229655372595200',
       label: '向*妮',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71C0535/16770_34233_1699504407_27025_RL-416-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265162970333184',
       label: '胡*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70D9BD9/8522_27319_1699503762_5332_RL-2096-688-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527439665504718848',
       label: '赵*雨',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A9FB36/17186_83145_1699494883_2689_RL-2304-1088-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436626206834585912',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7DE820D/14194_26407_1699503711_29425_RL-512-544-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539549124867657728',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/93898_57111_1699503323_88139_RL-544-848-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526172296241221632',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A01727/74386_34981_1699503191_34385_RL-1408-720-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455883972690339700',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72870C0/2002_30759_1699502932_4422_RL-1168-400-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1562582444039733248',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C77A6B9B/26738_0_1699502846_12073_RL-272-368-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589928031441387520',
       label: '高*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C787EEEB/10042_36975_1699502444_4641_RL-1168-528-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589442068596391936',
       label: '郑*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C70EB38F/70874_3647_1699502463_35459_RL-448-208-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1530866779864174592',
       label: '汪*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/87346_13079_1699502269_93428_RL-480-576-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589227337952526336',
       label: '别*雪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/19146_95593_1699411097_15071_RL-1120-448-208-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589223531596480512',
       label: '朱*晨',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C77C3B4E/41025_0_1699501925_8100_RL-354-552-114-136-V09-CS8131de7761e2_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1570714892531400704',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C746317D/15554_33489_1699501809_25318_RL-464-784-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1528946800692563968',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/19802_43465_1699501577_18878_RL-1456-816-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435473794446946323',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/96306_90417_1699501237_74715_RL-1616-416-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526815874466451456',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C797552B/75882_93241_1699501164_71554_RL-816-320-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589441015180165120',
       label: '胡*银',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/19762_42591_1699501136_18827_RL-2256-944-288-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1529348843563388928',
       label: '郑*瑛',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7EEC09E/36770_78647_1699500983_10314_RL-1904-864-592-576.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1538866161599385600',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/96130_89799_1699500588_74630_RL-480-896-320-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527823637904625664',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/70322_16375_1699500480_28217_RL-2112-288-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526486099587764224',
       label: '邓*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06200017C7CB1126/28242_0_1699500239_14672_RL-816-192-208-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589224319513264128',
       label: '赵*婷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73C1892/16250_0_1699499756_52946_RL-320-720-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1552559971370012672',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59250_81535_1699488311_36676_RL-2240-608-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436327981149876053',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C70EB38F/70074_98519_1699499287_35017_RL-944-112-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589223923705184256',
       label: '张*琼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73803E1/9914_55943_1699499302_4462_RL-336-640-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436319249380701002',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74E759A/36450_84183_1699499292_59063_RL-384-1008-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434027052362919803',
       label: '袁*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70481CF/19386_33095_1699499196_14825_RL-1984-656-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075138904414262',
       label: '汪*联',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/4530_78391_1699499054_42199_RL-864-352-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436494642909836106',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7089940/33218_86361_1699498968_28687_RL-880-336-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1540660375517663232',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06210017C76A6A5B/23066_21897_1699498033_31959_RL-128-608-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1529781783103541248',
       label: '杨*树',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C748D839/78666_0_1699498437_33247_RL-1168-16-304-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526839874257162240',
       label: '赵*杰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C747DA04/27714_80263_1699498400_8795_RL-912-304-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435361285647915063',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C783707A/3938_76951_1699498335_41965_RL-1152-208-144-128.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075254952423170',
       label: '曹*斌',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CC5258/5658_61945_1699498330_7515_RL-992-512-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589235105316995072',
       label: '周*明',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7124A56/1986_20327_1699498313_1976_RL-128-800-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589269990039617536',
       label: '李*金',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E5DC46/71130_70457_1699498223_26035_RL-1488-320-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436240300214612571',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7FAE9ED/51474_0_1699332524_20838_RL-1136-336-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589231416581816320',
       label: '艾*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C743FCC1/58946_40015_1699498187_18184_RL-2032-0-272-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1581116724307034112',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7468355/1963_0_1699498016_1826_RL-1008-754-136-150-V03-CS77bb476f3f5f_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434904324347287606',
       label: '徐*垚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C774CA0F/3418_28527_1699497998_3419_RL-1920-1104-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1590276830680580096',
       label: '杨*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/33114_62367_1699497938_16705_RL-1392-1120-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436430644709453653',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06200017C79BFDBD/15922_91695_1699497798_23170_RL-1232-976-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1568043433505849344',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C779996D/17978_41807_1699497796_6076_RL-48-16-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436272814509543545',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7D56C22/65722_48585_1699497679_23884_RL-800-688-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589227386623229952',
       label: '张*一',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E8E817/27242_31753_1699497360_17562_RL-1664-528-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589273065244590080',
       label: '别*明',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/59194_12655_1699497338_15101_RL-1152-96-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589926564743610368',
       label: '桓*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CC5258/5610_58465_1699497316_7182_RL-1168-992-304-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589928706866937856',
       label: '吴*恒',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C71A1545/234_0_1699497197_586_RL-1024-328-136-180-V10-CSfcd3db123067_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1557326075711717376',
       label: '王*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/26362_43985_1699497170_22874_RL-1712-960-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434035518867526729',
       label: '杜*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C09F99/1706_25767_1699496937_1961_RL-1680-528-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589229465831997440',
       label: '周*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79DF598/9338_44639_1699496934_9468_RL-1248-272-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1534059270104944640',
       label: '龚*磊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06210017C7DACA61/314_8383_1699496891_940_RL-2144-1264-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464615713278030565',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7503E53/45218_0_1699496598_14310_RL-512-0-256-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436497417274149996',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-06680017C7ECB666/24498_4775_1699496644_22099_RL-128-48-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589230326146662400',
       label: '赵*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E4069D/1106_8551_1699496342_984_RL-512-816-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1550989183344971776',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79D5A8C/5938_66631_1699496222_2586_RL-1184-192-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1581155011197403136',
       label: '周*洋',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-04560017C70C9E01/21378_0_1699496326_14217_RL-1008-256-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435629340579872830',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/53962_25809_1699416190_32739_RL-1472-592-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1554999439888744448',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73FE700/1794_68895_1699496146_51065_RL-928-592-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436337521027207289',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7667AD5/8834_66945_1699496015_22738_RL-176-592-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526396073122205696',
       label: '李*秀',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/58810_76375_1699485634_36274_RL-1616-640-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1542452021620117504',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06210017C76A6A5B/22394_17751_1699495870_31522_RL-176-544-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589267538754142208',
       label: '陶*丽',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79186CD/3034_17857_1699495678_2232_RL-0-752-224-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1590620568137236480',
       label: '王*忠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15522_77607_1699495572_14824_RL-1696-816-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589259349128118272',
       label: '袁*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/59026_12327_1699495494_15058_RL-528-608-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434349959848947579',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C7B9B3/18290_73785_1699495439_39769_RL-2000-1024-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436342034148651320',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7BC86E4/40954_0_1699495429_17459_RL-96-224-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589264713991061504',
       label: '舒*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7D5D137/41546_82095_1699495143_28806_RL-816-736-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435072293002038836',
       label: '王*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/32882_55733_1699495005_16505_RL-1920-1040-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589234498564784128',
       label: '赵*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72A0A96/5994_46303_1699494999_42470_RL-1616-336-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464632738293499096',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/60642_89687_1699494822_37402_RL-2144-576-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436243060754501753',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/15722_75935_1699493952_33239_RL-2224-688-272-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438894729254427935',
       label: '陈*悦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6786_5351_1699494640_11705_RL-1296-800-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589263024676405248',
       label: '袁*倩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7902814/8914_0_1699494526_29888_RL-800-416-256-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1562765079831642112',
       label: '何*润',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/7002_33151_1699494511_4154_RL-1664-768-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589262399834161152',
       label: '屈*杰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C797552B/74802_89337_1699494487_71013_RL-320-512-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225492752367616',
       label: '别*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7AD59DF/978_33883_1699493913_1553_RL-0-1040-224-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589274399373000704',
       label: '胡*成',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C780A5D4/15738_75951_1699493960_33244_RL-208-0-208-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1552601568434458624',
       label: '雷*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/6930_32961_1699493613_4123_RL-1424-672-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589234411881103360',
       label: '黄*会',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15442_76809_1699493245_14748_RL-2128-976-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231194451476480',
       label: '郑*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C773A831/2154_5631_1699493279_614_RL-1392-480-336-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434734594588173351',
       label: '张*妮',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78B4C90/54370_61255_1699489857_44148_RL-976-720-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527166324298485760',
       label: '吴*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/32746_51151_1699493223_16362_RL-2288-896-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434508827333780519',
       label: '代*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C76DD03B/5402_24159_1699320153_31349_RL-400-784-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434445229169341335',
       label: '王*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C73BCC92/89450_65583_1699432800_44756_RL-1744-784-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589274332297691136',
       label: '向*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/26130_39913_1699492740_22535_RL-1776-784-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1529302987795599360',
       label: '李*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7959E7E/6754_5167_1699492578_11683_RL-448-848-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435076984213634939',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/85778_92471_1699492579_91758_RL-864-576-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589267986529648640',
       label: '杜*山',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/60322_87295_1699492413_37208_RL-1632-960-304-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434207126718534729',
       label: '梁*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C787EEEB/9714_36211_1699492364_4529_RL-816-368-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075158751854596',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7B23736/11882_86785_1699492216_8299_RL-1216-432-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589232719986950144',
       label: '刘*辰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C748D839/77210_18127_1699491997_32601_RL-1136-1040-320-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589233812506673152',
       label: '秦*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C77CAC23/22034_31199_1699491794_10754_RL-1104-576-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1556441839446261760',
       label: '胡*贤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C715CB04/55562_10959_1699491788_14985_RL-1040-832-432-448.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589234576062939136',
       label: '赵*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15402_76177_1699491666_14711_RL-2080-864-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '485014391964595183',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/60250_86503_1699491546_37150_RL-1888-528-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434196704661627943',
       label: '陈*美',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/60226_86425_1699491457_37143_RL-512-496-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526832479938285568',
       label: '彭*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78E6E5F/35458_58239_1699491444_40311_RL-1200-576-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1575655184363683840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71833BB/298_11967_1699491431_15577_RL-0-688-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434910912676118532',
       label: '杨*兵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25938_38241_1699491204_22400_RL-1584-912-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589233052544925696',
       label: '袁*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7ED0C69/9802_4049_1699491169_16291_RL-800-512-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1579995030041395200',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7D002D9/29778_0_1699491123_20433_RL-224-64-368-368.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1528291201692733440',
       label: '周*彤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/2482_52151_1699491108_23224_RL-1696-544-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1529788513728335872',
       label: '袁*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25890_37921_1699490857_22377_RL-1408-880-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436248887800394570',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A62E9F/36842_26071_1699490500_16616_RL-256-112-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539167237749870592',
       label: '杜*彩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7550AB1/19210_24311_1699490343_18146_RL-416-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1576801866824548352',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-06680017C7B38BCD/56554_18625_1699433362_29044_RL-608-720-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567671722159636480',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C715CBF8/10226_21927_1699489983_3110_RL-192-480-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526343034726256640',
       label: '黎*元',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59898_84679_1699490001_36977_RL-1360-496-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438580126809090045',
       label: '杨*泉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C71C0535/16282_17423_1699489897_26447_RL-16-512-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1588746687176769536',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70CE7E9/11978_57639_1699489834_7637_RL-368-224-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '484972187351008442',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB577D001425B324/97699_97701_1698595545_3727367_RL-1622-871-182-205-CS34020000001320000013.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563839320815566848',
       label: '胡*蓉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59882_84439_1699489789_36952_RL-2384-640-176-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435075251227875382',
       label: '李*林',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C715CBF8/10202_21887_1699489757_3103_RL-368-512-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589272775556595712',
       label: '别*年',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C783E976/538_58771_1699489768_706_RL-0-560-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '437210566512100466',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7126D53/38250_85367_1699489744_26094_RL-1232-224-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589262692277813248',
       label: '谭*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25706_36705_1699489642_22266_RL-1040-960-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438827007317396645',
       label: '龙*友',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59802_84151_1699489551_36926_RL-1968-560-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436372476423860827',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-04560017C733DEB5/9250_10901_1699489445_1027_RL-176-992-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589230242436743168',
       label: '吴*山',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7CC5258/5482_28495_1699489368_4814_RL-2352-528-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1558814549493153792',
       label: '张*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7BADC2F/21754_79431_1699489341_62570_RL-656-480-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589231891850985472',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78A9584/93450_72057_1699489253_72507_RL-1072-528-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434444612740863049',
       label: '饶*君',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C76DD03B/7594_28575_1699488956_45531_RL-1088-672-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589236142710980608',
       label: '胡*会',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59554_82975_1699488950_36823_RL-1616-672-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457242985906598407',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7A07C5B/1938_33303_1699488906_3016_RL-0-400-128-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1552569300835897344',
       label: '李*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78989F3/49538_71511_1699488758_9505_RL-1504-240-320-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589234348891045888',
       label: '胡*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25554_35729_1699488815_22192_RL-1136-944-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435074956955507703',
       label: '董*泽',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78D8164/57426_27903_1699488537_14236_RL-1536-0-208-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526365328328626176',
       label: '周*会',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/32314_42215_1699488573_15987_RL-2016-912-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589236188022046720',
       label: '胡*满',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C73FE700/99370_57239_1699488472_49691_RL-1264-464-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '451309894696466216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15218_74287_1699488451_14562_RL-1568-800-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460088090506055837',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7083768/27858_31791_1699488281_11120_RL-1728-496-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526148458564554752',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C743FCB5/2562_0_1699488229_80413_RL-256-576-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589235689084420096',
       label: '杨*莉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E61B20/8402_37463_1699488189_51762_RL-2416-800-144-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589265117361471488',
       label: '汪*海',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70B780A/4626_20193_1699421855_2588_RL-608-880-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075478357835643',
       label: '胡*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7BC86E4/40306_36551_1699488103_17124_RL-1280-32-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526506658811875328',
       label: '梁*轩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7825984/83754_77631_1699488095_90313_RL-1104-1072-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1534711994907627520',
       label: '李*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7749F3D/59458_6791_1699488084_52355_RL-1360-304-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436477245037497452',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7BADC2F/21698_76151_1699488065_62459_RL-2064-896-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1541301185812631552',
       label: '阮*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FD51AC/986_22015_1699487900_2636_RL-0-800-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467069779123913961',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7367825/24586_0_1699487791_6168_RL-1184-32-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589224495577563136',
       label: '王*星',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C76A4C4F/32154_41111_1699487718_15914_RL-752-800-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589262557741318144',
       label: '谭*琦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/394_0_1699487709_22687_RL-1600-480-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435075154943438594',
       label: '袁*琳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7E61B20/8386_34369_1699487655_51431_RL-1968-752-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '454354845399283499',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7FAE9ED/68474_0_1699487647_27227_RL-1424-144-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589257979142602752',
       label: '周*艳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7865139/8354_47423_1699487571_16070_RL-1040-1232-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526332258602979328',
       label: '龙*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C70B780A/6586_30695_1699487443_3841_RL-2272-1088-288-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589229811358760960',
       label: '郑*熙',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/98770_46551_1699487344_22366_RL-1616-816-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434136270025814078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C78C469A/76402_84407_1699487327_12179_RL-128-544-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469577645105900870',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/91866_0_1699487305_86766_RL-1648-1152-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435074911657023542',
       label: '赵*铄',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C749E416/170_855_1699486424_69_RL-2016-64-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438812318093034572',
       label: '周*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/59034_79039_1699487163_36496_RL-2288-672-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436939615866222410',
       label: '胡*东',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7024F53/11690_0_1699486956_2507_RL-1456-368-320-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458058489164488011',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74F054C/47682_14255_1699487063_22462_RL-1072-528-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1528333440401805312',
       label: '饶*清',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C761CA54/11362_25431_1699487029_21084_RL-2272-720-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567092954210762752',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7B15150/36826_89311_1699487028_18775_RL-2240-768-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435438910823221671',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C77729D3/10378_0_1699486963_6930_RL-1600-0-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435075242067521282',
       label: '袁*宸',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/90242_38855_1699486920_86095_RL-1792-944-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589929423476359168',
       label: '王*早',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7423914/56514_26047_1699486841_16702_RL-1584-176-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436936464584950898',
       label: '沈*伊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/96842_43951_1699486861_21951_RL-1648-784-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436248556467154773',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/89386_36519_1699486799_85732_RL-896-960-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436408510142509659',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7089940/32202_76769_1699486803_27703_RL-752-368-208-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075040069834806',
       label: '廖*毅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/89034_35575_1699486761_85608_RL-1536-1040-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589268526718255104',
       label: '邓*杰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/88946_35295_1699486743_85543_RL-1920-1152-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1555341009246748672',
       label: '杜*博',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/88826_0_1699486725_85499_RL-2048-976-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1573810564830855168',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C75363F5/10442_33495_1699486677_9561_RL-848-576-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1554946632884158464',
       label: '龙*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7D22BA6/16578_44335_1699486583_5438_RL-224-672-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436415989224075576',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7C776D4/95794_42287_1699486574_21689_RL-1680-656-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436523238281999178',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-06680017C79024ED/24818_95415_1699486532_23928_RL-1152-976-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436939681129590107',
       label: '张*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C714D512/45402_12825_1699486528_18763_RL-2288-16-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438868405752198950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7ED529D/28922_84559_1699486388_30113_RL-912-656-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526138170045894656',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/37738_21503_1699486320_22965_RL-16-128-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1567100139326144512',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/86442_28087_1699486284_84477_RL-1168-624-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435077299172301815',
       label: '刘*铄',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/86298_27687_1699486255_84395_RL-2128-1264-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589263040124026880',
       label: '胡**源',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/85778_26079_1699486147_84155_RL-1440-832-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225194185031680',
       label: '张*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7423914/56426_0_1699486091_16665_RL-736-576-320-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1539209305310367744',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C74FBC64/57434_11519_1699485887_59474_RL-1104-368-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589223537225236480',
       label: '杨*媛',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25122_31369_1699485726_21843_RL-1440-976-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1534802113580765184',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C708146F/37002_0_1699485662_22703_RL-208-352-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589272126509023232',
       label: '杨*松',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C74A36EE/15026_72103_1699485618_14425_RL-1760-640-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589269900600279040',
       label: '李*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7457B90/58794_76311_1699485592_36264_RL-2176-656-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589263692522848256',
       label: '杨*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C747F426/6506_87127_1699485464_8595_RL-0-512-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1574932649691054080',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7089940/31938_75543_1699485553_27591_RL-1424-368-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1527245370277498880',
       label: '袁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C72A0A96/5914_0_1699485270_42116_RL-1696-592-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589264273387814912',
       label: '王*凯',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7BC8630/30026_67471_1699485151_8691_RL-704-336-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1576762092948553728',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C78E3870/25034_30769_1699485161_21785_RL-1136-848-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1571639333763416064',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C75CDCFD/26258_94511_1699485052_54725_RL-880-912-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229563139850240',
       label: '闫*彬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C710FCA6/57138_8823_1699484766_14577_RL-1328-192-160-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589928149703983104',
       label: '李*贤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/83066_0_1699484223_25086_RL-1088-32-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1550802636150673408',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/82434_0_1699484045_24980_RL-48-128-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436529208068426860',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C79ECB45/81386_0_1699483822_24822_RL-480-64-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1563093161113288704',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7F04E7D/53058_0_1699483630_19702_RL-656-96-336-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438884778133975797',
       label: '高*章',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-04560017C7EEC09E/34754_74447_1699483404_9773_RL-1360-464-432-432.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589228948762394624',
       label: '杨*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231109/capture/DFC-RZ-05240017C7B30AE3/1338_32455_1699480964_2328_RL-1456-624-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469645623432342854',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/59306_78543_1689460202_41083_RL-2272-768-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589231661214597120',
       label: '李*文',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7423914/55122_22823_1699457883_16270_RL-1712-176-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527419286245609472',
       label: '袁*福',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76921BA/48546_11695_1699457917_13460_RL-1072-224-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438997218129636737',
       label: '何*坪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/21642_39999_1699449507_16514_RL-896-528-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589235167510134784',
       label: '胡*刚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/21634_39999_1699449505_16512_RL-1120-336-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589261748450361344',
       label: '邓*机',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C723199D/1738_10607_1699449049_762_RL-1280-592-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526345294726303744',
       label: '高*燕',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76E97E4/10522_55735_1699447321_2743_RL-1088-208-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589263585341603840',
       label: '胡*臣',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7423914/54650_21599_1699447264_16112_RL-864-352-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434021307340844923',
       label: '赵*翔',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C77CAC23/15866_13471_1699446509_10380_RL-288-688-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589224700796469248',
       label: '屈*文',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7494D56/11210_36007_1699445671_25913_RL-1040-432-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589258325306900480',
       label: '杨*鑫',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7BE3AD4/45994_0_1699445365_19968_RL-1184-336-304-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527061227136618496',
       label: '杨*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-06680017C747DA04/25874_75295_1699445325_8295_RL-112-624-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436340727622955850',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7EEA059/20298_85545_1699445382_10206_RL-16-1008-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434210775226150974',
       label: '李*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C751AC54/70282_53351_1699445087_7111_RL-1184-304-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435080306807033396',
       label: '高*章',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C710FCA6/55578_5967_1699444445_14200_RL-544-512-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1584330766429454336',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7D002D9/28354_0_1699443775_19570_RL-160-304-320-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589272142975860736',
       label: '吉*清',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C747AF7E/4338_0_1699442452_2674_RL-336-0-320-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589261942449504256',
       label: '李*柱',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7BE3AD4/44962_0_1699441760_19693_RL-1312-144-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435074966535307131',
       label: '费*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/21138_32367_1699441317_16075_RL-1056-496-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589259860610908160',
       label: '袁*墨',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76A9E73/16442_21527_1699440881_3362_RL-2048-1120-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589263673493291008',
       label: '胡*丹',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C70F28D7/14794_21431_1699440773_3078_RL-1376-528-160-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589269483682267136',
       label: '李*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76A9E73/16378_21479_1699440867_3358_RL-1344-464-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1528130511820558336',
       label: '代*香',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C715CB04/51962_4359_1699439317_14088_RL-1040-720-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589231575243948032',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C73E2063/7698_11567_1699438747_1768_RL-1216-448-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1553542987500224512',
       label: '陈*会',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7426FC3/67778_511_1699438169_84868_RL-352-240-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436375412134662265',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/20666_28263_1699437510_15787_RL-1328-320-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436482149554606201',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7862B4A/24906_90711_1699437411_9834_RL-528-480-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468532860538614371',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C78E3870/24538_22341_1699436885_21213_RL-896-768-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436068077596078683',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-06680017C70EB38F/64394_61671_1699436800_32466_RL-1808-208-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589263075700113408',
       label: '李*刚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7BC8630/28386_63519_1699436844_8186_RL-1264-416-352-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434871348074928182',
       label: '张*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-06680017C7B38BCD/57258_23087_1699436679_29633_RL-208-704-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1552278082046398464',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/30562_11647_1699436617_15064_RL-1504-912-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589236122452492288',
       label: '林*青',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7BECEEE/31970_38503_1699436511_5122_RL-1312-432-480-464.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438544940994154744',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C797552B/68882_54761_1699436033_67153_RL-608-144-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589224968258846720',
       label: '屈*晨',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C747F472/53898_8503_1699435974_14086_RL-528-832-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438647450002018552',
       label: '覃*喜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7FD51AC/3274_48111_1699435881_5750_RL-1728-896-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436355511470813013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7FD51AC/3250_48007_1699435842_5721_RL-2272-672-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435071863673084919',
       label: '胡*庆',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7B42732/15330_56367_1699435780_6816_RL-1088-384-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589926700391596032',
       label: '石*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/20338_24737_1699435646_15616_RL-1152-496-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436527755195075692',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C797552B/68522_52905_1699435627_66917_RL-640-288-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589441309796466688',
       label: '余*莲',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C71C0535/14970_6703_1699435534_23638_RL-0-512-160-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '485217327760044780',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C751AC54/68714_51039_1699435410_6804_RL-784-656-320-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438867441095829499',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7C8D2B6/32898_55607_1699435453_61600_RL-64-832-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589235519424823296',
       label: '向*忠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C70F28D7/14450_20951_1699435079_3006_RL-1200-480-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589269432553701376',
       label: '田*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C75FFAAD/20162_23311_1699434967_15538_RL-1072-512-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471312113642533411',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-04560017C7423914/87466_89823_1690453504_24397_RL-1488-352-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1567843499150147584',
       label: '邓*潼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C70A5C79/29466_52303_1699434760_5307_RL-0-1120-352-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1567665933189644288',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7EE2846/18370_23863_1699434234_3802_RL-528-784-352-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589439060462534656',
       label: '别**毅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C710FCA6/48058_90991_1699359961_12175_RL-1328-336-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1537775828555796480',
       label: '袁*国',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/57378_50875_1699433899_34629_RL-1424-656-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1542292763150651392',
       label: '刘*荣',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70481CF/15410_12551_1699433825_13819_RL-32-880-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526501951288643584',
       label: '闫*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7EEC09E/33010_70463_1699433630_9260_RL-672-64-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526396088632741888',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C766CCAD/41474_0_1699433504_59243_RL-1312-960-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589926788018995200',
       label: '覃*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/57138_49807_1699433383_34535_RL-1808-480-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589234093726367744',
       label: '李*琼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C79186CD/4162_19911_1699412307_2632_RL-640-624-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589225147552759808',
       label: '陈*菊',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/57066_48977_1699432940_34465_RL-704-592-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436483659436945720',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7E5DC46/63522_40377_1699432959_23265_RL-832-320-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438474332419681648',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7667AD5/2450_53369_1699432929_20973_RL-1024-736-240-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589232145056923648',
       label: '龚*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7959E7E/6290_98105_1699432236_10771_RL-544-960-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463418234821964569',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230620/capture/DFC-RZ-05240017C7457B90/4914_47007_1687215927_3750_RL-2128-768-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1541976504429187072',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7749F3D/54594_70447_1699431977_47847_RL-1744-496-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1542414830948847616',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7056ED2/6250_18585_1699431850_2309_RL-768-0-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435088520260900918',
       label: '李*芬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7550AB1/17362_34743_1699431644_16526_RL-144-640-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435079759332920884',
       label: '胡*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/14074_44655_1699431545_13138_RL-960-944-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265253646991360',
       label: '谭*蓉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/14066_44623_1699431361_13132_RL-2064-960-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435072921040346103',
       label: '陈*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7083768/26090_0_1699431193_10237_RL-1408-960-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1543814039585427456',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C78E3870/23682_14529_1699431102_20559_RL-1520-816-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434198682812837755',
       label: '黄*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7E61B20/7506_8359_1699430900_43070_RL-2384-720-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436493548045487212',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/56802_46185_1699430843_34261_RL-784-544-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434043972806005833',
       label: '王*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C713203C/12338_53695_1699430246_21897_RL-2384-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589441876132364288',
       label: '李*芹',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C713203C/12306_53383_1699429825_21884_RL-1760-528-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435072388950937140',
       label: '张*林',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A17F5/9226_0_1699429587_3702_RL-1872-384-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526711787569811456',
       label: '郑*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70B780A/5026_21625_1699429606_2788_RL-2144-768-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589236253109256192',
       label: '龚*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7550AB1/17218_29247_1699429358_16385_RL-800-688-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589268986703380480',
       label: '田*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C7BD0B05/3458_15455_1699429042_1996_RL-976-576-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1539380823164194816',
       label: '王*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/29866_3989_1699428981_14650_RL-1088-944-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1552861039282880512',
       label: '袁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/28962_93485_1699418957_14081_RL-1456-928-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526458170468208640',
       label: '别*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C75F946D/5186_9871_1699428499_10192_RL-640-192-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589263610415153152',
       label: '贺*宜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C76528FD/18298_1527_1699313020_14224_RL-1744-848-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526136339660017664',
       label: '杨*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C71AEF4A/17258_1087_1699427161_11026_RL-1424-960-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435074655166939140',
       label: '朱*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C750E95F/27338_28623_1699427136_14573_RL-480-176-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '438797285824948221',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7550AB1/17050_24847_1699426745_16241_RL-880-704-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589232993573011456',
       label: '杜*琼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/29586_1215_1699425643_14484_RL-1936-1184-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1532555931076792320',
       label: '汪*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C750E95F/27258_27599_1699425546_14511_RL-0-160-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434213682751238011',
       label: '邓*昌',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C755A5BD/22146_83375_1699411267_10206_RL-1584-800-288-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1587068442492534784',
       label: '胡*涛',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/55618_37823_1699424549_33697_RL-2064-512-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457229746351141383',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C766CCAD/40178_42231_1699424116_57902_RL-1888-832-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589230081388052480',
       label: '周*希',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/29394_99063_1699423902_14336_RL-688-896-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526135799588851712',
       label: '王*新',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C748D839/70146_0_1699423896_29674_RL-1408-0-272-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1541588581590503424',
       label: '郭*胜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C72A0A96/5626_92447_1699423136_39678_RL-1232-624-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1566965651178782720',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7C8F5B3/27610_47809_1699422640_19203_RL-96-592-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526335814433247232',
       label: '刘*剑',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C76A4C4F/29210_97413_1699422540_14251_RL-1744-976-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526129179492356096',
       label: '汪*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C78EAD39/3850_91871_1699421892_4291_RL-1472-240-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436426108133461100',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C75363F5/9258_849_1699421872_8132_RL-2320-496-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1575673685518319616',
       label: '周*坤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70B780A/4602_20071_1699421532_2574_RL-80-672-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1552578926897795072',
       label: '黄*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/55050_34095_1699421330_33433_RL-1456-528-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526513630265217024',
       label: '黄*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/13698_42647_1699421218_12866_RL-1040-1024-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436415214519341177',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70B780A/4514_19777_1699420309_2531_RL-2384-704-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589273770260955136',
       label: '尤*昱',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C715CB04/49634_99495_1699420200_13423_RL-1312-640-336-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436431888471585371',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76C6242/28458_60279_1699419998_8660_RL-0-208-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1562569902399684608',
       label: '周*桐',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74143E2/2962_32721_1699419919_3400_RL-1792-656-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589262713299664896',
       label: '汪*勤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C780A5D4/2866_50559_1699419449_29901_RL-1712-0-176-128.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589229450350821376',
       label: '袁*新',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7CC5258/4930_38177_1699419268_92244_RL-2144-624-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589265967924379648',
       label: '胡*霜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7168EA5/4306_1335_1699418771_7714_RL-80-672-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436934824695984657',
       label: '徐*欣',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C71A1545/2755_0_1699418321_1126_RL-1454-682-114-128-V00-CS020ae0bbc082_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1562562046753505280',
       label: '王*富',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/54474_30063_1699418199_33139_RL-1520-496-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1576867614011949056',
       label: '袁*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/13634_42095_1699417984_12796_RL-1776-1184-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435074861476364292',
       label: '果*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C755A5BD/22626_85023_1699417828_10421_RL-208-592-240-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589271274004152320',
       label: '杨*梅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7550AB1/16442_5431_1699417196_15601_RL-304-608-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526231521118130176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7475D5A/60706_0_1699416771_12937_RL-1392-352-320-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435075215643394052',
       label: '胡*富',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70481CF/14786_94863_1699416666_13009_RL-256-992-256-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567060689275584512',
       label: '龚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/54074_26935_1699416577_32836_RL-2096-528-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1583455139191062528',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70CE7E9/10786_50135_1699416497_6685_RL-1056-528-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1530011588520579072',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/53978_25839_1699416193_32744_RL-1648-496-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589438736951672832',
       label: '曾*伟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7EC1783/1754_34321_1699416045_806_RL-2288-1008-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526415678024716288',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C730ADC7/27354_0_1699415692_6608_RL-1632-928-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434438668556454152',
       label: '陈*堂',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C73C9365/4634_16119_1699415703_1968_RL-576-112-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436352239544595035',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C76CB40E/487_0_1699246339_1662_RL-698-454-128-164-V08-CS65807ae5e240_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1586896229101469696',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C797552B/64066_0_1699414049_60595_RL-544-352-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1536925586943905792',
       label: '袁*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C70B780A/3722_17425_1699413181_2236_RL-1808-736-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1573226805995765760',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7FAE9ED/60602_0_1699412659_24445_RL-864-208-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589267960373968896',
       label: '周*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C713203C/11570_36935_1699411716_21273_RL-2384-720-176-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1564443365884297216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C748D839/67618_0_1699411528_28631_RL-576-160-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434734637252633639',
       label: '陈*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/13282_40351_1699411194_12573_RL-1792-1056-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1568049094717341696',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7BE3AD4/41226_22607_1699410500_18163_RL-608-0-208-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1533352513959366656',
       label: '袁*淑',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7ECBB91/40570_47895_1699410486_48230_RL-320-960-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589274918829162496',
       label: '周*浩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C756F795/20_0_1699410342_5_RL-682-346-236-258-V10-CS6ca33df360b6_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1550423692582850560',
       label: '袁*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C73BCC92/82442_42039_1699408889_41824_RL-992-192-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1553886155311677440',
       label: '袁*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7FB8DDD/20794_27511_1699408627_9718_RL-1536-528-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1557706539735711744',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C76E97E4/9450_0_1699407784_2524_RL-944-272-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589927567853355008',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/52850_15391_1699406507_31943_RL-1664-592-176-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434210637116101705',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C74A36EE/12850_37863_1699401451_12226_RL-1920-1024-304-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1556486662073090048',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230516/capture/DFC-RZ-05240017C75E898C/4962_36927_1684197075_6514_RL-1232-576-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589264738993307648',
       label: '袁*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/51386_6561_1699401756_31244_RL-1616-688-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1552820885331640320',
       label: '汪*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/51194_6065_1699401562_31187_RL-864-592-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470866800544859376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-04560017C74397CD/20290_76327_1699400959_7916_RL-832-896-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526831481190617088',
       label: '黄*银',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/50906_3239_1699400404_30973_RL-1728-512-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589441667167944704',
       label: '周*彤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/71578_86391_1699400013_68481_RL-2240-944-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589267030572269568',
       label: '周*欣',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C708146F/24594_0_1699399751_15137_RL-384-256-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1556099079501512704',
       label: '赵*香',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7338875/14722_41159_1699399664_24831_RL-2112-384-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589262591698403328',
       label: '谭*林',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C72A0A96/5314_56473_1699399499_38010_RL-960-400-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1572880294174785536',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/69538_78623_1699399487_67412_RL-368-960-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589270649048662016',
       label: '邓*月',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/50426_287_1699399002_30747_RL-1264-464-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526149490765991936',
       label: '向*玲',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7FE3792/1082_78151_1699055062_22846_RL-1328-752-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464577955767545341',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7201AA6/42314_81279_1699397765_12272_RL-1744-128-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1567119096934301696',
       label: '陈*黎',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C79ECB45/63426_0_1699397656_18610_RL-448-224-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '437076477264026902',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C79ECB45/62154_0_1699397410_18385_RL-992-128-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589266517663416320',
       label: '朱*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7457B90/49994_97127_1699397121_30509_RL-1392-448-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436936308758174998',
       label: '李*伟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231108/capture/DFC-RZ-05240017C7367825/21594_0_1699396178_4821_RL-1200-16-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1568859971301408768',
       label: '王*扬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C78989F3/25426_0_1699178832_4873_RL-720-0-288-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1534821606029791232',
       label: '胡*婷',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C723199D/1954_9791_1699363189_734_RL-1104-464-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1586575896213454848',
       label: '袁*忠',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C7983946/10410_20087_1699362784_2988_RL-1296-528-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225401886965760',
       label: '袁*文',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C7CA63B4/32298_82471_1699362289_10658_RL-1104-240-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589224062083661824',
       label: '郑*熙',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C78989F3/40258_58991_1699359245_7833_RL-1376-192-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438455116517894141',
       label: '袁*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C75FFAAD/18090_44367_1699356781_13257_RL-992-400-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589224943411789824',
       label: '袁*黎',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C723199D/1074_6063_1699354271_502_RL-1168-464-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526150113267814400',
       label: '邓*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C74A36EE/12074_16543_1699353090_11345_RL-2192-768-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589236085060272128',
       label: '饶*翔',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C7423914/46802_4551_1699352188_13835_RL-864-352-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229911996891136',
       label: '吴*娅',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C710FCA6/46010_87119_1699350360_11647_RL-896-736-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471139943201129712',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C70D16C4/89122_96151_1690704229_58242_RL-1392-32-128-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1530008618324201472',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C76686FE/9354_0_1699349504_2107_RL-1168-80-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1553017880486871040',
       label: '戚*兴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/65890_0_1699349551_64425_RL-784-496-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436439016456342636',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/65842_54135_1699349427_64381_RL-880-1088-336-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435088548463406850',
       label: '艾*晖',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7ACC1CC/1402_6847_1699349209_788_RL-864-880-304-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589227500431474688',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB07B10019C35AB9/28681_28685_1698274701_6700547_RL-2640-817-187-206-CS34020000001320000088.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1562578665743581184',
       label: '闵*新',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C74A36EE/11978_12647_1699348862_11054_RL-2368-768-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589225187188932608',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7C8D2B6/25522_9911_1699348332_48591_RL-656-1232-256-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527228537881235456',
       label: '王*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7457B90/26930_91079_1699088312_15232_RL-2224-560-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1532380275571429376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C74FBC64/44762_54417_1699347697_46641_RL-640-832-336-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589230394174078976',
       label: '黄*兵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230918/capture/DFC-RZ-04560017C7423914/97154_69151_1694993322_61493_RL-1712-128-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1552598072343662592',
       label: '周*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C79997F3/762_14305_1699346740_1004_RL-1392-576-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456175299550266569',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C70B780A/1866_5415_1699345265_778_RL-1232-704-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '438572613585890672',
       label: '周*汉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C79997F3/594_12815_1699345005_880_RL-1648-832-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '477971514927369229',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231023/capture/DFC-RZ-05240017C758E645/16090_10599_1698054750_61105_RL-1728-368-368-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1527630221606391808',
       label: '赵*荣',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/18426_38943_1698966733_16717_RL-1296-1008-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589274675601473536',
       label: '程*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7401007/14298_72913_1699342796_38256_RL-896-704-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589271567806758912',
       label: '汪*怡',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-04560017C747F472/36546_68535_1699223486_9059_RL-624-912-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589438827577999360',
       label: '袁*玲',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C75FFAAD/16514_23151_1699342684_12379_RL-1328-496-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1574974252803686400',
       label: '李*豪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-04560017C710FCA6/39402_74583_1699269211_9977_RL-1408-240-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438733431975724108',
       label: '胡*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-06200017C7C1766A/10498_37679_1699342565_28439_RL-2016-432-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589225717210546176',
       label: '高*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C738BAED/63242_0_1698310814_20643_RL-1488-160-256-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435932764349428024',
       label: '王*娥',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7457B90/47178_72655_1699341227_28407_RL-2304-704-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1566936204752977920',
       label: '潘*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C71CE238/3258_11695_1699338208_1279_RL-1120-400-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434021296183986440',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-04560017C7423914/43866_97943_1699336816_12962_RL-944-416-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1567401816830771200',
       label: '杜*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7457B90/45834_62289_1699333920_27645_RL-2064-736-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462892050342236252',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230601/capture/DFC-RZ-05240017C72A0A96/7794_46633_1685612808_71248_RL-1072-416-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1550322380482547712',
       label: '李*奎',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7457B90/37578_93935_1699244972_22389_RL-1392-464-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539131054164545536',
       label: '彭*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C76A4C4F/23914_23479_1699326662_10914_RL-2144-1216-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455751773429189671',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-04560017C78E3870/21586_27897_1690256477_34998_RL-1376-832-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '485032016631317690',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231030/capture/DFC-RZ-05240017C750E95F/7002_0_1698629943_2852_RL-1824-960-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464050951955705341',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C70B780A/114_301_1699321097_42_RL-0-912-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1538432963002241024',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7457B90/43538_45089_1699319791_26211_RL-2208-736-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1556542823111589888',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C787371F/35826_0_1699319315_16715_RL-1200-448-320-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436427398670471289',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7C66AF7/28346_36239_1699316068_10033_RL-1296-0-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589226181964595200',
       label: '涂*青',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C7457B90/41210_30639_1699312455_24952_RL-2000-512-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435929927456420682',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C726ACF1/6066_32745_1699312398_3569_RL-912-640-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436074591400522040',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231107/capture/DFC-RZ-05240017C73F9E0C/20362_57599_1699312123_39902_RL-1312-576-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1534132784841363456',
       label: '朱*瑜',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/54154_43871_1699311346_51118_RL-1392-1040-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1590350241054326784',
       label: '邓*志',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7959E7E/4682_0_1699266796_7401_RL-624-704-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434211676313645118',
       label: '杨*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-06680017C747DA04/3738_90689_1699264137_5060_RL-784-336-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229798691962880',
       label: '罗*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-04560017C76C6242/20682_0_1699263651_5870_RL-304-272-432-416.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1531068510153740288',
       label: '赵*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7550AB1/11154_40263_1699262656_10597_RL-528-656-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589271219520143360',
       label: '陈**琪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C725B60B/12858_3807_1699073352_8971_RL-1648-1184-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436419240094878828',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/DFC-RZ-05240017C7C7D8AC/51554_85191_1699261449_44061_RL-80-960-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526788668470071296',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C758E645/82634_27373_1699260846_23588_RL-976-320-304-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589234047840681984',
       label: '田*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7083768/17842_81951_1699260607_6773_RL-464-480-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527216357228154880',
       label: '韩*祥',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C758E645/78698_19609_1699259707_22437_RL-448-496-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567148852966850560',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C748D839/48658_0_1699258946_20843_RL-2112-0-336-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589275123586695168',
       label: '覃*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7457B90/39602_0_1699258765_23431_RL-1712-464-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436429519193133177',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7B6C4BA/10194_57415_1699256729_8822_RL-1408-1088-352-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589224361053650944',
       label: '孔*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7550AB1/10834_30103_1699255635_10238_RL-880-784-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1528520296032636928',
       label: '陈*伟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C76A4C4F/20666_75807_1699254359_9066_RL-2016-1136-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438561947739255063',
       label: '何*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-06210017C76A6A5B/51482_34047_1699252161_73199_RL-112-784-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435074763010899835',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7959E7E/4226_63311_1699250894_6518_RL-656-832-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464628096255935704',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230611/capture/DFC-RZ-04560017C70F28D7/4250_54983_1686469522_23500_RL-1504-1056-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589258778786660352',
       label: '陈*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7EE2846/12202_0_1699245479_2586_RL-1584-64-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '448985027221418245',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7457B90/37306_91681_1699243591_22192_RL-800-496-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589229116685549568',
       label: '王*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C750E95F/17466_20215_1699242628_8946_RL-2224-608-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467818300303241812',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C75AD90F/37882_0_1699242182_27692_RL-704-368-256-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589438205151674368',
       label: '闵*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C78A9584/54738_97049_1699240542_42382_RL-1488-416-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1553161073291427840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C74A36EE/8722_53375_1699240226_8118_RL-2352-992-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229826672164864',
       label: '胡*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7550AB1/9938_7545_1699237678_9378_RL-704-448-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471292952820344730',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7BE3AD4/26530_0_1699233604_11633_RL-832-384-368-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589229436362817536',
       label: '牟*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7083768/9490_43551_1699059085_3499_RL-272-592-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435074540058466358',
       label: '刘*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7457B90/35274_76935_1699231466_21087_RL-2112-592-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435080269293191035',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7168EA5/698_35655_1699230502_727_RL-256-624-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589269332813152256',
       label: '王*琪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-04560017C76DD03B/3866_1319_1699230347_23154_RL-640-944-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435074519841921078',
       label: '徐*升',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7D06BCD/6226_45561_1699230159_2240_RL-1712-608-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567083371744460800',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C7E5DC46/35178_0_1699228402_13228_RL-512-800-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589258048713523200',
       label: '胡*明',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C77894AE/22362_4903_1699228307_28847_RL-32-688-256-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589274440938553344',
       label: '赵*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-04560017C7565CD5/12946_56631_1699227942_13791_RL-608-768-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589438859131748352',
       label: '肖*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-05240017C7457B90/1162_13879_1698881160_600_RL-1888-592-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435079583474155387',
       label: '杨*莉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C74A36EE/8338_45791_1699226094_7555_RL-2384-768-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1564414509022445568',
       label: '张*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231106/capture/DFC-RZ-05240017C70CE7E9/5602_25183_1699222107_3314_RL-1232-176-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435074523616800514',
       label: '胡*青',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C7457B90/32106_71959_1698397873_33589_RL-1584-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589225305703186432',
       label: '邓*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C7423914/32802_72191_1699188031_9550_RL-848-400-272-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527586843523026944',
       label: '闵*琪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C70F28D7/9610_14423_1699187426_2041_RL-832-1040-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589272247028154368',
       label: '王*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C743FCC1/31826_76623_1699182762_9947_RL-1696-240-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436489509182403402',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C715CB04/29458_59495_1699182078_8010_RL-1664-576-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1529043776578785280',
       label: '汪*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C7423914/31554_68911_1699180526_9123_RL-352-480-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435077282009209847',
       label: '徐*强',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7959E7E/3482_58191_1699176653_5930_RL-864-640-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589229768748826624',
       label: '邓*慈',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C75FFAAD/10954_56279_1699176615_7602_RL-1248-448-160-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470109470907723078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C79ECB45/9970_14063_1699176458_2633_RL-560-528-496-512.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1562561426353029120',
       label: '周*富',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7959E7E/3434_56983_1699174919_5820_RL-528-736-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '484828890733245423',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231029/capture/DFC-RZ-04560017C726AC3D/69650_0_1698510024_62589_RL-1216-144-608-656.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438637888851177751',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-06680017C7CB0F33/67986_9991_1699173549_27303_RL-0-336-144-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589929742121828352',
       label: '赵*艳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C74A36EE/7482_18991_1699173267_6855_RL-2320-720-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1529363300289089536',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C748D839/38690_10415_1699173212_16607_RL-272-752-496-480.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589264994891988992',
       label: '杨*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7457B90/31826_39327_1699168254_18570_RL-2096-688-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589268477049307136',
       label: '黄*卿',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C73F4C34/6010_3407_1699167254_47613_RL-368-272-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436402342972126026',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C797552B/34858_48065_1699167091_29861_RL-384-480-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1553893733953437696',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7FD51AC/4738_54759_1699160041_5765_RL-2048-1136-384-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1535740519966052352',
       label: '郭*兰',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C70A5C79/5282_0_1699158228_2629_RL-240-464-640-576.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526207452272398336',
       label: '邓*祯',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C79ECB45/57346_51783_1699158213_22836_RL-752-576-352-352.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589268274988711936',
       label: '郭*贵',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7367825/13930_0_1699156524_3911_RL-1232-32-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '484761522426367106',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-06200017C7A70254/2850_0_1699154381_3311_RL-1712-1104-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589233622294986752',
       label: '戴*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-04560017C7EEC09E/18986_41023_1698816006_5488_RL-1392-544-464-432.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526156167036801024',
       label: '杨*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7457B90/29938_21207_1699150660_17366_RL-1008-576-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1527829148062453760',
       label: '周*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-04560017C7494D56/5586_78761_1699149963_9136_RL-1168-384-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1553522094648590336',
       label: '彭*银',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C750E95F/13386_55321_1699145922_6938_RL-1904-272-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1578217058456305664',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230929/capture/DFC-RZ-04560017C74FBC64/54490_68591_1695974548_55604_RL-1088-672-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1538671401454538752',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C7FD51AC/3722_42639_1699143835_4471_RL-1600-1024-352-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436939630596608091',
       label: '邓*刚',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231105/capture/DFC-RZ-05240017C74A36EE/6538_12407_1699142463_6079_RL-1856-880-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1567092678519160832',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C78A9584/40258_83935_1699110433_30667_RL-1312-432-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1552580604514537472',
       label: '邹*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C7E6B278/4698_10055_1699098490_1372_RL-1376-816-336-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1527643700270731264',
       label: '高*铭',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C78D8164/24858_0_1699092678_6062_RL-432-400-400-384.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434941129230669878',
       label: '刘*仿',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C78989F3/18306_26951_1699091700_3587_RL-1216-544-304-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589226273975042048',
       label: '熊*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-04560017C751AC54/83242_4183_1698391268_67430_RL-624-320-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539404456142049280',
       label: '王*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C7B52016/9034_0_1699089026_3290_RL-1984-976-400-368.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434500127692976190',
       label: '王*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7FB61FC/10250_34775_1699088779_11419_RL-1136-992-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436939564662156635',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7ED0C69/4818_12951_1699088482_6052_RL-1056-400-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075272266504246',
       label: '张*芬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-06680017C7CB0F33/42538_62647_1699087287_21271_RL-1824-320-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '485316799655596067',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C74A36EE/5610_93399_1699087238_5180_RL-1792-784-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526488991791058944',
       label: '邓*喆',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C710FCA6/19634_38679_1699086606_5161_RL-1296-320-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589929467843706880',
       label: '李*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C7423914/19754_0_1699082574_5918_RL-1024-176-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526490002194698240',
       label: '赵*卫',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C74A36EE/5330_0_1699080032_4938_RL-2064-944-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1572781373498851328',
       label: '林*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7457B90/25442_79615_1699078097_14244_RL-2272-672-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1527535219253448704',
       label: '黄*芬',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C74A36EE/5162_88823_1699072718_4719_RL-1632-848-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589258007424794624',
       label: '张*芳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7AFAC7A/1098_56759_1699070143_1270_RL-1168-800-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1583024118880534528',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7384918/19226_0_1699069719_6333_RL-2096-0-352-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464727101308694013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7A15201/21386_0_1690761294_35830_RL-208-160-272-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527071095444738048',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB07B10019C35AB9/94597_94599_1698403624_341274_RL-2311-749-229-240-CS34020000001320000088.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464599786918538749',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54490_82079_1689995504_34366_RL-1168-640-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1527466322076635136',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-05240017C7667AD5/68938_97281_1698827816_14373_RL-224-592-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436489675578821740',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-04560017C7024F53/4538_7159_1698842425_1048_RL-1328-144-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589274252375228416',
       label: '杨*云',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-05240017C7457B90/5274_39647_1698904246_2910_RL-2144-560-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1567390954514546688',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-06680017C72846DE/1642_11047_1698808182_1427_RL-48-880-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589230127995158528',
       label: '杨*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C74BEADE/690_11231_1699055807_585_RL-224-1072-352-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1574552793706921984',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-06200017C7C1766A/778_22039_1698916977_4394_RL-2192-560-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465077802786387866',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A62E9F/51474_43407_1689376560_20662_RL-1072-0-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1573920922979532800',
       label: '袁*明',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-05240017C74A36EE/1210_33503_1698912478_1248_RL-2144-848-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463997745280077964',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230607/capture/DFC-RZ-05240017C7E8310B/42_50527_1686139381_37356_RL-192-640-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455941875996585267',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-04560017C731441F/2394_6775_1699063962_875_RL-1392-448-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1535066966673330176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB26AA00144DB8BC/44139_44143_1698362090_9001534_RL-1313-782-180-194-CS34020000001320000004.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589234255324512256',
       label: '田*娥',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C77E1A18/44954_38615_1691540168_61183_RL-0-640-288-336.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459245494879679372',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230603/capture/DFC-RZ-04560017C7565CD5/10474_24751_1685769275_12595_RL-1776-688-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1527589663580098560',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7457B90/18698_56591_1699062437_11876_RL-992-544-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589234481225531392',
       label: '胡*丹',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C76528FD/7306_33999_1699062063_6261_RL-2416-864-144-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '437054202758319195',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230604/capture/DFC-RZ-05240017C7EF863F/43106_76127_1685862252_30918_RL-48-768-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459943861729391500',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230510/capture/DFC-RZ-06680017C7A2DCCF/38306_0_1683692895_15122_RL-1344-304-144-128.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231695976988672',
       label: '李*天',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230918/capture/DFC-RZ-05240017C7A15201/49666_0_1694993485_18805_RL-0-272-384-368.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539413134291243008',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C70B780A/24098_67577_1689917276_8658_RL-1360-656-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1539204818009067520',
       label: '廖*银',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/13107_13108_1698378555_839796_RL-3166-621-198-207-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589231358008360960',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-04560017C7423914/87506_24271_1698410244_82953_RL-1040-480-224-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458976180247220381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7A15201/2610_0_1692398558_24864_RL-320-0-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470078584959036742',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20594_99375_1689718267_13383_RL-1312-560-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455942687393082675',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230520/capture/DFC-RZ-05240017C71FCEA6/70522_57679_1684541294_25229_RL-1488-656-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589268329976037376',
       label: '李*娟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231013/capture/DFC-RZ-04560017C7A91A7F/44250_75927_1697172706_36074_RL-720-400-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436254781770592859',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-05240017C7457B90/28770_34913_1698796359_18506_RL-1760-624-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1528014711319171072',
       label: '雷*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB4C2500191E1940/14788_14793_1698236510_7685812_RL-3318-721-219-237-CS34020000001320000073.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539787245777588224',
       label: '罗*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7083768/9634_43757_1699060168_3527_RL-2144-976-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563330474724556800',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/aise-dianjun1/DFC-RZ-04560017C7265A25/2386_28687_1662005970_3673_RL-1552-656-320-352.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436934383555866976',
       label: '陈*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-05240017C7457B90/34058_0_1698821845_21294_RL-2112-784-256-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436407048880550200',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-05240017C7D002D9/12626_0_1699059942_5921_RL-1072-288-304-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435075146470932484',
       label: '袁*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-04560017C75FFAAD/2570_85903_1698924255_1644_RL-1040-416-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470132273828623260',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-06680017C773C703/55970_1087_1690948331_89605_RL-1424-672-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463290382973694745',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/14130_0_1689634803_5116_RL-1440-0-256-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1533756769279414272',
       label: '邓*姝',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231016/capture/DFC-RZ-04560017C743FCC1/53466_0_1697419551_58715_RL-2192-0-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589225828984553472',
       label: '郭*波',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231103/capture/DFC-RZ-05240017C7CC5258/1018_32767_1698966890_13327_RL-1040-592-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458827054234751133',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/45154_36895_1689313774_31521_RL-2016-736-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463615231130625987',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/69338_22751_1690159062_43920_RL-2320-880-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461824904161945398',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230614/capture/DFC-RZ-05240017C7A8244D/41890_0_1686700021_19335_RL-208-0-352-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464573073899679229',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-GBF6FA001089A13E/86346_86350_1686436723_459885_RL-659-448-217-235-CS42050400001180000010.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589271257864470528',
       label: '韩*春',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230424/capture/DFC-RZ-05240017C7457B90/20802_4951_1682329202_17614_RL-1920-784-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1573964973749567488',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-1/1year/20230311/capture/DFC-RZ-05240017C71FCEA6/20642_76191_1678503274_6676_RL-1200-848-256-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1528548871473467392',
       label: '袁*洞',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB11C90019F9F614/28626_28629_1697793321_7175198_RL-2690-1088-229-241-CS34020000001320000084.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464718520886783485',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7A15201/25274_0_1691291901_67838_RL-224-288-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589270456462999552',
       label: '王*伟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-04560017C78E3870/99778_0_1692957527_20996_RL-1760-912-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467638904518892849',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50530_95031_1689373448_35561_RL-1568-624-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434199557677544343',
       label: '周*成',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231103/capture/DFC-RZ-04560017C7D48F6B/2778_87887_1699002139_2481_RL-1200-592-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464917005015741389',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7550AB1/23674_54007_1690246069_17727_RL-160-576-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469520398325673286',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7A15201/26042_82543_1691297845_68156_RL-1568-784-272-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1566999745128300544',
       label: '万*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C7A15201/7490_35527_1698373301_3326_RL-1984-0-208-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589235656083636224',
       label: '周*海',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-04560017C7EEC09E/27986_80415_1689391756_10190_RL-1952-720-560-528.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589267222369402880',
       label: '胡*凤',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231022/capture/DFC-RZ-05240017C7457B90/89498_16257_1697954874_6262_RL-560-624-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457911853125759486',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7FAE9ED/80002_0_1690188576_34751_RL-800-336-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470844217422267632',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/71490_37209_1690174621_45189_RL-0-784-160-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464599231240367613',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230611/capture/DFC-RZ-05240017C7A07C5B/31850_41479_1686452318_90676_RL-1632-544-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456172999813395430',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86066_77103_1690328990_56208_RL-1760-816-304-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436383077007127370',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-05240017C7F4C8B7/73962_76223_1698275798_83305_RL-608-320-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589232953689374720',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C7E61B20/49586_33399_1698289630_61267_RL-2384-576-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589230510427602944',
       label: '雷*霁',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230917/capture/DFC-RZ-04560017C75FFAAD/80738_77087_1694927605_68269_RL-1536-336-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526704557726371840',
       label: '全*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-04560017C7423914/87666_0_1698410882_82998_RL-1056-576-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589268216331370496',
       label: '郭*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C70B780A/11938_80383_1691315411_36473_RL-2048-864-480-496.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468047748411717486',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-04560017C75FFAAD/16762_50807_1689851506_6296_RL-1184-384-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589226264407834624',
       label: '邓*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230914/capture/DFC-RZ-05240017C72A0A96/30154_17345_1694659686_38038_RL-1024-512-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434049395084773640',
       label: '韩*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231104/capture/DFC-RZ-06680017C747DA04/850_18063_1699030779_1369_RL-944-592-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589269764595777536',
       label: '赵*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231013/capture/DFC-RZ-05240017C7457B90/10586_0_1697151777_54660_RL-2272-592-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470851376696542448',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7FBF5CA/49026_50271_1690530996_28324_RL-864-592-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589438122813292544',
       label: '赵*虎',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-04560017C747F472/6930_13447_1698919626_1749_RL-208-848-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468196583960246126',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7DC2B70/32554_76695_1689897631_10849_RL-2048-960-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1526482560450826240',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-04560017C710FCA6/3410_93295_1693913245_25766_RL-384-480-320-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589229486849654784',
       label: '靳*芝',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C7A07C5B/4306_15191_1698399244_10045_RL-320-400-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467686969296578327',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-04560017C75FFAAD/7194_21063_1689675810_2784_RL-1408-352-160-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468774459109569123',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/59450_39337_1690064763_38052_RL-672-800-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589840953105973248',
       label: '李*浩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GBF1B6001AC0BD28/83545_83547_1698409326_852118_RL-3279-895-187-208-CS34020000001320000074.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470995575173563632',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7A15201/16570_0_1690264846_5511_RL-368-32-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469662897656589638',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/61146_89617_1689470499_41980_RL-16-832-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589260477488168960',
       label: '陈*鹏',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230629/capture/DFC-RZ-04560017C743FCC1/70538_68543_1688028759_73139_RL-1024-1136-432-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589226106106413056',
       label: '宋*平',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230917/capture/DFC-RZ-05240017C783E976/9298_53503_1694949905_10469_RL-2048-752-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1583696213268496384',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-1/DFC-RZ-05240017C7753609/70618_0_1675648431_16982_RL-1264-784-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589264441860423680',
       label: '王*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230911/capture/DFC-RZ-04560017C783D682/50154_0_1694439611_27226_RL-1648-0-416-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589273951853346816',
       label: '李*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-05240017C74A36EE/7506_13183_1698796561_7189_RL-1952-976-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589226479416246272',
       label: '刘*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C7959E7E/56050_66895_1698321681_67524_RL-464-800-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434909189605709878',
       label: '汪*珍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-05240017C7457B90/33986_66783_1698821704_21275_RL-2272-736-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438528577621738572',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-1/alarmLibsPerson/small_snapshot/97f7f97704a68eac04b5d34310000113.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589262195831603200',
       label: '徐*淼',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod/Tmp/1526114588047060994/97ad76825490a052354683a010000160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464358948640681469',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/75802_80895_1690237258_48389_RL-976-688-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471129526747815250',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C74A36EE/20290_96151_1690344677_19038_RL-1888-1120-336-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589274630001000448',
       label: '李*红',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB2C37001619484F/72950_0_1698322665_3888829_RL-1195-831-184-202-CS34020000001320000001.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468813377251075891',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230710/capture/DFC-RZ-05240017C77A6B9B/11506_40319_1688964145_4418_RL-1232-464-304-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436481412263071865',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/lins-oss-prod/lsv1/clientuser/51641275062911907871243_400.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470013623058591046',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/19410_77519_1689679539_12111_RL-1712-704-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470850890291496176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/89282_4079_1690350843_58300_RL-1664-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468240606250956654',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/44858_97599_1690429177_13965_RL-1072-880-400-384.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567370266865041408',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB6C430017666D3F/67276_67278_1698356580_7233777_RL-1708-383-229-244-CS34020000001320000034.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470839869271196912',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/71338_35695_1690172028_45102_RL-1504-672-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469279813434109254',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/4178_0_1689571977_1640_RL-80-0-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456226788524189571',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C76A4C4F/67282_31711_1690889016_33143_RL-464-752-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436535870183459948',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/75657_75659_1698300943_3951888_RL-1415-694-196-212-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464743841933575384',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/47818_0_1689304246_16949_RL-1408-0-240-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469401381007025931',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/45482_38105_1689314751_31649_RL-816-768-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469964734653821581',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C70D16C4/10306_50023_1689650406_6283_RL-1552-0-144-112.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469670125499347868',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7DC2B70/83226_18287_1692324968_31089_RL-1776-1056-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460742418069746119',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/5090_9535_1690458039_67838_RL-1856-688-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470015340139542374',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7749F3D/14490_87151_1689680563_11466_RL-1408-592-304-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470427019465740295',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47386_19839_1689926072_29730_RL-1744-656-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '443484356439209971',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C759BD2E/17666_86135_1690266129_26834_RL-544-1040-368-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471737831304219825',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C7DC2B70/71866_88527_1692156147_26567_RL-1680-960-304-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589229287196590080',
       label: '陈*萍',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GBC45E001A6A7DD9/2986_2992_1698318252_5947464_RL-2627-671-194-206-CS34020000001320000089.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470414079064818928',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/63026_70199_1690091755_40169_RL-1456-688-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459226126774989371',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C70D16C4/25850_76751_1692507158_27319_RL-688-192-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470852908322145520',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72090_0_1690179797_45453_RL-2096-816-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468345276684333667',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C71C0535/50850_27009_1691303074_65179_RL-704-432-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469969661014863174',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-06680017C747DA04/6874_0_1690701991_3694_RL-1024-352-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470092485754907974',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54618_83511_1689996427_34451_RL-1360-800-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471113176612619504',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C70D16C4/86250_81167_1690689212_56392_RL-1216-144-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470135794879722125',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C783E976/20442_72199_1690260295_22706_RL-32-656-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465163963554886605',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/78274_96217_1690245192_49843_RL-1888-880-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469993123515231558',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C76A4C4F/36530_96903_1690284657_19081_RL-496-800-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464001112937088216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7FBF5CA/21482_65537_1692318970_39233_RL-1568-480-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458833352049324940',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C77F26F9/85146_99255_1690362499_26715_RL-752-432-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471027552647924890',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C73F4C34/9322_92763_1690416670_69260_RL-32-576-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470974194641814768',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/79690_9767_1690252090_51239_RL-1712-720-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436408296954417273',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231103/capture/DFC-RZ-04560017C7F04E7D/8146_0_1698965740_2988_RL-800-16-288-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470984833175143664',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C7A15201/63226_0_1690949026_48008_RL-224-272-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471118870061535239',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C77FD1C5/60818_44921_1690341339_5138_RL-752-368-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466080570712024871',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C7A15201/96402_0_1690629713_28939_RL-96-0-240-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471527848641851789',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C7457B90/15018_7303_1690582095_75777_RL-1328-768-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589259072278888448',
       label: '丁*博',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod/Tmp/1526114588047060994/97ad75fdcacf527a38ce1974100001d9.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471384331017800881',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7A229EA/2818_84887_1690496551_1954_RL-384-480-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471274234077791472',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/45842_99151_1690430937_14208_RL-1184-320-448-416.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463616767839728409',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C72A8569/39850_52031_1691236091_46433_RL-288-1280-224-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1548874317683494912',
       label: '胡*尧',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230924/capture/DFC-RZ-05240017C714D512/83130_0_1695526494_76469_RL-640-736-224-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435500584859100200',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-4/1year/20231102/capture/DFC-RZ-05240017C78CCA6F/2242_68927_1698916327_5154_RL-896-736-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435074589417029636',
       label: '何*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231006/capture/DFC-RZ-04560017C7CA63B4/36850_35911_1696602474_81631_RL-1024-368-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589234986953736192',
       label: '彭*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231004/capture/DFC-RZ-04560017C78D8164/98466_0_1696416829_19502_RL-544-0-464-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589228720416096256',
       label: '郑*鑫',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/39807_39809_1698141038_7017272_RL-1399-1019-229-237-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589227433398108160',
       label: '何*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C721D193/28434_11847_1698363118_4981_RL-1456-848-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1568415615373279232',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231101/capture/DFC-RZ-04560017C74FBC64/7434_31367_1698801323_16980_RL-1584-496-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467670964352610762',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-06680017C7A2DCCF/43802_0_1691144683_19695_RL-1184-560-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1577940493533184000',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/68924_68925_1698154680_6420782_RL-3285-593-175-191-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589225328960602112',
       label: '袁*香',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C715CBF8/67490_83935_1698398549_22642_RL-352-576-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434741499704405883',
       label: '王*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C7A15201/9194_0_1698389123_4025_RL-432-0-224-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1526351011935948800',
       label: '高*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231007/capture/DFC-RZ-04560017C78D8164/39618_33855_1696674735_26077_RL-848-672-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589235711255511040',
       label: '赵*婧',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231002/capture/DFC-RZ-05240017C7457B90/35330_12055_1696231958_99521_RL-1920-736-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436458155854033499',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/lins-oss-prod/lsv1/clientuser/51627541381189124780665_400.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '434027296622407547',
       label: '江*新',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB11C90019F9F614/24646_24647_1698025068_6781056_RL-2452-717-198-209-CS34020000001320000084.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '436936430728532059',
       label: '王*超',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C70D16C4/3658_12719_1698310562_1741_RL-1312-64-160-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589224079699738624',
       label: '程*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-04560017C710FCA6/34266_57599_1692432820_7500_RL-688-656-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589264202453745664',
       label: '沈*华',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-04560017C723199D/46754_63031_1698330875_27448_RL-1040-640-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '435080578564381687',
       label: '宋*英',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-04560017C75FFAAD/54882_18527_1690634911_23927_RL-1376-496-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436602707340455765',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/lins-oss-prod/lsv1/clientuser/51713702169273964992171_400.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436507615070023992',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-05240017C7E61B20/50626_72609_1698398828_80642_RL-1360-1056-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '434741800016562440',
       label: '王*军',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/2724_2726_1698273493_5617197_RL-1308-705-238-255-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '434645121024159611',
       label: '徐*彪',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231021/capture/DFC-RZ-04560017C7A91A7F/45066_98711_1697885985_52162_RL-320-512-304-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589930969391955968',
       label: '余*青',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7FBF5CA/22858_81023_1689410221_49683_RL-1136-512-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '474722703719296364',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C747F426/3402_62127_1694132400_6642_RL-608-448-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '475305830321780705',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7083768/56826_41919_1694071563_23269_RL-1984-816-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '439155830835671876',
       label: '谭*阳',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C7B23736/29842_77087_1698302432_49944_RL-1968-352-224-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589926413752860672',
       label: '孙*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230520/capture/DFC-RZ-05240017C70B780A/8290_38551_1684574496_2167_RL-2336-896-224-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469553833823990684',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7457B90/58618_75127_1693627040_43876_RL-1744-688-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '436940610016931163',
       label: '周*伦',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231016/capture/DFC-RZ-05240017C7A15201/83434_17543_1697431484_30587_RL-1568-0-224-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '438946717233084198',
       label: '牟*宇',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230924/capture/DFC-RZ-05240017C7E6B22C/1498_60941_1695508738_1334_RL-768-464-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '436405896252248185',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230610/capture/DFC-RZ-05240017C72A8569/5202_52247_1686390818_4888_RL-0-1200-144-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469241310562251283',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C70D16C4/86218_0_1691379822_23483_RL-336-240-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470962733689359514',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/89178_96265_1693961493_68647_RL-1328-816-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469864107445611846',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-06680017C721A671/9146_57015_1693700971_7339_RL-1632-320-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '435075162912610358',
       label: '刘*琴',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231021/capture/DFC-RZ-04560017C75FFAAD/53578_19119_1697845472_34721_RL-880-496-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1589259982124089344',
       label: '章*玉',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C7457B90/8610_21751_1692598818_5813_RL-2272-912-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589266240705134592',
       label: '袁*伟',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230706/capture/DFC-RZ-05240017C70481CF/10354_8401_1688642909_7995_RL-1216-608-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470873924989642650',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C78A9584/9642_84249_1692611231_36989_RL-816-208-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470970745162321927',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-06210017C7DE2806/88850_98415_1692695948_81742_RL-48-304-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461167697275679028',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C70D16C4/13506_94735_1692404188_17753_RL-1248-176-160-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1589259135143116800',
       label: '秦*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231026/capture/DFC-RZ-05240017C7457B90/12770_46721_1698275283_22913_RL-720-640-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1526383394093535232',
       label: '熊*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231027/capture/DFC-RZ-04560017C7D8130B/80778_35799_1698364183_54571_RL-1312-544-720-720.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1569520219351678976',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/29425_29426_1698386607_8459694_RL-1645-687-215-237-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1574366394965819392',
       label: '黄*',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB30A40019AD943E/26433_26436_1698385372_4559355_RL-1237-640-219-239-CS34020000001320000087.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563126579515621376',
       label: '周*林',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GB11C90019F9F614/14637_14640_1698310386_190462_RL-3359-702-210-237-CS34020000001320000084.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589264814188789760',
       label: '王*轩',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-GBC45E001A6A7DD9/94972_94975_1698154599_681564_RL-1025-811-173-190-CS34020000001320000089.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1532500892748615680',
       label: '王*山',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231018/capture/DFC-RZ-04560017C75FFAAD/46458_90937_1697630697_30167_RL-1248-336-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1555889941764898816',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231009/capture/DFC-RZ-05240017C7A15201/26122_65743_1696836822_9083_RL-1600-736-480-448.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '435074873388199682',
       label: '丁*林',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20231007/capture/DFC-RZ-05240017C7457B90/63626_71025_1696672484_23639_RL-1440-432-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '457814751464944126',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7FBF5CA/22970_82465_1689411232_49837_RL-1056-624-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468066338439460718',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C766CCAD/83522_5615_1694162360_14598_RL-608-1072-384-368.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467216931615700869',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C724872C/80098_80935_1694162080_60396_RL-1744-656-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468253221576527913',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C74A36EE/40354_70023_1694161548_29904_RL-1072-944-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469825387174589340',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7FBF5CA/56954_47991_1694146580_2712_RL-96-896-304-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462867976564002908',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C76A4C4F/54410_56845_1694146558_27642_RL-1104-896-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463156327531696220',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7A15201/3242_0_1694146330_38324_RL-2336-256-224-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470258667166395718',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/6930_70209_1694145824_81872_RL-656-816-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466031532268611367',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7FBF5CA/56730_46711_1694145459_2568_RL-1520-864-304-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469213761417266393',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C724872C/79530_73543_1694145436_59515_RL-608-1008-368-352.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469643742991641926',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-06210017C7DE2806/83714_90065_1694143730_86420_RL-704-304-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470007212903786251',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C74A36EE/39826_62873_1694140757_29533_RL-1424-640-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469844141199617350',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C74A36EE/39818_62799_1694140618_29527_RL-1984-944-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562609944195235840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7083768/60674_57881_1694140423_24843_RL-144-560-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470390053470749936',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C77F26F9/10986_36007_1694139921_30286_RL-1168-864-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461964983966650460',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C74A36EE/39730_60577_1694134560_29405_RL-1792-768-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465225980953250974',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C76A4C4F/53138_47551_1694133862_27145_RL-1520-1136-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458835397242278045',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C74A36EE/39666_59897_1694133043_29355_RL-2016-944-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '460085419405496477',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/3986_49297_1694129460_79979_RL-2320-832-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1569535183697215488',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/3842_48663_1694129245_79895_RL-1808-752-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466700192305932071',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/3698_47297_1694128785_79729_RL-1728-880-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464569060990938621',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/3386_45679_1694128119_79541_RL-1840-752-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469501362460192070',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/3362_45609_1694128056_79533_RL-896-752-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471235490654209264',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C750E95F/62906_17255_1694126374_30228_RL-2064-624-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470439269148673264',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230908/capture/DFC-RZ-05240017C7457B90/2570_41657_1694125357_79167_RL-272-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1541024678577967104',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-04560017C79CE9C7/75546_96143_1694092019_47644_RL-1856-592-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470871793578558704',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-04560017C79CE9C7/71882_72167_1694087063_44473_RL-1536-416-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461681003262406964',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7457B90/1458_18135_1694082733_77983_RL-2064-832-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463459939608719854',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C70B780A/56970_99223_1694081494_25598_RL-1360-688-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468832875328860771',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C797552B/41514_0_1694079814_6805_RL-256-368-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468787540220999546',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C77F26F9/94738_94759_1694074870_24245_RL-1696-800-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465954990180034343',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7457B90/99826_96447_1694070702_76196_RL-2352-800-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468342405968458339',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7A15201/95202_0_1694061477_35345_RL-496-96-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471104075274929392',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7A62E9F/82194_0_1694058722_34612_RL-560-240-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463717210314011417',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C74A36EE/37674_29353_1694057164_27404_RL-1888-1040-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465950240013313831',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C70481CF/7370_82975_1694054613_11273_RL-720-576-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471129089483228400',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-04560017C722FDBC/40346_69543_1694053257_33992_RL-1488-448-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468501412049875555',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7A15201/94090_0_1694050840_34882_RL-2320-416-240-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464149303804325373',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C76A4C4F/47978_0_1694047618_24702_RL-1680-1152-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470237451152026950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7457B90/97202_69441_1694047439_74403_RL-768-768-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460423625749581981',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C76A4C4F/47874_4529_1694046821_24654_RL-1328-912-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455883426575174695',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7A15201/92714_38495_1694044008_34441_RL-1152-672-480-432.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470955450062359706',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C74A36EE/37258_23519_1694043985_26997_RL-1568-864-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463167634687414364',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C74A36EE/37210_23287_1694043783_26973_RL-1776-1104-336-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468056839162984302',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-04560017C78E3870/37874_50313_1694042787_44385_RL-1456-912-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467765008953007409',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7457B90/95210_56257_1694040595_73035_RL-496-656-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459268123921505736',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230907/capture/DFC-RZ-05240017C7457B90/95098_55727_1694040157_72992_RL-1344-608-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458842391932063901',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/93338_37327_1693995074_71724_RL-2208-752-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469216879378973913',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C78A9584/65498_9745_1693994690_12202_RL-1728-592-272-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458825321014120605',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7A15201/87770_0_1693994632_32927_RL-1456-0-240-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464635388070227453',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/93042_35047_1693993850_71509_RL-2224-784-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465063257208550349',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7168EA5/18162_27447_1693989541_39431_RL-2288-720-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463710061156397849',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7A15201/84570_20945_1693987039_31961_RL-400-64-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458050747385278974',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C79ECB45/99514_26095_1693984835_86835_RL-480-0-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471263636044662000',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C76A4C4F/44714_82385_1693982560_23041_RL-2240-1024-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470007630555802950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7550AB1/33266_38679_1693981465_24631_RL-1216-720-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459949517228241467',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C76A4C4F/44618_81717_1693981451_23021_RL-1680-944-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471286057938207984',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7A15201/83186_0_1693980829_31579_RL-384-96-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456232014140434307',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-04560017C78E3870/34002_5769_1693973903_40026_RL-1328-816-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470821676309837586',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-04560017C78989F3/48114_37775_1693972973_18471_RL-1504-192-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458962799394050205',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C77F26F9/33378_0_1693972807_18_RL-1856-512-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464726606213041181',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-04560017C76DD03B/28090_201_1693969425_92002_RL-64-752-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470082005715938630',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7DC2B70/2042_5471_1693967455_841_RL-1584-1168-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461731992577274698',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-04560017C78E3870/33722_137_1693967458_39399_RL-1088-784-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470396298504193264',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C76A4C4F/43882_72393_1693967154_22617_RL-1312-944-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468825781368287843',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/89650_529_1693964930_69055_RL-1024-656-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470962869500929946',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/89074_95833_1693961281_68595_RL-896-720-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468786731190088291',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/88642_92497_1693959448_68264_RL-1104-736-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467072860628731113',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7FAE9ED/10106_0_1693957067_44657_RL-1472-320-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469977352613425642',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7A9FB36/21962_98137_1693956057_81720_RL-2400-784-160-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463149613054971996',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C74A36EE/34226_77527_1693955454_24644_RL-800-832-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462301936851374172',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/87058_81969_1693955401_67251_RL-1456-784-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464720296134340093',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-04560017C78E3870/31706_80801_1693954535_37185_RL-1728-896-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463030236737455121',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C78A9584/53762_51601_1693954199_5036_RL-1008-368-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465442663261303514',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230906/capture/DFC-RZ-05240017C7457B90/86298_79015_1693953737_66927_RL-2400-832-160-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '457241676209996878',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7DC2B70/78386_99399_1693914900_29727_RL-2112-976-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469933028265717062',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7457B90/84762_60897_1693909429_65514_RL-1152-784-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463131016618332252',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7E61B20/9482_31135_1693909346_60803_RL-2416-736-144-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455942884726688807',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7DC2B70/76890_95375_1693908467_29264_RL-1792-944-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469545820371316038',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C71C0535/28330_64375_1693907127_37687_RL-1040-768-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458976197628424763',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7457B90/83018_39031_1693891887_63908_RL-1648-752-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470548441764742384',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7083768/46434_97615_1693885934_18790_RL-336-464-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471033633130433690',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-06680017C7FF1954/12426_87071_1693884228_40547_RL-1280-496-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471103461295932656',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7457B90/80858_10647_1693871917_61657_RL-1120-640-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463912292812090877',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7168EA5/14954_28423_1693870994_34781_RL-1472-672-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469275759337303366',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7457B90/80418_6887_1693869936_61314_RL-1856-832-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456169693359656029',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230905/capture/DFC-RZ-05240017C7457B90/78874_0_1693866257_60672_RL-2128-768-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1568132589053542400',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C76528FD/19682_62431_1693823586_31458_RL-1648-800-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458960891103179207',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C70B780A/44354_52953_1693820507_19492_RL-1680-704-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467111365950063849',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C70B780A/44010_51943_1693817441_19341_RL-1600-848-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471165329343530224',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C76A4C4F/35914_14663_1693801384_18245_RL-2384-656-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471247088206759152',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C7367825/60858_0_1693800643_22045_RL-1120-240-320-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464340421091280088',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C70B780A/42938_48255_1693792331_18879_RL-1776-624-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455878449010068519',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C741621F/18714_56743_1693792177_30075_RL-800-912-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458993626672820795',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-04560017C78E3870/21962_62279_1693789747_25808_RL-864-976-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468045834534025070',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C7A15201/64866_0_1693787083_24586_RL-1424-112-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463012188630569052',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-04560017C78E3870/21594_58521_1693787017_25384_RL-1712-896-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458639508951290013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C7457B90/73434_40457_1693785616_55754_RL-2256-848-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463129012697321564',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230904/capture/DFC-RZ-05240017C7C30932/17258_19409_1693780113_13248_RL-1808-720-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459205376345133213',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/70194_4887_1693739240_53202_RL-1136-704-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468641368760152675',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C71C0535/23922_7001_1693733959_30335_RL-544-768-304-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469942524790730054',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7A15201/60330_0_1693731722_22917_RL-2240-96-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462988507338526812',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C79997F3/842_5701_1693731251_487_RL-1696-784-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465779077882606298',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/DFC-RZ-04560017C70C9E01/19770_16799_1693728588_17236_RL-1152-176-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468196133642991470',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C76A4C4F/31994_91431_1693726438_16280_RL-576-816-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466456926583023399',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/68034_80921_1693723615_51371_RL-944-752-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469401526884920646',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/67418_74495_1693717796_50928_RL-2240-768-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458844694789509277',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/67122_68807_1693713306_50648_RL-2384-800-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465005897786094541',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C78893C1/9498_64775_1693708701_14836_RL-848-672-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458982510374711751',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-04560017C78E3870/16562_99313_1693705104_19576_RL-1536-848-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461456701145510526',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/66242_55159_1693703974_49753_RL-2176-640-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469568686810755725',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C79997F3/378_9799_1693702226_996_RL-736-640-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464722785151774205',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-04560017C78E3870/15786_90737_1693698273_18595_RL-1552-800-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464716674856152573',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/64602_42081_1693698230_48508_RL-640-720-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470374592695780592',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/64266_39617_1693697081_48272_RL-896-688-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468489093429359020',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/64130_38529_1693696447_48185_RL-1296-736-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470594214170739952',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7A15201/56194_0_1693694042_21362_RL-2240-112-272-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459234210675183773',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230903/capture/DFC-RZ-05240017C7457B90/63466_34535_1693694008_47862_RL-1136-736-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462615888625952566',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7FD51AC/4698_52911_1693657141_5564_RL-1632-688-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469863119888346438',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7DC2B70/54026_36049_1693648845_20494_RL-2048-1024-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463162073342297105',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-04560017C710FCA6/70066_31839_1693647442_17473_RL-1120-528-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468823371606421932',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7C30932/14210_96919_1693638761_10880_RL-848-608-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463174585035018332',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C77F26F9/25186_11807_1693637845_43515_RL-1840-512-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463177372334575708',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C74A36EE/25466_87479_1693630284_16601_RL-656-1232-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464611455656816125',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C70B780A/34466_17897_1693628195_14907_RL-2000-784-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469231822224508121',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C74A36EE/25026_82095_1693617608_16259_RL-1168-880-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469801079387745606',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C77DFE3B/29578_12953_1693613761_42943_RL-128-272-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459226646298251421',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7457B90/56202_50479_1693611540_41983_RL-1936-784-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467764270856166705',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230902/capture/DFC-RZ-05240017C7457B90/56058_49751_1693610887_41909_RL-1792-656-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466085689356740391',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-04560017C79CE9C7/44970_94775_1693573659_24032_RL-960-528-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1569527358224859136',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7457B90/53266_20591_1693563812_39855_RL-2000-720-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460522319685636253',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C766CCAD/43626_27815_1693561954_59557_RL-1248-1056-304-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471392750864986509',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C766CCAD/43218_21913_1693560675_58886_RL-736-832-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459252786022863005',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7A15201/45082_19271_1693560533_17096_RL-768-768-512-464.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456202153027990502',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7A15201/44978_18911_1693559949_17046_RL-1168-432-448-448.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455896295186385959',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7DC2B70/42498_9641_1693532463_16318_RL-2144-912-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469217705321330621',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C750E95F/28874_41833_1693530946_13545_RL-1536-272-208-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469946425208237382',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7A15201/37538_6129_1693526955_14920_RL-832-0-208-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '457194608468718078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-04560017C78E3870/5610_68369_1693526300_6553_RL-1680-944-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1555720467778633728',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7792C81/1026_32143_1693526082_3307_RL-976-992-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470236855644745030',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-04560017C76DD03B/17970_15599_1693524450_40751_RL-1232-688-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461527917743075636',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7457B90/47650_65513_1693522948_35667_RL-1328-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471269781203338480',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230901/capture/DFC-RZ-05240017C7A15201/35914_2823_1693522228_14384_RL-1952-0-192-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '447793563414065433',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7E61B20/4954_9671_1693484454_85632_RL-1968-1024-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1560146820066181120',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7457B90/43506_15607_1693464667_31996_RL-2304-752-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456314384566744957',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7FAE9ED/49386_0_1693464014_20632_RL-1664-304-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1555032649544761344',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C76A4C4F/19130_1649_1693458047_9915_RL-1216-864-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463437723940713241',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7457B90/41866_98097_1693451667_30766_RL-1504-768-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1556073506767110144',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7457B90/41666_94935_1693449619_30530_RL-1824-672-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457479810722066942',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7457B90/39962_76927_1693439526_29161_RL-1712-720-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458783260533608605',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7A15201/27674_0_1693438654_11154_RL-416-0-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456380282937829251',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C724872C/29178_61903_1693438376_20346_RL-624-384-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459070293449658525',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7457B90/39218_72863_1693437350_28778_RL-1872-704-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '460227691589685405',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230831/capture/DFC-RZ-05240017C7A15201/27162_0_1693436984_10985_RL-576-16-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1552574851934326784',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7DC2B70/32266_79679_1693393731_11878_RL-2208-1184-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465082175633519565',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C70B780A/24058_68967_1693389391_8668_RL-1024-576-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471125544390378736',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C70B780A/23938_68753_1693388750_8630_RL-1488-720-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464724793988509181',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C730ADC7/22858_56949_1693388199_5379_RL-992-672-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470855680337659120',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7EC1783/11442_34193_1693387772_4807_RL-2128-912-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '450132823945269327',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7A15201/23666_0_1693381686_9434_RL-656-0-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462875383990079580',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7457B90/34426_22199_1693376237_25122_RL-720-672-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1589927860720631808',
       label: '李*霞',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-04560017C76E97E4/14458_42239_1689510540_4474_RL-960-912-384-384.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470817305291408624',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7457B90/31354_86133_1693354256_22561_RL-0-864-160-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458961489764569245',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7A15201/20178_0_1693351245_8060_RL-176-32-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469499945926290758',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7A15201/20066_57935_1693350642_8011_RL-2176-0-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470831105340097776',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7DC2B70/26226_62257_1693350287_9251_RL-2208-944-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465587777036115257',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C7457B90/29570_75513_1693349028_21577_RL-1152-752-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '446515233842810945',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230830/capture/DFC-RZ-05240017C71C0535/11418_33079_1693347646_12812_RL-608-736-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463711047019164441',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7457B90/27858_41569_1693305486_19794_RL-416-720-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456807225671839022',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7457B90/27802_40663_1693305054_19732_RL-640-752-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470118225057705286',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7A15201/17378_0_1693301130_6860_RL-2288-96-272-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465300935799763674',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7E61B20/1962_64895_1693298487_52531_RL-2400-720-160-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459255311010648221',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7367825/80090_0_1693285977_7707_RL-1152-16-256-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463155933065793628',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7457B90/24746_8585_1693281598_17473_RL-1568-768-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468519118102884963',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C7457B90/24738_8585_1693281596_17471_RL-1152-624-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456183023411414217',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-04560017C76DD03B/4466_10759_1693281556_18923_RL-688-672-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467101219056274677',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C708EE74/20588_0_1693279625_10176_RL-1024-384-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470141822144900422',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C77F26F9/41642_76607_1693279029_65528_RL-944-1136-256-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458777615520521672',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C70B780A/16050_44457_1693269232_5693_RL-1744-736-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465295457317313849',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C750E95F/11602_6007_1693269119_6113_RL-2080-768-304-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '460222520499401275',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230829/capture/DFC-RZ-05240017C750E95F/9890_98495_1693261084_5620_RL-1056-880-432-416.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458826210240126408',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C7A15201/10826_0_1693219022_4244_RL-400-160-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459215748892485476',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C74A36EE/10818_81111_1693211227_4516_RL-848-1168-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469719384814808390',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C77F26F9/4362_90287_1693208585_52972_RL-1536-768-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465163108923503565',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C76A4C4F/7106_92135_1693207734_3489_RL-1008-912-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458815299026702493',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C74A36EE/10210_77809_1693192340_4065_RL-2128-1008-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463128976458535004',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C7A15201/6066_0_1693181824_2452_RL-448-64-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1532162314168438784',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C7457B90/13642_9769_1693181008_9295_RL-736-720-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470380109967148272',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C7457B90/13362_7441_1693180173_9072_RL-2064-816-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469500866458576651',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C725B60B/9722_81801_1693178855_6642_RL-320-1040-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464719426755785445',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230828/capture/DFC-RZ-05240017C7457B90/12818_3633_1693178051_8737_RL-1360-752-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567723087607103488',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C70481CF/3914_67927_1693134453_2607_RL-1712-736-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461523799876071732',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-04560017C78E3870/5122_75655_1693134248_6754_RL-1056-848-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459218749816328349',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7457B90/9906_76967_1693134220_6755_RL-1904-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471172276822243090',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C74A36EE/7962_49983_1693133927_2470_RL-2000-1024-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469979135310064966',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C71CE238/1962_7951_1693133210_342_RL-1648-560-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469433843779136838',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7457B90/9098_70593_1693130796_6104_RL-1904-880-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464654086931762205',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7A15201/2194_0_1693127750_895_RL-0-384-272-320.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464612555571097085',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C77F26F9/71114_89967_1693124110_38762_RL-2112-896-240-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468636503854051939',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C78EAD39/1538_24351_1693123941_2351_RL-1200-336-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467624711497473329',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7A15201/1882_0_1693123511_737_RL-1280-16-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459214693622370461',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7457B90/7338_60073_1693121328_5039_RL-1968-928-256-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456654619595007875',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7457B90/6850_56647_1693117602_4706_RL-1616-688-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457774267942061134',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7A15201/8098_21553_1693098588_1842_RL-688-0-224-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461863548851605596',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230827/capture/DFC-RZ-05240017C7DC2B70/3162_9983_1693097443_1206_RL-2208-800-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462447528088980556',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-3/1year/20230826/capture/DFC-RZ-05240017C766CCAD/1434_21311_1693036521_2350_RL-544-1136-352-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461892562815307868',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230826/capture/DFC-RZ-05240017C77F26F9/85634_0_1693014680_34246_RL-624-576-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470738311011386608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230826/capture/DFC-RZ-05240017C70D16C4/87922_74207_1693014355_74679_RL-1488-160-160-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470444372190577904',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230826/capture/DFC-RZ-04560017C743FCC1/24498_82351_1693010934_49639_RL-992-224-160-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469795256318063082',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230826/capture/DFC-RZ-05240017C7457B90/49346_87407_1693010579_32961_RL-1200-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469506873960197446',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230826/capture/DFC-RZ-05240017C7D5D137/40602_99929_1693007153_31453_RL-720-448-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471147258369297562',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C70D16C4/85338_58479_1692961445_72913_RL-80-560-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467620964406948436',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7503E53/21914_0_1692958336_56260_RL-560-80-304-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469789494904646982',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7457B90/46098_47201_1692955834_30275_RL-1664-896-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470401974857135890',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-04560017C78E3870/99202_27689_1692952763_20295_RL-1648-816-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471121770305316762',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7B23736/55466_17889_1692950424_35859_RL-1808-320-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463135172183740508',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7457B90/44962_38639_1692949365_29600_RL-1616-688-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469987307592641862',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-04560017C75FFAAD/56770_65175_1692938621_84176_RL-944-288-128-128.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471101131947265178',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7A15201/81306_0_1692937810_50910_RL-352-0-224-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463156849370222684',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7457B90/43114_27625_1692937275_28707_RL-0-640-144-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469424187518250310',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-04560017C78989F3/20730_0_1692937167_29376_RL-592-272-384-400.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470669372860417264',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7BE3AD4/5946_0_1692929405_2640_RL-352-320-464-432.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470227979776060742',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C74A36EE/2770_79767_1692926522_80476_RL-1600-1184-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459246727854051485',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C7457B90/38434_95055_1692917139_25829_RL-1840-768-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463174901352648796',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230825/capture/DFC-RZ-05240017C750E95F/4666_55071_1692916595_57640_RL-416-144-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1562591149363822592',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-04560017C75FFAAD/55090_3855_1692884839_83244_RL-864-384-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466459737907554087',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-04560017C78E3870/94666_71729_1692874214_14530_RL-1280-832-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469724009370512710',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-04560017C78E3870/94482_70377_1692873481_14389_RL-1536-880-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459215492201074845',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C77F26F9/10738_48863_1692870139_6176_RL-400-480-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466381761031467355',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C70D16C4/70834_61855_1692866981_60948_RL-416-272-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468374429378835043',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7457B90/33602_49905_1692850091_22252_RL-688-768-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468639687414674019',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7A15201/67762_0_1692849688_46524_RL-528-0-288-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1581499226620166144',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7A229EA/14034_19799_1692848798_9316_RL-416-368-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462721670566662236',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C70B780A/2146_39631_1692843632_69692_RL-2160-736-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459136611418919069',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C70D16C4/67866_0_1692841983_58023_RL-1200-224-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467104506669188329',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7FBF5CA/41642_45661_1692836319_92717_RL-208-528-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458053935576412670',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C76A4C4F/54642_81513_1692832638_76543_RL-512-816-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466127774617203395',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7457B90/29914_24431_1692829927_20090_RL-1904-656-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470367719070385392',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230824/capture/DFC-RZ-05240017C7457B90/29642_23095_1692828703_19992_RL-1712-688-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470804844081333488',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7457B90/28602_5417_1692788879_18975_RL-1200-816-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470997471049305242',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7A15201/56394_0_1692779330_42748_RL-224-208-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456079044803325235',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-06210017C7DE2806/94186_49897_1692767347_86554_RL-832-272-144-128.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469366026799181126',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C79997F3/210_6263_1692766698_406_RL-2160-640-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470375078933054704',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C70D16C4/56522_63409_1692752829_49054_RL-1568-112-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470092769373744454',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7457B90/23058_61777_1692751308_15508_RL-336-800-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470381266168988912',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7A15201/52194_0_1692749794_41206_RL-240-160-288-288.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466316371077130023',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-06210017C7DE2806/92306_32097_1692749654_84676_RL-80-384-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465306581114843866',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7457B90/22394_57937_1692749293_15169_RL-1024-736-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466610293355601401',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C70D16C4/55994_60529_1692749077_48700_RL-1584-64-144-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464045743167008253',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7ED0C69/50242_62687_1692748842_69973_RL-96-1056-272-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459213743360862052',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C71C0535/16658_87231_1692746541_17229_RL-1264-640-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456890051079464835',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230823/capture/DFC-RZ-05240017C7457B90/21202_51121_1692745568_14563_RL-1088-720-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465212336832016841',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-04560017C78E3870/82562_45183_1692702879_1646_RL-1792-816-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455882940237237287',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C70D16C4/52162_36711_1692698458_45969_RL-1456-176-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461402677570461025',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C73932FC/96930_31951_1692698044_41029_RL-176-512-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1554651763334709248',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7959E7E/76122_82119_1692678600_35834_RL-512-736-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '454930371167929355',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7126D53/41130_73927_1692672195_29157_RL-272-816-480-480.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467338924625255729',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7B62DAE/3762_57423_1692671102_1435_RL-1264-896-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470240473651377052',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7E61B20/82234_69953_1692671074_29940_RL-16-768-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470816083406767344',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7457B90/15034_75561_1692663458_10125_RL-2272-784-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459220735617945757',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230822/capture/DFC-RZ-05240017C7457B90/14962_74311_1692663171_10027_RL-2048-624-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464576485311663133',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C7457B90/10042_30857_1692607073_6473_RL-1936-816-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465036112579031497',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C7DC2B70/6458_69903_1692602371_38968_RL-1984-912-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470417295928217607',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C7C23249/1714_13497_1692598359_1502_RL-1696-464-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1539543612616871936',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C76A4C4F/43666_99767_1692591582_70851_RL-384-816-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463003311755251804',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C70D16C4/36458_47095_1692589056_35623_RL-1216-288-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470237650784120134',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230821/capture/DFC-RZ-05240017C7457B90/6586_7817_1692583641_4730_RL-1024-736-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470228553556847942',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C7457B90/58_47467_1692506994_99783_RL-1152-784-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469274766210002246',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C750E95F/82914_55289_1692498008_46061_RL-1120-416-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463159117716934748',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C70B780A/83634_74857_1692488359_61335_RL-1968-704-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467478433182539057',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C7A15201/11738_37241_1692486959_27987_RL-496-0-208-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471240107727275248',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230820/capture/DFC-RZ-05240017C7457B90/97002_24529_1692485968_97874_RL-1104-816-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462128046695010396',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7457B90/95450_7455_1692443211_96414_RL-1568-784-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459252029018099869',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C76A4C4F/37274_66663_1692441289_67498_RL-816-848-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470090290036763974',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-04560017C710FCA6/35298_0_1692440407_7767_RL-384-736-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470233465556592395',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-04560017C7024F53/82442_9327_1692429515_17275_RL-1248-160-208-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470855036092564720',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7457B90/94026_90761_1692429254_95124_RL-1008-672-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458958824267600029',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7D06BCD/31282_57153_1692420883_27486_RL-1664-400-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466470646117857258',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C70D16C4/14858_1087_1692410923_18576_RL-208-288-160-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467489192696378193',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7457B90/92050_69791_1692405761_93678_RL-192-768-208-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458786559185932445',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230819/capture/DFC-RZ-05240017C7457B90/91442_65263_1692402491_93283_RL-2208-704-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463272361123148569',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-04560017C7A91A7F/97266_9635_1692363630_26742_RL-608-352-240-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469133762232340585',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-04560017C75FFAAD/31682_10543_1692359784_64671_RL-1424-400-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470089351351528774',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C72A0A96/47442_28913_1692348382_8849_RL-1936-384-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470234275006934342',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7DC2B70/84690_21849_1692344940_31649_RL-2128-1008-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468053396545368709',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-04560017C7390C11/3082_46553_1692341871_3308_RL-1584-464-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466362802861270823',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7457B90/86570_5777_1692341606_89602_RL-1488-816-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464580797425282557',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7168EA5/39626_73759_1692327500_1883_RL-128-768-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1552254611291639808',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7457B90/82946_75743_1692316573_87126_RL-1984-912-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464207486233112061',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7457B90/82202_71057_1692314443_86716_RL-864-656-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463134888749453404',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7457B90/81610_68199_1692312458_86438_RL-1824-736-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470372706836038896',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230818/capture/DFC-RZ-05240017C7457B90/81522_67727_1692312190_86385_RL-1968-736-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463303509819814681',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-05240017C7FBF5CA/20026_38431_1692271098_36178_RL-2096-512-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467937779129536553',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-06680017C70EB38F/79858_79079_1692255411_96847_RL-800-224-160-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464010842178874877',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-06680017C70EB38F/79706_78495_1692254805_96803_RL-0-496-144-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467385515121859889',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-05240017C7CC5258/29130_40649_1692237854_91176_RL-1152-720-208-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470662896351724784',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-05240017C7457B90/74458_85113_1692225756_81427_RL-1184-752-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467178418895614637',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-05240017C7457B90/74418_84793_1692225524_81401_RL-1904-896-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455880662277180455',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230817/capture/DFC-RZ-05240017C7457B90/74282_84175_1692225064_81341_RL-1616-736-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465302487356689566',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C78EAD39/80202_0_1692182222_74128_RL-1072-464-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468417652704965219',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C70B780A/70066_24975_1692177432_54945_RL-1360-576-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469830028524285254',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C7457B90/70346_43091_1692160454_78486_RL-0-736-144-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466460654698522407',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C74A36EE/76442_12047_1692145993_61189_RL-1376-736-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464576331548487165',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C7457B90/67818_20169_1692142265_76711_RL-1104-720-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463296253556454169',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C7457B90/67346_17735_1692140649_76518_RL-1616-752-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467034536031572065',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230816/capture/DFC-RZ-05240017C7457B90/66658_13473_1692137704_76198_RL-1712-864-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469527693411511622',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230815/capture/DFC-RZ-05240017C70D16C4/76274_25953_1692086179_85176_RL-1520-96-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458785668500312221',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230815/capture/DFC-RZ-04560017C70A5C79/52626_0_1692060157_14670_RL-608-144-448-432.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456069193322754939',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230814/capture/DFC-RZ-05240017C71C0535/73722_88463_1692002159_94742_RL-1440-640-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470961360759440624',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230814/capture/DFC-RZ-05240017C769206E/49826_80327_1692001075_20757_RL-1600-832-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1581810313034989568',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-04560017C70C9E01/25218_49407_1691908208_19899_RL-768-208-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456175642979886979',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230813/capture/DFC-RZ-05240017C7A07C5B/51410_73287_1691885824_40464_RL-944-464-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470410689379321072',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-05240017C7D135B4/10_39_1691826719_2_RL-2064-656-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470960402545532242',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230811/capture/DFC-RZ-05240017C70481CF/22202_22127_1691750334_15550_RL-1712-832-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465297897160733402',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230811/capture/DFC-RZ-05240017C70D16C4/34626_55231_1691732641_53944_RL-624-240-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470810515099108592',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230810/capture/DFC-RZ-05240017C750E95F/35810_0_1691646353_23825_RL-1712-352-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464585361784335869',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7457B90/19274_30943_1691579843_44196_RL-2176-832-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471236574344922352',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C70B780A/37042_29247_1691577656_42828_RL-1952-1136-368-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469854454254955846',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7A15201/70850_12823_1691577013_82996_RL-1680-80-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1566996611945463808',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C70481CF/11090_28815_1691573414_11766_RL-1488-736-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464060965168639485',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C76EFCCC/19866_82015_1691571205_7670_RL-128-1056-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469567895983123782',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7A15201/67778_0_1691570511_82134_RL-224-128-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463173720253419612',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C70B780A/36290_26199_1691569816_42411_RL-48-624-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464719675327016445',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7457B90/17354_16865_1691568132_42887_RL-560-768-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469407470247244429',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7FBF5CA/93074_76007_1691564825_55365_RL-816-576-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469946928306613574',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C713203C/41338_83215_1691552491_61049_RL-656-576-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466380836053215015',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C70D16C4/8994_7065_1691545414_38012_RL-1520-176-160-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470381504791332080',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-04560017C78E3870/17018_17505_1691538543_19936_RL-1696-976-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470226433000631622',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230809/capture/DFC-RZ-05240017C7ED0C69/31450_64671_1691534456_41978_RL-224-464-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467951815820867438',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7959E7E/52514_42177_1691493375_86106_RL-800-896-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469553106179353926',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7457B90/8338_48911_1691489924_37218_RL-1888-896-272-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563702833717444608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C74A36EE/50754_84055_1691487803_45804_RL-1232-1296-192-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467106266347488489',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-04560017C7D8130B/16834_41031_1691484153_5147_RL-1360-816-544-544.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469255684710483161',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-04560017C76DD03B/51322_87_1691474220_84284_RL-1056-784-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468203352526714734',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-04560017C76DD03B/51266_15_1691474184_84275_RL-480-752-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456665330891122563',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7457B90/5938_19529_1691468051_35495_RL-1328-832-256-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470249785056587078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C75363F5/33826_43089_1691463512_30117_RL-1184-480-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468641366310679139',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C77F26F9/1890_0_1691462074_49354_RL-704-560-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '454205156746097578',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7FBF5CA/88266_50047_1691461421_43088_RL-1136-576-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471115738678058322',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7E6B22C/90850_7135_1691456954_47593_RL-912-672-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470377371405403376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7457B90/4154_3537_1691454146_34335_RL-1792-768-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470236402760576326',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-04560017C76DD03B/49994_53511_1691453778_81107_RL-768-656-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468782125475197539',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7A15201/47906_0_1691451271_75323_RL-1232-0-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469854425297482381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7A15201/47466_0_1691449666_75187_RL-1264-48-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464718515870395901',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230808/capture/DFC-RZ-05240017C7457B90/1770_93225_1691448761_33345_RL-1088-832-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470383523526624496',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C75363F5/32506_8431_1691407112_29351_RL-576-416-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562606794973380608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C74A36EE/48730_59271_1691406765_43982_RL-1552-736-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1560947667050168320',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-04560017C70C9E01/10834_53623_1691404740_8795_RL-1584-16-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458227277218467997',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C703E3F7/71570_66473_1691401937_77082_RL-2304-560-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469380289144058346',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7825984/42554_2585_1691400681_76685_RL-1520-528-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470820317103670512',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7865139/10682_73247_1691399176_22750_RL-2192-1152-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468394381078983267',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-04560017C76DD03B/48794_80255_1691387764_77451_RL-368-880-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464162724956368381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7457B90/97194_47825_1691387362_30136_RL-1328-768-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470143100132552006',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7457B90/96130_35447_1691375296_29359_RL-2272-832-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469969561022655814',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7A15201/36426_0_1691369813_71586_RL-1072-32-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470403951179613424',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7FBF5CA/84250_35559_1691368706_31992_RL-1760-624-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471273926584976624',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7457B90/94418_26169_1691366589_28539_RL-1744-800-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463129803843719260',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7457B90/93594_22633_1691364352_28179_RL-1872-880-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463126039053226076',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C7457B90/93226_20857_1691362947_28034_RL-96-704-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470234842848587078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230807/capture/DFC-RZ-05240017C75363F5/31514_64511_1691360978_28403_RL-192-416-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471171725925565680',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7466774/10114_90855_1691333439_9973_RL-2176-752-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464719390416330177',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C70B780A/12130_80879_1691316881_36542_RL-1504-624-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468128534800388137',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7457B90/90042_88535_1691314700_25833_RL-2080-944-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469987988042968390',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7A15201/27138_88741_1691310292_68678_RL-480-48-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467247116092202419',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7457B90/88978_80975_1691306325_25363_RL-1840-672-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462975419751089169',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7457B90/88770_78415_1691303503_25196_RL-1632-784-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467781012168930129',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C78EAD39/53770_32127_1691302051_49194_RL-1840-592-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470519421257925872',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-04560017C7BC8630/8482_22343_1691297435_2601_RL-448-384-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464496842223143965',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7550AB1/58522_19727_1691294758_43476_RL-384-592-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470089199266065734',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C70D16C4/77266_0_1691293746_17025_RL-1328-224-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460668456551862429',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C703E3F7/68202_42961_1691293636_67740_RL-2352-512-192-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470586556025947376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-06680017C7D5ED0C/35578_4887_1691285967_77865_RL-832-1120-176-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471239285962458352',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7A15201/21298_69847_1691281320_66579_RL-624-0-208-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1568814617419841536',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C74A36EE/45858_22903_1691280505_41090_RL-1440-1200-288-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468779027293817876',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C724872C/58186_90423_1691278976_86516_RL-976-496-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458774922777350301',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7A15201/19426_0_1691275567_66088_RL-1360-384-336-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470446553312543984',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230806/capture/DFC-RZ-05240017C7457B90/84690_43847_1691272697_22535_RL-1680-768-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464632387834244605',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/84194_28447_1691235345_21819_RL-1648-800-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463128196989085494',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/83442_21889_1691231391_21227_RL-2000-864-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469943923725331782',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7D56C22/75114_11911_1691228874_33671_RL-1360-480-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470672430558364912',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/82858_16705_1691227535_20809_RL-672-704-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456057136342912039',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/81706_3071_1691209231_19894_RL-528-912-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463131714433077340',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/80146_88857_1691194523_18789_RL-1264-672-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467773966660951345',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C747F426/58906_3815_1691193983_93851_RL-224-496-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471273742186595568',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/79730_86409_1691192278_18559_RL-64-656-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468632673229763171',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230805/capture/DFC-RZ-05240017C7457B90/78642_81583_1691187123_18047_RL-1088-672-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470251684992412998',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C74C26DE/2578_5335_1691149393_757_RL-640-400-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465305806913434330',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7457B90/77466_68175_1691148646_17179_RL-656-688-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458486811874840733',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C76A4C4F/79234_58815_1691140789_39159_RL-448-912-160-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471304764366275824',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7FAE9ED/90730_21513_1691138114_83330_RL-928-16-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469553065276501318',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7A15201/97650_0_1691134420_59065_RL-1264-336-320-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464355557126467069',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-04560017C751AC54/4642_1551_1691126429_207_RL-1744-640-352-352.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464610904575602173',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7457B90/74394_42595_1691125814_15255_RL-800-752-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470672650910319856',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C70D16C4/58202_68721_1691121927_1067_RL-1552-144-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458988704086648676',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C738BAED/96914_90597_1691115105_38344_RL-1584-80-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '452729948994555104',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7A15201/92866_0_1691114131_57611_RL-0-368-352-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470009539182226758',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-04560017C75FFAAD/76666_19775_1691112541_35754_RL-1248-432-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470962123049026800',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7A15201/90602_0_1691108848_56958_RL-576-0-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456382259042217262',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-04560017C710FCA6/74818_8415_1691108296_40581_RL-800-656-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467097256193973683',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C70B780A/5810_52871_1691107469_32938_RL-1024-992-352-352.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464862947517166541',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230804/capture/DFC-RZ-05240017C7457B90/70730_12535_1691102583_12918_RL-1760-672-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463625667817272089',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7457B90/69394_1351_1691062567_11942_RL-1376-688-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470973833495469394',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7A15201/84618_0_1691060941_54931_RL-192-64-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469947605619600710',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7FBF5CA/72682_0_1691057178_94578_RL-96-544-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462417695128703068',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C70D16C4/48570_13943_1691057015_95169_RL-160-496-224-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459227113577271453',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7F221FB/38274_60623_1691052507_18158_RL-80-512-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470870589880422407',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-05240017C7AA6C0B/14330_0_1691038335_3373_RL-1604-40-86-108-V10-CS20f66a6d7c6a_profile1.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470009499185343814',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7457B90/65682_65431_1691038196_9576_RL-2048-672-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468058925795669870',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C7D3367B/13402_0_1691034440_8621_RL-1584-224-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458784628564587404',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-04560017C751AC54/64874_71719_1691031007_23023_RL-624-576-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471138968260330736',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C70B780A/99658_42177_1691027053_31512_RL-1920-704-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465627168647431270',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C72A0A96/32218_72841_1691017664_11296_RL-992-608-304-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469938058863604365',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230803/capture/DFC-RZ-05240017C703E3F7/58298_19017_1691017014_42717_RL-2128-416-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457915900847211598',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C7959E7E/44754_15575_1690981210_72352_RL-880-752-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470009682509983046',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C70D16C4/37650_40103_1690972469_87441_RL-96-352-144-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470082909403901254',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C73932FC/32514_96879_1690971243_95523_RL-592-480-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470446377705424112',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C70D16C4/36866_36407_1690970766_86932_RL-992-304-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470261883610361158',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C7A15201/68626_26919_1690969996_49570_RL-608-864-480-480.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471237053720315120',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C70D16C4/35066_22863_1690965362_85280_RL-1104-64-128-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455896217071668263',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C74A36EE/38618_11431_1690964110_34568_RL-2048-800-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469367718177434950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-04560017C76DD03B/38962_70863_1690956753_39132_RL-688-800-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469268762047051709',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C787371F/8386_41287_1690954005_55894_RL-1264-400-368-352.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469506061842279750',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C70B780A/96274_27055_1690933346_29558_RL-656-752-320-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471382760267739533',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C7A15201/59994_0_1690931091_46795_RL-2144-128-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469868086665702726',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230802/capture/DFC-RZ-05240017C7457B90/52362_50799_1690927860_1470_RL-1776-720-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470990798968606727',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-04560017C7024F53/41370_51215_1690904167_8157_RL-1280-160-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470806083615606000',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-04560017C79CE9C7/3746_35295_1690890806_50483_RL-32-496-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461594660461113652',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7367825/10330_61207_1690888471_7029_RL-1072-96-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467098562300235873',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-04560017C75FFAAD/67554_27777_1690886391_31076_RL-1328-336-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468773993575380858',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7E61B20/49202_39415_1690885870_84718_RL-2432-944-128-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464576340541074941',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7DC2B70/35842_91881_1690884133_13736_RL-1904-1008-288-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469512473607695686',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-04560017C78E3870/18562_5577_1690881292_26726_RL-1488-880-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471251554637202672',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7A07C5B/16522_57209_1690880598_44435_RL-128-336-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463557537589916441',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7457B90/46330_79631_1690861136_96838_RL-2112-752-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470287536141395723',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C74A36EE/35394_65047_1690854834_31718_RL-1120-1024-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470659712338117872',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7A15201/40786_0_1690853569_41473_RL-1376-32-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470522465785758960',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7A15201/39866_0_1690849957_41187_RL-320-16-256-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468488061865456227',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-05240017C7A15201/38450_0_1690845495_40754_RL-432-32-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464576289907437053',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230801/capture/DFC-RZ-04560017C78E3870/12826_69073_1690841938_25059_RL-1616-912-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471298248498234608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C74A36EE/33514_38767_1690800840_30311_RL-2416-672-144-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467099199834443873',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7CC5258/13098_40291_1690797539_6350_RL-2192-432-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468917041319932435',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C73F4C34/14266_27313_1690797080_68274_RL-1536-496-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '454580859698181034',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C72BC043/10258_84623_1690795180_47782_RL-640-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1564431738858373120',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-04560017C76DD03B/32210_34479_1690780609_13355_RL-832-672-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470676809009087728',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C70D16C4/4858_59063_1690778753_66327_RL-512-352-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471297247049434352',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7457B90/33194_78519_1690760578_88332_RL-2208-800-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1553250658914664448',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7457B90/32682_75665_1690758988_88069_RL-2000-848-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471105744121382128',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7825984/58538_5711_1690757811_77996_RL-1456-464-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470658429434742000',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C7457B90/31794_71103_1690754915_87657_RL-1840-656-240-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459205893771260359',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230731/capture/DFC-RZ-05240017C70481CF/14242_51119_1690754894_12306_RL-80-576-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464714046873027800',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C77F26F9/2042_56951_1690719983_76488_RL-720-400-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469501106574093638',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C76A4C4F/59338_50303_1690716108_28918_RL-1968-880-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1567837289696985088',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C78EAD39/36370_39823_1690713464_32437_RL-1264-304-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459224120672931997',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C77F26F9/79706_98615_1690703444_67901_RL-2016-496-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466463208459235675',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-04560017C78E3870/9914_79415_1690699380_18502_RL-1408-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469212937320416473',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C70D16C4/85378_75927_1690684596_55721_RL-672-176-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469832025298201926',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C77F26F9/66074_0_1690680383_61083_RL-1008-656-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1539828721056223232',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-06680017C7CB0F33/16474_37169_1690676233_38435_RL-1456-976-320-288.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470226566362721606',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230730/capture/DFC-RZ-05240017C7457B90/23802_95577_1690671023_82067_RL-1440-800-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456800021635943517',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C7DC2B70/16042_0_1690630273_6101_RL-2048-880-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459258883601354909',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C70D16C4/82026_54031_1690630145_53163_RL-64-480-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469966061094072973',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C70D16C4/78018_16231_1690616133_48601_RL-1536-272-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469422688188788038',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C70D16C4/77522_0_1690609038_47892_RL-896-0-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457234934185095678',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C70D16C4/75610_97479_1690595293_46710_RL-128-336-160-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469960122764913990',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-04560017C75FFAAD/51506_58799_1690589866_22326_RL-1120-368-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455878422753725479',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C7457B90/15602_10479_1690584708_76054_RL-1696-720-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464182867094695421',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230729/capture/DFC-RZ-05240017C7457B90/15010_7351_1690582084_75769_RL-1920-624-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466092206046869482',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-04560017C79CE9C7/77338_0_1690548229_39162_RL-1744-464-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465663387653665498',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7501F56/618_31441_1690542963_1192_RL-128-784-288-272.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469135450506818067',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/13386_84535_1690541167_74097_RL-2160-704-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459247314771398813',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-04560017C715CB04/96442_7047_1690513698_28194_RL-816-768-304-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470256927620753163',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7794FBA/21218_95965_1690505668_65407_RL-432-640-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461424221310972542',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/7890_32503_1690501899_69787_RL-2240-832-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466324356813842215',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/7690_31719_1690501436_69706_RL-1456-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458075105688313163',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/7410_29879_1690500346_69544_RL-2272-848-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463127061339328604',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/7402_29845_1690500323_69538_RL-96-752-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465307219336917722',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C70B780A/69802_56551_1690498880_20307_RL-1616-640-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467042515090955699',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C70B780A/69778_56407_1690498539_20285_RL-2112-672-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471386550844813709',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7A15201/65122_0_1690497873_19124_RL-656-0-224-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457365157492835406',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C70D16C4/57722_92767_1690497643_34661_RL-576-256-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471383071619314061',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/6138_23345_1690495798_68898_RL-1104-624-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458793062403952797',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230728/capture/DFC-RZ-05240017C7457B90/5930_22487_1690494683_68831_RL-2128-896-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460742415150510535',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/5098_9599_1690458038_67837_RL-1520-768-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471318979466523021',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/4482_8263_1690457581_67661_RL-896-688-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471298969817859312',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/4466_8207_1690457576_67653_RL-1360-608-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463157980540457052',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/3922_0_1690456502_67379_RL-864-928-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464723387839704573',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C70D16C4/54930_72655_1690455501_32235_RL-928-128-160-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469429440884010310',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/3146_2679_1690454491_66973_RL-1776-784-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461837198287720540',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/3026_2073_1690454206_66902_RL-1552-864-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471308974424090449',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/2426_97887_1690451715_66491_RL-2048-752-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471298115958241042',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/2266_96903_1690450862_66390_RL-1456-736-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455919773373451303',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/954_90903_1690446149_65802_RL-848-720-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471299560409423186',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/962_90855_1690446148_65801_RL-1792-784-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471291968551404784',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-06680017C783707A/95954_24591_1690445799_48293_RL-1552-272-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471290587132225434',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-06680017C70EB38F/94138_15717_1690445524_45510_RL-832-208-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471297857320666352',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/810_89719_1690445010_65699_RL-1824-768-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471293731199272176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/546_87017_1690442548_65456_RL-1104-768-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471291274696082672',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/48106_0_1690441090_14889_RL-320-48-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471254519842360474',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/48090_3295_1690441075_14882_RL-1584-0-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471286187592535194',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-04560017C76DD03B/23682_92785_1690438101_69735_RL-1152-912-288-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469694917040434502',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/99002_75079_1690431323_64610_RL-1968-1136-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471274239664604400',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/98914_74535_1690430932_64559_RL-1488-736-240-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456614165600038190',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/98850_74287_1690430786_64537_RL-864-688-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471019097652479216',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7C23249/10562_8689_1690428195_10754_RL-1952-336-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469709509292485958',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7B23736/22946_2503_1690426250_16007_RL-1904-288-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458058029502329342',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/98050_67327_1690425460_64038_RL-2160-752-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458824570921570461',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/42986_0_1690420122_13396_RL-400-96-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471250213768545520',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/96322_56023_1690416610_63100_RL-2192-736-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464721653360782845',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/96130_54833_1690416023_63005_RL-32-688-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470107683614125382',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C76528FD/16682_80295_1690415155_24857_RL-1840-880-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461452234715066676',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C77CAC23/34938_87663_1690414115_13736_RL-1600-672-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463710695804924697',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/40306_0_1690413650_12677_RL-1360-176-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467035191114748001',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7DC2B70/76066_3655_1690413008_27216_RL-1824-960-272-272.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464306232899952065',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7A15201/39946_89495_1690412157_12573_RL-1328-192-320-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466311245956409127',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/94530_46583_1690411270_62214_RL-2112-768-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457758878721929726',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/94282_45393_1690410045_62086_RL-928-864-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456309959576020867',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230727/capture/DFC-RZ-05240017C7457B90/94114_44751_1690409247_62012_RL-2160-816-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459219843875369868',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/92466_24479_1690368229_60103_RL-1536-768-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471167867954414832',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-04560017C78E3870/1538_43271_1690367707_3047_RL-1776-960-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458991397903552669',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/92202_22903_1690367522_59929_RL-1664-656-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471164141281758362',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7A15201/36370_79199_1690365404_11188_RL-1440-0-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471164131332869274',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7A15201/36378_0_1690365401_11186_RL-448-0-272-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471164066589592730',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/91722_19871_1690365342_59613_RL-2304-896-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458829419973202077',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C77F26F9/89490_12007_1690365105_28591_RL-544-976-256-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462721283902165084',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7A15201/35474_0_1690363484_10899_RL-592-0-224-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458966600523993245',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-04560017C751AC54/31386_96887_1690362260_12999_RL-1136-560-336-352.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463918956420296189',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/90962_14767_1690361750_59140_RL-1760-672-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464133218598153725',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C73F4C34/8914_79329_1690361548_58415_RL-1488-512-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458366800522933132',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7FBF5CA/40634_43511_1690361122_5095_RL-2160-544-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1576762397220143104',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/90122_8375_1690355599_58645_RL-1872-576-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455454142295461945',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/88754_1017_1690347567_58044_RL-1184-864-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467626106539760945',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/88506_98711_1690345402_57878_RL-912-560-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471112305187243248',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86866_85039_1690334413_56729_RL-1696-640-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467963402820548462',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86850_84679_1690334021_56714_RL-2400-816-160-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '471105967459681520',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86386_80031_1690330633_56417_RL-2272-864-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1532210239074471936',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86130_77607_1690329133_56253_RL-1520-848-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460811529277690013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/86090_77319_1690329077_56231_RL-1680-736-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470298044567417485',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7667AD5/29306_13473_1690327198_28245_RL-128-272-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471097091825878256',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/85458_71415_1690325343_55830_RL-1872-768-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471094598211486960',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230726/capture/DFC-RZ-05240017C7457B90/85386_70263_1690323858_55768_RL-576-688-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1557694320063021056',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/84682_52703_1690284756_54885_RL-1888-960-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468997652705461465',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-04560017C75FFAAD/38538_76511_1690283984_15032_RL-1088-528-160-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464641697159070936',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/83426_43943_1690280154_54032_RL-2080-704-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465450795261776078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/83242_42591_1690279250_53902_RL-1168-688-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '471016239821505776',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C76A4C4F/35570_91471_1690277474_18609_RL-16-944-224-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '471016264114914544',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C76A4C4F/35538_91487_1690277457_18604_RL-896-1056-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '457635796015412192',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C761AB5B/8498_41543_1690276156_2824_RL-1920-848-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469556685178958748',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C70D16C4/17618_95359_1690273127_10663_RL-1312-32-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460520877683929543',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/81234_26207_1690264834_52612_RL-2176-768-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467943093262371863',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/81202_25673_1690264402_52571_RL-16-704-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455916822043060084',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C76528FD/13866_43095_1690263486_21049_RL-736-912-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456627118231536841',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7A15201/16290_44943_1690262208_5410_RL-1456-640-544-528.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469240212342457561',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7A15201/15194_41479_1690255474_4954_RL-1216-640-464-464.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469537562793375590',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7056ED2/22050_17935_1690250112_2124_RL-448-448-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1555737185439711232',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7DC2B70/61770_58447_1690249515_21578_RL-2288-928-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468925046417540313',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/78946_1113_1690247906_50345_RL-1296-784-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464860278463427533',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/78866_99615_1690246965_50218_RL-1664-704-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470962127427880176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/78122_95553_1690244853_49784_RL-1824-816-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459218666618114205',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/78130_95553_1690244853_49785_RL-2368-864-192-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470948429502104816',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C76A4C4F/32298_59679_1690239453_17126_RL-640-784-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465154071775441353',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7A15201/10698_0_1690239241_3556_RL-320-0-256-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466227443225620827',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/76266_83479_1690239159_48610_RL-1424-704-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464715320314064381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/75826_80975_1690237332_48401_RL-1696-768-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468781520706892387',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/75610_80263_1690236616_48337_RL-1008-656-176-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459066234873335965',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230725/capture/DFC-RZ-05240017C7457B90/75562_79943_1690236396_48309_RL-1776-720-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467101336429678689',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7DC2B70/58490_47543_1690195610_20013_RL-2080-1136-288-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1552947165150576640',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72634_45295_1690185661_45781_RL-112-944-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1562272037869715456',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72618_45271_1690185656_45778_RL-912-752-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463627927976702745',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72506_44727_1690184941_45733_RL-1888-752-176-160.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470859632982639856',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72418_43985_1690183804_45665_RL-976-800-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470280213842917222',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72426_43993_1690183805_45666_RL-1728-912-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464621251722243581',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/72178_41871_1690180626_45500_RL-1104-608-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470852903205094640',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7A15201/1562_5719_1690179804_561_RL-1376-976-464-448.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470303308821578992',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C70481CF/14114_16791_1690174182_13889_RL-2016-800-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470837116750808304',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7A15201/722_1599_1690170560_221_RL-160-0-224-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463133636414165084',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/70442_28775_1690165455_44491_RL-544-768-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470827131371275504',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/70306_27919_1690164432_44413_RL-2208-864-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470007961016626502',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/68826_20425_1690157647_43730_RL-736-832-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458965432276111517',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/67306_12873_1690152441_43036_RL-1776-848-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458122703975507805',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/67066_11447_1690151569_42921_RL-2016-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469947488078425414',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7550AB1/20610_7175_1690151398_15279_RL-272-560-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455872973362973735',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230724/capture/DFC-RZ-05240017C7457B90/66626_9423_1690149738_42733_RL-1184-656-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468835490930390906',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-04560017C75FFAAD/29666_86567_1690115357_10998_RL-1072-400-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470740736208291056',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/65970_94015_1690112932_42028_RL-1120-800-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469948133783137606',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C76A4C4F/27850_35771_1690112431_14802_RL-1072-896-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465811691465107239',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/65370_91751_1690111939_41761_RL-2176-912-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470738585453085936',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/65306_91343_1690111653_41712_RL-1296-832-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458846184673407884',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/65082_90103_1690111113_41560_RL-1296-624-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459232011551273415',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/64914_89223_1690110710_41465_RL-1712-688-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458807261280626532',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/64762_88657_1690110306_41387_RL-1264-672-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470727572771063024',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/64066_82191_1690105095_40849_RL-2064-752-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462162973721390402',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/62522_66481_1690088253_39988_RL-2016-912-240-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458961193646715788',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/60834_47049_1690071505_38703_RL-2144-848-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '466460805693466407',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/59730_40321_1690065769_38146_RL-1376-752-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459973337955717277',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/59682_40241_1690065747_38135_RL-1216-768-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455872830806969383',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/59642_39879_1690065313_38109_RL-1888-736-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458970049818939549',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/59586_39697_1690065093_38093_RL-832-704-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463408054642176793',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230723/capture/DFC-RZ-05240017C7457B90/58914_37479_1690062987_37872_RL-2224-720-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470595478854059248',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/58186_21575_1690026357_36916_RL-1264-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464648154172644801',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/57978_20447_1690025719_36790_RL-1712-768-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459945090056474781',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/57442_0_1690024078_36474_RL-2048-912-224-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458784525686689949',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/57434_17681_1690024077_36473_RL-1472-816-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458852315319783581',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/57082_14887_1690022359_36211_RL-2400-800-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470586804127426458',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/56778_13887_1690021361_36097_RL-1856-768-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467102088065729769',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/56546_11407_1690019215_35885_RL-1648-656-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469954672854068550',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C74A36EE/13098_72057_1690018816_11835_RL-1488-800-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '454209798146116708',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-04560017C7024F53/17098_19239_1690018626_3066_RL-1136-384-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470574335921243376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/56090_7005_1690013756_35602_RL-384-640-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470569610937124080',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/55882_3663_1690010943_35471_RL-944-880-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470446069138876314',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/55682_1031_1690008812_35361_RL-624-704-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470551450020234480',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/55674_1031_1690008807_35358_RL-320-624-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470271270680818154',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/55018_88061_1689998851_34773_RL-400-752-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467662459008736561',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54706_84017_1689996802_34488_RL-1536-768-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470543713190298864',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54498_82079_1689995506_34368_RL-1968-768-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468982869847459033',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54074_76513_1689990778_33972_RL-1120-672-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470534985011447024',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/54034_75871_1689990303_33912_RL-1648-592-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466326764595996455',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53946_74737_1689989241_33848_RL-240-752-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1552984012039913472',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53730_72279_1689987255_33698_RL-1376-544-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469657996041940294',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53562_70905_1689985908_33600_RL-928-784-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470525907413517552',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53410_69767_1689984890_33486_RL-2320-736-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1539204817895821312',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53290_69241_1689984514_33434_RL-624-736-208-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470525231241381104',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/53250_69185_1689984484_33429_RL-752-816-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470253891766743693',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C787EEEB/19402_7247_1689983312_11412_RL-1392-816-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1562972022953213952',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7083768/32098_17983_1689981999_11259_RL-320-688-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470519364014064880',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/52394_64183_1689980993_33024_RL-2240-832-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '466374724750960423',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/52370_63943_1689980784_32995_RL-2128-800-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1555720694807920640',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/52130_62839_1689979793_32911_RL-1408-656-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463716309981491993',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/52098_62727_1689979680_32901_RL-2144-848-224-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470515859807290608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51834_0_1689978902_32818_RL-736-816-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '456173774602004355',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51770_61623_1689978860_32805_RL-2304-752-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464721636013141501',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51762_61631_1689978856_32803_RL-1520-704-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470515399658587376',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51706_61295_1689978627_32769_RL-1968-880-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467469545519471921',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51586_60279_1689977779_32699_RL-1856-640-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456174508621981571',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51498_60023_1689977624_32678_RL-1840-800-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1581131730104877056',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51490_60087_1689977623_32677_RL-1440-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463332924473766681',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230722/capture/DFC-RZ-05240017C7457B90/51314_59327_1689977013_32618_RL-1616-656-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464019339050250981',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C76A4C4F/21730_86279_1689939668_11474_RL-912-896-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458111474833844061',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7DC2B70/40722_88783_1689939496_12747_RL-2000-1184-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470441926173157274',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C70B780A/26202_73215_1689938723_9446_RL-16-800-240-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464211841430613501',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/49930_36567_1689938020_31249_RL-1440-1008-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462312284417445980',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/49738_35463_1689937489_31124_RL-2192-800-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '454778351723237433',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/49514_34079_1689936880_30973_RL-2256-944-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468050252746749806',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/49194_31607_1689935296_30746_RL-1456-816-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470437116212430064',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/48538_27119_1689931966_30349_RL-1264-1168-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470436603181942000',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/48426_26613_1689931659_30307_RL-0-624-160-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470412609011598576',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47458_20703_1689926930_29789_RL-1696-704-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470426944454804720',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47338_19663_1689925906_29717_RL-1664-864-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1539151506928832512',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47154_17793_1689923587_29605_RL-768-800-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456328965997492093',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47114_17367_1689923113_29581_RL-1776-656-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470421333516240112',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/47050_16839_1689922562_29538_RL-1504-720-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '453989749590351231',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/46402_12433_1689917912_29228_RL-688-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470412612954244336',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/46282_11615_1689917360_29174_RL-912-816-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470404537560089840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/45706_6231_1689912550_28899_RL-2320-768-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460288650010185885',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/45242_695_1689909376_28516_RL-752-768-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470390962661639408',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/44722_94743_1689904459_28132_RL-1648-624-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464884436815607706',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7959E7E/17722_81079_1689901908_21548_RL-720-832-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468353237221667427',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/44234_89487_1689900621_27832_RL-880-752-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470381500328592624',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/43690_85737_1689898813_27533_RL-1120-1072-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460672175557341755',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/43418_84281_1689898166_27404_RL-640-768-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455889214312041511',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/43410_84189_1689898164_27401_RL-272-624-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467478179762691377',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/43242_83135_1689897731_27294_RL-1568-656-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470376482682723666',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/42458_79159_1689895845_26911_RL-944-992-320-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467912220903241582',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/42306_78631_1689895659_26855_RL-1808-688-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470370976182322416',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/41594_73089_1689892546_26402_RL-1504-800-224-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455593631693173641',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/41562_72935_1689892439_26390_RL-848-752-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '445651995664086908',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/41466_72457_1689892171_26346_RL-1936-848-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461819053963497564',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/41458_72457_1689892168_26344_RL-1232-704-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470368229030642928',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/41146_70967_1689890909_26240_RL-1872-640-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '460219883657908381',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230721/capture/DFC-RZ-05240017C7457B90/40970_69487_1689889573_26155_RL-1728-704-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459945006606602397',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/40242_50543_1689852801_25313_RL-1696-736-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470267466145099078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C70B780A/18306_58063_1689851903_7456_RL-2240-608-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463264552033743530',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-04560017C75FFAAD/16802_50919_1689851611_6315_RL-1072-400-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464584958057410045',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/39322_44781_1689849880_24710_RL-384-672-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462150372874535953',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/38762_41087_1689847620_24333_RL-1680-672-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464604302875313368',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/38578_40215_1689847107_24251_RL-160-672-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470292155663936838',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C759BD2E/8770_88823_1689846572_12882_RL-2320-912-240-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461681252219515518',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/38362_37431_1689845604_24008_RL-1456-1120-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468670679949010739',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/38082_34489_1689843321_23757_RL-0-816-160-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470280414078987590',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-06680017C70EB38F/37394_82343_1689842794_17743_RL-1888-192-128-128.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470280223707918826',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-06680017C70EB38F/37338_82239_1689842788_17735_RL-272-176-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470285079202000198',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C76A4C4F/16106_37439_1689841389_8452_RL-816-880-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470279506213499533',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-06680017C7A2DCCF/81154_43607_1689841144_34868_RL-1088-464-144-128.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469676000544846748',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/37826_32161_1689840816_23612_RL-1488-800-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470280226526491114',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-06680017C7169ABA/29658_43399_1689840681_18770_RL-464-672-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469837105372097862',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/37186_28503_1689837382_23343_RL-2176-816-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457372548863128062',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/37146_27959_1689836737_23312_RL-1088-832-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470254364330585414',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7E6B22C/15978_40671_1689834287_8439_RL-2064-448-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469375539413544262',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C74A36EE/8266_96065_1689833433_7267_RL-1552-944-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464722539801767421',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/36234_19895_1689828838_22827_RL-1520-912-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470260958380453190',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/36066_17097_1689826970_22647_RL-1600-736-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465307244032967782',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/35826_13773_1689825665_22425_RL-496-784-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463174814966763612',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7959E7E/15986_53199_1689822128_18309_RL-0-1184-240-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464935681999795149',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/35250_5889_1689820850_21889_RL-960-880-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463143774801913654',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7C23249/11002_7793_1689818760_10894_RL-2416-480-144-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458993230243983931',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/34882_1383_1689817517_21591_RL-1392-592-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458967248543961245',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/34810_351_1689816640_21539_RL-1696-688-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470234933244226886',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7A15201/18866_0_1689811460_6438_RL-224-176-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463707523485037337',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/33586_91415_1689811383_20835_RL-1824-784-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470227716726091078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/33346_89985_1689810837_20690_RL-720-656-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468539105404285539',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/33170_89023_1689810391_20586_RL-1488-672-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470231019522387270',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/32834_86369_1689809122_20348_RL-1008-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463271468004832025',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/32618_85567_1689808689_20268_RL-2144-816-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '466369858183918591',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7E8E817/21202_26001_1689808359_12703_RL-1040-576-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470157889047129414',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7A15201/17562_0_1689807962_6010_RL-1184-32-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463267186073432857',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/32058_82503_1689806324_19978_RL-2144-784-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470224906139757894',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/31794_81729_1689805481_19905_RL-704-624-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469788935216721222',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7A15201/16906_0_1689804698_5794_RL-1328-32-320-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468628299594101347',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230720/capture/DFC-RZ-05240017C7457B90/31410_80079_1689803797_19758_RL-1696-656-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461748485234913588',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/30450_62215_1689766854_18694_RL-2032-736-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463173893394288732',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/29450_58663_1689765303_18247_RL-1056-1152-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470157321322917190',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/29234_58271_1689765184_18191_RL-2080-688-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458992989373485213',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C76A4C4F/12306_7583_1689763134_6416_RL-800-864-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467105816298672225',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/27890_53623_1689762755_17644_RL-1728-784-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469286818995531078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7FBF5CA/12570_5487_1689762501_31185_RL-32-448-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458950286409486493',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/27482_51455_1689761070_17449_RL-1360-640-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470149874705263942',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/11018_31751_1689760764_3485_RL-0-432-272-336.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '447801957608875901',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7FBF5CA/12146_96839_1689759312_30187_RL-400-704-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470146302701761002',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/27026_47985_1689758722_17153_RL-720-688-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458978797862023623',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C71C0535/8010_36555_1689757046_7962_RL-752-432-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458849306141553548',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7FBF5CA/11834_90335_1689755966_29461_RL-1216-784-224-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458791790456098973',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/26618_0_1689755776_16857_RL-992-672-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470136211156005517',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/7146_0_1689753424_2323_RL-464-0-240-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464719664925142525',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/7090_0_1689753023_2309_RL-1248-0-240-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1552839625368666112',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/6962_0_1689752363_2262_RL-464-0-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469992504670842182',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C79997F3/354_8335_1689749652_655_RL-528-1024-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470125965175975238',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/25546_36175_1689746508_16312_RL-1632-800-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470125517073313094',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/5538_0_1689746245_1849_RL-480-0-192-144.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470122512022269254',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-04560017C75FFAAD/11114_33559_1689745256_4134_RL-1072-320-144-144.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467637472700947761',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/25242_34423_1689745243_16167_RL-1664-1120-272-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463135650636385356',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/24370_24535_1689738040_15446_RL-2176-768-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563131551812681728',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/3410_0_1689734469_995_RL-208-96-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470103931809197382',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/2938_0_1689733383_851_RL-0-304-352-352.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470098249953340742',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/23482_15167_1689729989_14731_RL-2192-864-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462458235207569500',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/23410_14841_1689729477_14695_RL-1152-688-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470090895358715659',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/866_0_1689729224_244_RL-528-0-208-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467101696099635297',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7A15201/35154_0_1689724604_12267_RL-240-0-256-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465302742756258522',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/21546_3919_1689722320_13786_RL-1696-704-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463852736782298621',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/21434_2911_1689721742_13710_RL-2368-832-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470084408397819206',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/21426_2911_1689721738_13708_RL-1696-704-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457620391158903294',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/21394_2839_1689721688_13697_RL-2176-736-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469550998541592331',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7006C7D/650_97935_1689720605_6741_RL-1776-704-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465874990760224551',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20610_99375_1689718271_13385_RL-1520-592-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470078172860280134',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20482_99103_1689718022_13357_RL-2240-864-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470077127589391686',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20410_98711_1689717398_13337_RL-1680-816-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470077058937023814',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20402_98679_1689717358_13335_RL-1760-800-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458935314841358493',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20394_98599_1689717293_13329_RL-768-800-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470076698797305158',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230719/capture/DFC-RZ-05240017C7457B90/20362_98455_1689717143_13318_RL-1904-816-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461390776249643316',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C70481CF/3762_66863_1689691503_4653_RL-1744-1136-336-304.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470012423655420394',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/31586_92175_1689678981_10771_RL-1184-64-272-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '470000428818396060',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/19170_76119_1689678973_11967_RL-944-560-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '470012663888375110',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/19178_76207_1689678971_11963_RL-2224-832-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470000472338494364',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/19146_76079_1689678969_11959_RL-1360-608-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455908855247817767',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/19018_75319_1689678682_11865_RL-2112-752-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461020654708215965',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/30394_0_1689677317_10290_RL-400-0-240-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455880213553768308',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/18586_72711_1689677191_11587_RL-1216-1040-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469987481387822406',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/30138_88559_1689677102_10215_RL-1200-448-320-304.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '461549627779344348',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/18298_71239_1689676235_11430_RL-1568-672-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '470005402893839686',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/28074_84279_1689674654_9590_RL-0-384-288-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468413515275727459',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C76A4C4F/7322_0_1689672796_3804_RL-2176-1168-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458969954104925640',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/21610_0_1689664075_7659_RL-448-80-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469985802911247686',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/16506_54599_1689662966_10324_RL-2400-784-160-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469985126235794758',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/16458_0_1689662558_10302_RL-1296-800-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469973370423766342',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/15450_46311_1689655553_9867_RL-1200-816-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469966306897063238',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/15434_46383_1689655552_9865_RL-64-800-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469955816993090886',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/14018_32959_1689645268_8959_RL-96-912-272-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '455310301827461532',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/15938_52727_1689642229_5746_RL-1040-608-448-448.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469944732873682246',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/12362_20177_1689638487_8040_RL-1184-800-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469943596871609670',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/12130_18239_1689637805_7885_RL-2224-752-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463852715240353277',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11978_17225_1689637396_7808_RL-1008-864-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460132941993889949',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11394_12903_1689634908_7469_RL-1312-768-224-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463720969349919513',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11194_11863_1689634131_7376_RL-704-672-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469574671008820550',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C70B780A/7514_17303_1689634088_2238_RL-48-640-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467104193757332713',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11114_11431_1689633845_7323_RL-1712-624-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455874971864943655',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11106_11407_1689633830_7322_RL-2160-864-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464573432646878424',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/11058_11385_1689633819_7313_RL-1120-624-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458821771492094860',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/10978_11063_1689633553_7280_RL-2112-736-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458793068695408797',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7FD51AC/5242_77159_1689633213_8177_RL-1488-704-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469935772984700230',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7A15201/13762_46727_1689633153_5011_RL-2000-0-208-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469933947371941190',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230718/capture/DFC-RZ-05240017C7457B90/10546_9121_1689632057_7119_RL-1120-768-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '461962565178642524',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C70D16C4/5050_20839_1689594502_2825_RL-1488-128-160-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469866226592542022',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/8490_84023_1689591687_5296_RL-864-1008-224-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468845052785881699',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/9690_33151_1689591220_3445_RL-1312-112-304-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458780413708488861',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/8298_82385_1689590706_5142_RL-1600-816-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469862882809507142',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/7946_79889_1689589688_4923_RL-960-864-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469861886880410950',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/7834_78687_1689589101_4828_RL-800-672-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '457615769270776318',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C70B780A/6098_11319_1689587861_1446_RL-208-624-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469665452306493930',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C74A36EE/1266_18343_1689587717_1391_RL-848-1120-256-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469844612404507277',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/6554_26919_1689586408_2538_RL-1536-0-240-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469847305533549894',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/DFC-RZ-05240017C77C3B4E/1851_0_1689584408_4230_RL-1374-70-114-164-V04-CS73971aab6bd9_profile1.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462314667771982429',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/6258_63455_1689581527_3953_RL-560-752-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464726161734267621',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/6202_62943_1689581303_3915_RL-832-896-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469847370696256838',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/6122_61641_1689580453_3856_RL-224-816-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1532274716264370176',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/5970_59619_1689579327_3771_RL-368-848-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469838658875190598',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C79997F3/210_6473_1689577466_495_RL-1648-576-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458964163985690781',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/5698_55607_1689576875_3600_RL-368-768-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469811439519952198',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C79D5A8C/634_0_1689575772_237_RL-944-208-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464154078801325565',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7DC2B70/3346_10767_1689574544_1542_RL-1328-1088-320-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463916120047382013',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-04560017C76DD03B/1250_54199_1689573920_2299_RL-1520-848-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469835608626326854',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/4386_17295_1689573449_1715_RL-1952-0-224-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461126346622396260',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C74A17F5/6090_23241_1689571625_2238_RL-1104-208-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469832114586545478',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/4146_0_1689571365_1620_RL-672-0-224-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469832028737531206',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4874_47047_1689571307_3095_RL-1328-1248-240-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469647765043965254',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7DC2B70/3138_10191_1689570763_1448_RL-1952-944-240-240.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469827682650058054',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4514_43639_1689568717_2889_RL-2352-912-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469827682599726406',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4522_43623_1689568715_2887_RL-2176-800-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469808216482542221',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/3874_0_1689568375_1504_RL-1344-320-320-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464717741182448357',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4298_40951_1689566975_2700_RL-1856-688-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469824728199097670',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4274_40929_1689566957_2695_RL-1808-848-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468822775679709795',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/4074_37711_1689565658_2463_RL-656-1120-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469674289470140906',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C70D16C4/2434_14201_1689563298_1729_RL-1616-160-128-144.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468640588233722900',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/3906_34111_1689562446_2258_RL-2112-736-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469712979256960779',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C71C6A29/186_57519_1689559895_138_RL-256-592-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469658067546434886',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7E6B22C/1802_23687_1689559241_1000_RL-336-560-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '463911382681677309',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7DC2B70/1930_7143_1689556394_968_RL-944-1184-336-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469804075345539725',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/3362_26951_1689556045_1831_RL-1344-656-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469649448436266854',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/2818_23553_1689553686_1580_RL-1392-768-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469798025313676614',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7A15201/1594_0_1689551046_515_RL-1280-0-288-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460232937472807069',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/1778_16159_1689550427_1000_RL-1600-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '468082644953888622',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/1306_13385_1689548694_742_RL-1136-736-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469791544543571270',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/938_11017_1689547177_514_RL-2064-752-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469790187803667782',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/810_10121_1689546366_444_RL-928-704-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458966898118256484',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/490_9131_1689545548_343_RL-896-784-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456168637250692995',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/474_9025_1689545393_333_RL-1584-832-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469787969939598662',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-04560017C78E3870/106_1503_1689545226_139_RL-1344-928-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469784806394195270',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230717/capture/DFC-RZ-05240017C7457B90/90_6791_1689543162_151_RL-2160-816-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1568933907296944128',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-04560017C751AC54/90482_74383_1689512390_9847_RL-528-304-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455946170041125927',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/65194_30655_1689507837_44973_RL-2096-784-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469724491379928390',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/65098_29463_1689507211_44858_RL-1664-752-176-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1556974604566659072',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7FBF5CA/26930_78951_1689507183_60536_RL-2240-560-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469714832904450538',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/65018_0_1689506795_44774_RL-2160-896-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469692864750711708',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/65026_28719_1689506796_44775_RL-2064-912-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469427565946236230',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C747F426/14010_37887_1689506168_27606_RL-2288-896-272-320.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469720695987793222',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A15201/82458_99815_1689505021_27543_RL-464-704-384-352.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463155027045797980',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/64386_24665_1689504326_44322_RL-1280-784-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459254001599271069',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A15201/81562_0_1689503594_27328_RL-704-0-224-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458976189441134749',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/63874_19935_1689501560_43957_RL-1552-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462610399171203164',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A15201/80306_96815_1689501194_26972_RL-1280-0-240-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467100879367983201',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A15201/80170_0_1689501023_26934_RL-544-0-240-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '460391455320464840',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/63714_19031_1689500817_43869_RL-1536-704-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463156913408856156',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A44FD5/4730_62559_1689494948_6032_RL-560-16-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469537643441451661',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/62682_8815_1689490577_43221_RL-2224-736-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '454317355351177003',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/61970_1513_1689482618_42755_RL-1376-896-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469221141311931609',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7FBF5CA/25378_42599_1689476033_56178_RL-176-880-256-256.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '459942185165410461',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/61266_91783_1689473145_42141_RL-2128-736-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469408277181002218',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C76A4C4F/26754_5207_1689472796_13044_RL-2352-1264-208-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469650199870991686',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C70B780A/32026_83401_1689470773_10838_RL-2048-800-224-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469661278068043078',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7A15201/73706_0_1689469538_24968_RL-1504-0-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '459121986619068573',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-04560017C70A5C79/11618_0_1689463746_6532_RL-80-256-528-512.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469649351279406406',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/59914_80761_1689462425_41263_RL-1808-752-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458972134572585868',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/59530_79793_1689461228_41160_RL-1136-736-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461298288507777332',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/59394_78913_1689460529_41105_RL-640-752-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469643366175370566',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/58970_77271_1689458857_40951_RL-1680-768-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '465450628110381786',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230716/capture/DFC-RZ-05240017C7457B90/58722_74991_1689457100_40859_RL-400-640-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '462756081811082316',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/58210_59047_1689423053_40166_RL-192-1136-352-304.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '462038056745062492',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/57394_52791_1689419944_39670_RL-1760-864-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469578078511721798',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/57386_0_1689419940_39665_RL-912-704-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467103723642976133',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/57010_49351_1689418378_39329_RL-1840-704-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469573884744592710',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A15201/68306_0_1689417451_23192_RL-160-16-240-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469208522513466585',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/56138_40735_1689413039_38636_RL-2384-800-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562035028978827264',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C70D16C4/50442_85919_1689412615_33412_RL-1072-672-224-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458233389292483468',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A15201/64538_67593_1689408321_22177_RL-432-0-224-160.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469554334288342342',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A15201/63722_0_1689405793_21981_RL-288-0-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '456818157856778115',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/55298_32263_1689405387_38166_RL-2128-752-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469553355639778630',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/55266_32047_1689405207_38153_RL-1008-640-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456219831918688125',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/54538_25815_1689399084_37751_RL-1632-672-176-160.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '458774618958745757',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/54218_22609_1689395279_37551_RL-640-720-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458838088626491549',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7FBF5CA/22234_62815_1689395266_47877_RL-448-528-208-224.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462119099992920156',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A15201/58794_0_1689393654_20705_RL-144-112-256-256.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464781830566997501',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C70B780A/29562_72801_1689392756_9412_RL-1984-704-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '467197128612016813',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/53722_18087_1689390324_37242_RL-816-832-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '456342900247127939',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/53626_17065_1689389221_37165_RL-384-768-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '467506045963492657',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/53402_15713_1689387677_37073_RL-400-800-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '459234238173040797',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/53282_14775_1689386664_37006_RL-1872-688-208-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468099371938903918',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7083768/29610_32645_1689386379_12419_RL-1952-736-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469518810764833421',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7A15201/56018_0_1689385771_19973_RL-2128-80-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1564046337459093504',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/52970_12775_1689385122_36838_RL-1712-752-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469513429841898822',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/52522_8173_1689381408_36536_RL-528-544-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1563485619101892608',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7DC2B70/41354_8823_1689380289_15560_RL-1904-848-192-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465305333980492506',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51914_3703_1689378521_36215_RL-2320-816-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '1557676957334765568',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51666_2799_1689378127_36113_RL-1616-800-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '465160039582164917',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51314_57_1689376358_35916_RL-1360-800-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469504463460134214',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51266_0_1689376057_35888_RL-1952-960-256-240.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469503435486555462',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51082_98545_1689375451_35809_RL-960-800-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '461748873107370292',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/51050_98231_1689375357_35784_RL-1792-640-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469502141141118278',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50890_96991_1689374680_35694_RL-2288-864-192-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469501162710658374',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50682_96079_1689374097_35630_RL-960-624-176-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '457904196054708734',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50562_95201_1689373529_35576_RL-384-704-176-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463129180754691089',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50458_94169_1689372914_35506_RL-352-752-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469498745013169478',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50394_93471_1689372655_35471_RL-1760-784-208-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '464570234003549693',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50322_93087_1689372357_35441_RL-1008-704-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '455876671145266215',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230715/capture/DFC-RZ-05240017C7457B90/50250_92327_1689371609_35394_RL-2048-912-224-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458995600445165725',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-04560017C79CE9C7/22706_5903_1689336218_11321_RL-1648-576-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '468845744695046755',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C77CAC23/19434_24975_1689335033_6053_RL-1552-1120-336-320.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463158329338777692',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/49666_69255_1689334947_34423_RL-1472-768-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '458846311945359517',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/53090_0_1689334881_18860_RL-2144-208-240-240.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469408209317163661',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/48730_64311_1689332966_33847_RL-1104-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469407405067758918',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/48698_64207_1689332957_33840_RL-1152-608-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '464501486559194621',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/47914_58031_1689330086_33250_RL-2080-736-192-208.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469426014540295494',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C76A4C4F/20714_53719_1689329351_9977_RL-1360-800-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '465304193549234906',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/47658_56313_1689329081_33101_RL-1088-992-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469423412528311622',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/47370_54391_1689327753_32957_RL-1344-784-176-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1562620656804167680',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/47186_52735_1689326771_32815_RL-2256-768-208-192.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '464646166491984613',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/46410_44169_1689320864_32129_RL-1904-832-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '460087553333153949',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/46146_42199_1689318695_31986_RL-2160-880-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '1569590138483245056',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/49506_0_1689316537_17541_RL-32-112-256-256.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469402056675847494',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/45554_38385_1689315025_31674_RL-1104-736-208-208.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469401524284453517',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/49170_0_1689314899_17443_RL-80-352-288-288.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469401496367164742',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C750E95F/13770_22991_1689314706_60459_RL-32-336-208-208.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '1555146709162524672',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/44834_34241_1689311425_31325_RL-480-704-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '467831657198547402',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/44570_31975_1689309839_31132_RL-1936-816-192-176.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '463153259079553116',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/44154_26247_1689306281_30638_RL-2000-1024-272-272.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469384037677428038',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43634_23399_1689304283_30375_RL-1232-656-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469383962515500358',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43594_23199_1689304235_30361_RL-1808-800-192-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '455756770908858228',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43586_0_1689304232_30358_RL-1696-800-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '469383949697707334',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43554_23255_1689304231_30356_RL-992-704-176-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469375382496243014',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/47554_0_1689301325_16827_RL-160-0-240-192.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469379055565696326',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43138_19031_1689301315_30035_RL-416-720-192-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463026691762045969',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/43082_18551_1689300934_29990_RL-1440-688-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '462141118797080374',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7A15201/47410_33873_1689299709_16768_RL-0-480-240-336.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469376356027755846',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/42914_17121_1689299706_29871_RL-1904-816-224-224.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '458948141459198109',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/42298_12439_1689296057_29472_RL-1456-832-192-176.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '468780204047748116',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/42106_10953_1689294886_29353_RL-1920-896-224-224.jpg',
-        },
-      },
+      gender: '未知',
     },
     {
       id: '469366779475422534',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/41778_9391_1689293998_29220_RL-1168-720-176-176.jpg',
-        },
-      },
+      gender: '男',
     },
     {
       id: '463160630434615388',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/41586_7727_1689293297_29089_RL-2368-944-192-192.jpg',
-        },
-      },
+      gender: '女',
     },
     {
       id: '469364728209108294',
       group: '人员',
-      _node_config: {
-        iconStyle: {
-          type: 'img',
-          value:
-            'https://s3.dianjun.sensoro.vip/ivms-ams-prod-2/1year/20230714/capture/DFC-RZ-05240017C7457B90/41506_6689_1689292772_29006_RL-800-672-208-192.jpg',
-        },
-      },
+      gender: '未知',
     },
   ],
   edges: [
