@@ -87,7 +87,7 @@ export const useService = ({
   const [isHeatMap, setIsHeatmap] = useSafeState<boolean>(nodeConfig?.showHeatMap || true);
   const [scrollbarPos, setScrollbarPos] = useSafeState(0);
   const debounceScrollbarPos = useDebounce(scrollbarPos, { wait: 10 });
-  const [expandedKeys, setExpandedKeys] = useState<string[]>([]);
+  const [expandedKeys, setExpandedKeys] = useState<React.Key[]>([]);
 
   const yAxisStyle = useMemo(() => assign(DEFAULT_YAXIS_STYLE, yAxis), [yAxis]);
   const xAxisStyle = useMemo(() => assign(DEFAULT_XAXIS_STYLE, xAxis), [xAxis]);
@@ -208,7 +208,6 @@ export const useService = ({
     return insightMaxNodes.slice(0, i);
   }, [currZoomAllNodes, size?.height, nodeGroupBy]);
 
-  // TODO y轴的刻度应该是所有的 Node，而不应该是部分的
   const yScale = useMemo(() => {
     if (!selection || !currZoomAllFlatNodes?.length) return;
 
@@ -288,6 +287,7 @@ export const useService = ({
     xScale,
     yScale,
     expandedKeys,
+    setExpandedKeys,
     isHeatMap,
     scrollbarPos: debounceScrollbarPos,
     setScrollbarPos,

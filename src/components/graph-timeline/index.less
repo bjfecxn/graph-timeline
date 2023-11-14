@@ -56,11 +56,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    color: green;
-    font-size: 12px;
+    // TODO 删除
     background-color: pink;
     .ant-tree {
-      line-height: 24px;
+      font-size: 12px;
       .ant-tree-treenode {
         padding: 0;
       }
@@ -68,46 +67,9 @@
     .ant-tree-title {
       font-size: 12px;
     }
-  }
-
-  > svg {
-    position: relative;
-    z-index: 2;
-    overflow: visible;
-    g {
-      &.tick {
-        text {
-          cursor: pointer;
-          &:hover {
-            & + rect {
-              display: block;
-            }
-          }
-
-          & + rect {
-            display: none;
-            pointer-events: none;
-            fill: rgba(255, 255, 255, 0.05);
-            text-anchor: middle;
-          }
-        }
-        &.__active {
-          rect {
-            display: block;
-          }
-        }
-      }
-      &.__chart {
-        .__circle,
-        line {
-          cursor: pointer;
-        }
-      }
-      &.__scrollbar {
-        > .__handle {
-          cursor: grabbing;
-        }
-      }
+    // 滑动条放到左边
+    .ant-tree-list-scrollbar-vertical {
+      left: -8px !important;
     }
   }
 }
