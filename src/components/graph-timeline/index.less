@@ -47,6 +47,7 @@
 }
 .graph-timeline {
   position: relative;
+  overflow: hidden;
   background: #ffffff;
   .axis {
     color: #dbdee2;
@@ -69,7 +70,10 @@
     }
     // 滑动条放到左边
     .ant-tree-list-scrollbar-vertical {
-      left: -8px !important;
+      left: 0px !important;
+    }
+    .ant-tree-list-holder {
+      margin-left: 8px;
     }
   }
 }

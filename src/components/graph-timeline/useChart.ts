@@ -30,7 +30,7 @@ export default () => {
     minAndMax,
     edges,
     insightEdges,
-    insightNodes,
+    currZoomAllNodes,
     nodesMap,
     size,
     xScale,
@@ -437,14 +437,6 @@ export default () => {
       .enter()
       .append('defs')
       .attr('class', '__arrow');
-
-    wrapper
-      .select('svg.chart')
-      .selectAll('defs.__icon')
-      .data([null])
-      .enter()
-      .append('defs')
-      .attr('class', '__icon');
   }, [wrapper]);
 
   useEffect(() => {
@@ -455,7 +447,7 @@ export default () => {
       return;
     }
     renderTimeline(insightEdges);
-  }, [chart, size, insightEdges, isHeatMap, insightNodes]);
+  }, [chart, size, insightEdges, isHeatMap, currZoomAllNodes]);
 
   return chart;
 };

@@ -213,7 +213,7 @@ export const useService = ({
 
     return d3
       .scalePoint()
-      .domain(currZoomAllFlatNodes)
+      .domain(currZoomAllFlatNodes.map((d) => d.id))
       .range([0, currZoomAllFlatNodes.length * SINGLE_ITEM_HEIGHT]);
   }, [selection, currZoomAllFlatNodes]);
 
