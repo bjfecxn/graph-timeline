@@ -295,11 +295,10 @@ export const useService = ({
     if (!xScale || !timeGapTotal || !chartWidth) return;
     const left = xScale.invert(-yAxisStyle.width).getTime();
     const right = xScale.invert(chartWidth).getTime();
-    const theLeft = xScale.invert(0).getTime();
     const timeGap = right - left;
     const ratio = timeGap / timeGapTotal;
     //时间跨度
-    const xAxisDays = (right - theLeft) / 3600 / 24000;
+    const xAxisDays = (right - left) / 3600 / 24000;
     if (xAxisDays > 1) {
       return setIsHeatmap(true);
     }
