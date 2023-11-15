@@ -45,7 +45,7 @@ export default () => {
           return (
             <>
               <span className="gt-y-label">{nodeData.label || '--'}</span>
-              {!nodeData.children ? (
+              {!nodeData.children || !expandedKeys?.includes(nodeData.id) ? (
                 <>
                   <span className="gt-y-icon"></span>
                   <span className="gt-y-line"></span>
