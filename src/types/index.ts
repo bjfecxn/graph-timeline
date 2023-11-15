@@ -53,6 +53,8 @@ export interface INodeGroupStyle {
   iconStyle?: INodeGroupIconStyle;
   // 状态
   status?: EGroupStatus;
+  //热力图条带颜色
+  colorStripes?: string[];
 }
 
 export interface INodeGlobalStyle extends INodeGroupStyle {
@@ -86,4 +88,24 @@ export interface IHeapMapItem {
   nodeId: string;
   count: number;
   index: number;
+  // group: string;
 }
+
+//配色
+enum IColorType {
+  Blue = 'blue',
+  Green = 'green',
+  Yellow = 'yellow',
+  Red = 'red',
+  Cyan = 'cyan',
+  Pink = 'pink',
+}
+export type IColorScheme = {
+  [key in IColorType]: IColorStripes;
+};
+export type IColorStripes = {
+  mainColor: string;
+  mainColorLab: [number, number, number];
+  labStripes: [number, number, number][];
+  hexStripes: Array<string>;
+};

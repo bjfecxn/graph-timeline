@@ -247,6 +247,18 @@ export const useService = ({
     [edgeGroups, edgeConfig, edgeGroupBy],
   );
 
+  const getNodeGroupConfig = useCallback(
+    (key: keyof INodeGroupStyle, group: string) => {
+      const nodeGroup = nodeGroups?.[group];
+      if (nodeGroup) {
+        return nodeGroup?.[key];
+      } else {
+        return null;
+      }
+    },
+    [nodeGroups],
+  );
+
   const getYPos = (nodeId: string) => {
     if (!yScale) return;
     // 没有分组
@@ -283,12 +295,18 @@ export const useService = ({
     if (!xScale || !timeGapTotal || !chartWidth) return;
     const left = xScale.invert(-yAxisStyle.width).getTime();
     const right = xScale.invert(chartWidth).getTime();
+    const theLeft = xScale.invert(0).getTime();
     const timeGap = right - left;
     const ratio = timeGap / timeGapTotal;
-
-    if (ratio && ratio > 0.5) {
+    //时间跨度
+    const xAxisDays = (right - theLeft) / 3600 / 24000;
+    if (xAxisDays > 1) {
       return setIsHeatmap(true);
     }
+    //比例
+    // if (ratio && ratio > 0.5) {
+    //   return setIsHeatmap(true);
+    // }
     setIsHeatmap(false);
   }, [xScale, chartWidth, yAxisStyle.width, timeGapTotal, nodeConfig?.showHeatMap]);
 
@@ -319,6 +337,7 @@ export const useService = ({
     onEdgeClick,
     onEdgeHover,
     onEdgeOut,
+    getNodeGroupConfig,
     getYPos,
     translateY,
     setTranslateY,

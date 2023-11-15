@@ -18,6 +18,47 @@ interface ILineEdge extends IEdge {
   _y2: number;
 }
 
+const calculateHeatmapValue = (
+  theMap = new Map(),
+  group = '',
+  node = '',
+  tickCount: number,
+  i: number,
+) => {
+  const nodeBlockMap = theMap.get(group);
+  if (nodeBlockMap) {
+    const arr = nodeBlockMap.get(node);
+    if (arr) {
+      arr[i]++;
+    } else {
+      const temp = new Array(tickCount).fill(0);
+      temp[i]++;
+      nodeBlockMap.set(node, temp);
+    }
+  } else {
+    theMap.set(group, new Map());
+  }
+};
+
+const addHoverRect = (svg: d3.Selection<d3.BaseType, null, d3.BaseType, unknown>, edge: IEdge) => {
+  const { _x, _y1, _y2 } = edge;
+  const height = _y2 >= 400 ? _y2 - _y1 + 7 : _y2 - _y1 + 14;
+  svg
+    .append('rect')
+    .attr('class', '_hover-rect')
+    .attr('x', _x - 7.5)
+    .attr('y', _y1 - 7)
+    .attr('width', 15)
+    .attr('height', height)
+    .attr('rx', 8) // 圆角的横向半径
+    .attr('ry', 8) // 圆角的纵向半径
+    .style('fill', '#0A1B39')
+    .style('opacity', 0.08);
+};
+const removeHoverRect = (svg: d3.Selection<d3.BaseType, null, d3.BaseType, unknown>) => {
+  svg.selectAll('._hover-rect').remove();
+};
+
 export default () => {
   const {
     wrapper,
@@ -39,6 +80,7 @@ export default () => {
     yAxisStyle,
     getYPos,
     translateY,
+    getNodeGroupConfig,
   } = useContext(GraphTimeService);
 
   const [chart, setChart] = useSafeState<d3.Selection<d3.BaseType, null, d3.BaseType, unknown>>();
@@ -107,6 +149,7 @@ export default () => {
     if (!chart || !xScale || !yScale || !minAndMax || !edges) return;
     chart.selectAll('.__circle').remove();
     chart.selectAll('.__line').remove();
+    removeHoverRect(chart);
 
     // 当前事件列表数据映射到时间块内的数量统计列表
     const currentTicks = xScale.ticks();
@@ -114,78 +157,77 @@ export default () => {
     const [minTime, maxTime] = minAndMax;
     if (!minTime || !maxTime) return;
     const totalTimeGap = maxTime - minTime;
+    //时间块的数量
     const tickCount = Math.floor(totalTimeGap / tickTimeGap);
 
-    const nodeBlockMap = new Map();
+    const theNodeBlockMap = new Map();
     for (const edge of edges) {
       const timeStamp = getTime(edge.time);
       const i = Math.floor((timeStamp - minTime) / tickTimeGap);
       if (edge.source) {
         const node = edge.source;
-        const arr = nodeBlockMap.get(node);
-        if (arr) {
-          arr[i]++;
-        } else {
-          const temp = new Array(tickCount).fill(0);
-          temp[i]++;
-          nodeBlockMap.set(node, temp);
-        }
+        const { group = '' } = nodesMap[node];
+        calculateHeatmapValue(theNodeBlockMap, group, node, tickCount, i);
       }
       if (edge.target) {
         const node = edge.target;
-        const arr = nodeBlockMap.get(node);
-        if (arr) {
-          arr[i]++;
-        } else {
-          const temp = new Array(tickCount).fill(0);
-          temp[i]++;
-          nodeBlockMap.set(node, temp);
-        }
+        const { group = '' } = nodesMap[node];
+        calculateHeatmapValue(theNodeBlockMap, group, node, tickCount, i);
       }
     }
-    const heatmap: IHeapMapItem[] = [];
-    nodeBlockMap.forEach((block, nodeId) => {
-      for (let i = 0; i < tickCount; i++) {
-        const count = block[i];
-        if (count <= 0) continue;
-        heatmap.push({
-          nodeId,
-          index: i,
-          count: block[i],
-        });
-      }
+
+    const theHeatmap: IHeapMapItem[] = [];
+    const groupedStats = new Map();
+    theNodeBlockMap.forEach((theMap, group) => {
+      const heatmap: IHeapMapItem[] = [];
+      theMap.forEach((block: any, nodeId: string) => {
+        for (let i = 0; i < tickCount; i++) {
+          const count = block[i];
+          if (count <= 0) continue;
+          heatmap.push({
+            nodeId,
+            index: i,
+            count: block[i],
+          });
+        }
+      });
+      groupedStats.set(group, heatmap);
     });
-    const maxCount = d3.max(heatmap, (d) => d.count) || 1;
-    const opacityScale = d3.scaleLinear([0, maxCount], [0, 1]);
 
     const leftX = xScale(currentTicks[0].getTime());
     const rightX = xScale(currentTicks[currentTicks.length - 2].getTime());
 
-    const renderHeatMap = heatmap.filter((item) => {
-      const x = xScale(minTime + item.index * tickTimeGap);
-      const y = yScale(item.nodeId);
-      return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
-    });
-
     const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]);
     const cellHeight = HEATMAP_SQUARE_HEIGHT;
-    const heatMapChart = chart.selectAll('.__h').data(renderHeatMap);
-    const heatMapChartEnter: any = heatMapChart.enter().append('rect').attr('class', '__h');
-
-    heatMapChart
-      .merge(heatMapChartEnter)
-      .attr('x', (item) => {
+    const heatMapChart = chart.selectAll('.__h').data([]);
+    groupedStats.forEach((heatmapList, group) => {
+      const renderHeatMap: IHeapMapItem[] = heatmapList.filter((item: IHeapMapItem) => {
         const x = xScale(minTime + item.index * tickTimeGap);
-        return x;
-      })
-      .attr('y', (item) => {
-        return (yScale(item.nodeId) as number) - cellHeight / 2;
-      })
-      .attr('width', cellWidth)
-      .attr('height', cellHeight)
-      .attr('fill', (d) => getCurrNodeConfig?.('color', nodesMap?.[d.nodeId]) || null)
-      .attr('fill-opacity', (d) => opacityScale(d.count));
+        const y = yScale(item.nodeId);
+        return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
+      });
+      const heatMapChartUpdate = heatMapChart.data(renderHeatMap); // 更新数据绑定
+      const heatMapChartEnter: any = heatMapChartUpdate.enter().append('rect').attr('class', '__h');
+      const minCount = d3.min(heatmapList, (i: IHeapMapItem) => i.count) || 0;
+      const maxCount = d3.max(heatmapList, (i: IHeapMapItem) => i.count) || 1;
+      const hexStripes = getNodeGroupConfig('colorStripes', group) as any;
+      const colorScale = d3.scaleQuantize().domain([minCount, maxCount]).range(hexStripes);
 
+      heatMapChartUpdate
+        .merge(heatMapChartEnter)
+        .attr('x', (item) => {
+          const x = xScale(minTime + item.index * tickTimeGap);
+          return x;
+        })
+        .attr('y', (item) => {
+          return (yScale(item.nodeId) as number) - cellHeight / 2;
+        })
+        .attr('width', cellWidth)
+        .attr('height', cellHeight)
+        .attr('fill', (d) => colorScale(d.count));
+
+      heatMapChartUpdate.exit().remove();
+    });
     heatMapChart.exit().remove();
   };
 
@@ -226,6 +268,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: IEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'source',
           edge,
@@ -234,6 +277,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: IEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'source',
           edge,
@@ -279,6 +323,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: IEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'target',
           edge,
@@ -287,6 +332,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: IEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'target',
           edge,
@@ -367,6 +413,7 @@ export default () => {
         );
       })
       .on('mouseover', (e, edge: ILineEdge) => {
+        addHoverRect(chart, edge);
         return onEdgeHover?.(
           'line',
           edge,
@@ -375,6 +422,7 @@ export default () => {
         );
       })
       .on('mouseout', (e, edge: ILineEdge) => {
+        removeHoverRect(chart);
         return onEdgeOut?.(
           'line',
           edge,

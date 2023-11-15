@@ -149,7 +149,8 @@ export default () => {
       .attr('fill', 'black')
       .attr('font-size', 12)
       .attr('dy', '12px')
-      .style('text-anchor', 'start');
+      .style('text-anchor', 'start')
+      .style('cursor', 'default');
   }, [xAxisBottom, xScale, xAxisBottomSmall]);
 
   return {
