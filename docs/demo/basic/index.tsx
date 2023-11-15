@@ -81,15 +81,15 @@ export default () => {
       人员: {
         color: COLOR_SCHEME.blue.mainColor,
         colorStripes: COLOR_SCHEME.blue.hexStripes,
-        // nodeGroupBy: 'gender',
+        nodeGroupBy: 'gender',
       },
       摄像机: {
         color: COLOR_SCHEME.yellow.mainColor,
         colorStripes: COLOR_SCHEME.yellow.hexStripes,
       },
-      // 未知: {
-      //   color: '#e5e5e5',
-      // },
+      未知: {
+        color: '#e5e5e5',
+      },
     },
     nodeConfig: {
       radius: 3.5,
