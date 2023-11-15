@@ -1,5 +1,11 @@
 # graph-timeline
 
+## TODO
+
+- 缩放边界计算优化
+- chart 区域渲染重构
+- useVirtualSortableTreeList 实现
+
 ## 结构设计
 
 ![Alt text](structure.png)

@@ -3,7 +3,6 @@ import { Tree } from 'antd';
 import { GraphTimeService } from '../graph-timeline/service';
 import 'antd/es/tree/style';
 
-// TODO 暂时先只渲染两层分组
 export default () => {
   const { size, currZoomAllNodesTree, expandedKeys, setExpandedKeys, setTranslateY } =
     useContext(GraphTimeService);
