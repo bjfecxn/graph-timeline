@@ -1,6 +1,6 @@
 import { useCallback, useContext, useEffect } from 'react';
 import * as d3 from 'd3';
-import { useSafeState } from 'ahooks';
+import { useDeepCompareEffect, useSafeState } from 'ahooks';
 import { GraphTimeService } from './service';
 import { compileColor, getTime } from '../../utils';
 import { DEFAULT_EDGE_TYPE_STYLE, HEATMAP_SQUARE_HEIGHT } from '../../common/constants';
@@ -477,7 +477,7 @@ export default () => {
       .attr('class', '__arrow');
   }, [wrapper]);
 
-  useEffect(() => {
+  useDeepCompareEffect(() => {
     if (!chart || !size || !insightEdges) return;
 
     if (isHeatMap) {
