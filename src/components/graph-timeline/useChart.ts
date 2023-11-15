@@ -47,14 +47,6 @@ const calculateHeatmapValue = (
   }
 };
 
-const calculateHeatmapColorScale = (min: number, max: number, type: string) => {
-  let color: any = COLOR_SCHEME.yellow;
-  if (type == '人员') {
-    color = COLOR_SCHEME.blue;
-  }
-  return d3.scaleQuantize().domain([min, max]).range(color.hexStripes);
-};
-
 const addHoverRect = (svg: d3.Selection<d3.BaseType, null, d3.BaseType, unknown>, edge: IEdge) => {
   const { _x, _y1, _y2 } = edge;
   const height = _y2 >= 400 ? _y2 - _y1 + 7 : _y2 - _y1 + 14;
@@ -93,6 +85,7 @@ export default () => {
     onEdgeHover,
     onEdgeOut,
     yAxisStyle,
+    getNodeGroupConfig,
   } = useContext(GraphTimeService);
 
   const [chart, setChart] = useSafeState<d3.Selection<d3.BaseType, null, d3.BaseType, unknown>>();
@@ -222,7 +215,8 @@ export default () => {
       const heatMapChartEnter: any = heatMapChartUpdate.enter().append('rect').attr('class', '__h');
       const minCount = d3.min(heatmapList, (i: IHeapMapItem) => i.count) || 0;
       const maxCount = d3.max(heatmapList, (i: IHeapMapItem) => i.count) || 1;
-      const colorScale = calculateHeatmapColorScale(minCount, maxCount, group);
+      const hexStripes = getNodeGroupConfig('colorStripes', group) as any;
+      const colorScale = d3.scaleQuantize().domain([minCount, maxCount]).range(hexStripes);
 
       heatMapChartUpdate
         .merge(heatMapChartEnter)

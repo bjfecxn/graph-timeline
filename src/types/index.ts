@@ -53,6 +53,8 @@ export interface INodeGroupStyle {
   iconStyle?: INodeGroupIconStyle;
   // 状态
   status?: EGroupStatus;
+  //热力图条带颜色
+  colorStripes?: string[];
 }
 
 export interface INodeGlobalStyle extends INodeGroupStyle {

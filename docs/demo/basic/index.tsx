@@ -5,6 +5,7 @@ import { GraphTimeline, INode, IEdge } from 'graph-timeline';
 import demoData from './demo3';
 import './index.less';
 import './iconfont/iconfont.css';
+import { COLOR_SCHEME } from '../../../src/common/constants';
 
 export default () => {
   const [activeNodeIds, setActiveNodeIds] = useState<string[]>([]);
@@ -73,14 +74,17 @@ export default () => {
   //   // },
   // };
   // demo3 的展示配置
+
   const graphConfig = {
     nodeGroupBy: 'group',
     nodeGroups: {
       人员: {
-        color: '#588BEE',
+        color: COLOR_SCHEME.blue.mainColor,
+        colorStripes: COLOR_SCHEME.blue.hexStripes,
       },
-      摄像头: {
-        color: '#EE6159',
+      摄像机: {
+        color: COLOR_SCHEME.yellow.mainColor,
+        colorStripes: COLOR_SCHEME.yellow.hexStripes,
       },
     },
     nodeConfig: {
@@ -92,7 +96,7 @@ export default () => {
     },
     edgeConfig: {
       width: 2,
-      reverse: true,
+      reverse: false,
       arrowRadius: 7,
     },
     // edgeGroupBy: 'group',

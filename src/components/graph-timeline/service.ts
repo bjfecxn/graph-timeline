@@ -239,6 +239,18 @@ export const useService = ({
     [edgeGroups, edgeConfig, edgeGroupBy],
   );
 
+  const getNodeGroupConfig = useCallback(
+    (key: keyof INodeGroupStyle, group: string) => {
+      const nodeGroup = nodeGroups?.[group];
+      if (nodeGroup) {
+        return nodeGroup?.[key];
+      } else {
+        return null;
+      }
+    },
+    [nodeGroups],
+  );
+
   useEffect(() => {
     if (!containerRef.current || !size) return;
 
@@ -296,6 +308,7 @@ export const useService = ({
     onEdgeClick,
     onEdgeHover,
     onEdgeOut,
+    getNodeGroupConfig,
   };
 };
 
