@@ -146,7 +146,7 @@ export default () => {
   );
 
   const renderHeatMap = () => {
-    if (!chart || !xScale || !yScale || !minAndMax || !edges || !size.chartWidth) return;
+    if (!chart || !xScale || !yScale || !minAndMax || !insightEdges || !size.chartWidth) return;
     chart.selectAll('.__circle').remove();
     chart.selectAll('.__line').remove();
     removeHoverRect(chart);
@@ -161,7 +161,7 @@ export default () => {
     const tickCount = Math.floor(totalTimeGap / tickTimeGap);
 
     const theNodeBlockMap = new Map();
-    for (const edge of edges) {
+    for (const edge of insightEdges) {
       const timeStamp = getTime(edge.time);
       const i = Math.floor((timeStamp - minTime) / tickTimeGap);
       if (edge.source) {
@@ -198,7 +198,7 @@ export default () => {
     groupedStats.forEach((heatmapList, group) => {
       const renderHeatMap: IHeapMapItem[] = heatmapList.filter((item: IHeapMapItem) => {
         const x = xScale(minTime + item.index * tickTimeGap);
-        const y = yScale(item.nodeId);
+        const y = getYPos(item.nodeId) as number;
         return y && x <= rightX && x >= 0;
       });
       const heatMapChartUpdate = heatMapChart.data(renderHeatMap); // 更新数据绑定
@@ -215,7 +215,7 @@ export default () => {
           return x;
         })
         .attr('y', (item) => {
-          return (yScale(item.nodeId) as number) - cellHeight / 2;
+          return (getYPos(item.nodeId) as number) - cellHeight / 2;
         })
         .attr('width', cellWidth)
         .attr('height', cellHeight)
