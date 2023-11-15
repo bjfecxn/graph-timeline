@@ -10,25 +10,16 @@ export default () => {
   const yAxisId = useMemo(() => `gt-y-${Date.now()}`, []);
 
   useEffect(() => {
-    const treeInner = document.querySelector(
-      `#${yAxisId} .ant-tree-list-holder-inner`,
-    ) as HTMLDivElement;
-    const checkTranslateY = () => {
-      if (!treeInner) {
-        setTranslateY(0);
-        return;
-      }
-      const translateYValue = treeInner.style.transform;
+    const treeInner = document.querySelector(`#${yAxisId} .ant-tree-list-holder`) as HTMLDivElement;
 
-      const translateYMatch = translateYValue.match(/translateY\((-?\d+(\.\d+)?)px\)/);
-      const newTranslateY = translateYMatch ? parseFloat(translateYMatch[1]) : 0;
-      setTranslateY(-newTranslateY);
+    const onScroll = () => {
+      setTranslateY(-(treeInner.scrollTop || 0));
     };
-    const observer = new MutationObserver(checkTranslateY);
 
-    observer.observe(treeInner, { attributeFilter: ['style'] });
-
-    return () => observer.disconnect();
+    treeInner.addEventListener('scroll', onScroll);
+    return () => {
+      treeInner.removeEventListener('scroll', onScroll);
+    };
   }, [treeRef.current]);
 
   return (
@@ -43,13 +34,15 @@ export default () => {
         titleRender={(nodeData: any) => {
           return (
             <>
-              <span className="gt-y-label">{nodeData.label || '--'}</span>
-              {!nodeData.children || !expandedKeys?.includes(nodeData.id) ? (
-                <>
-                  <span className="gt-y-icon"></span>
-                  <span className="gt-y-line"></span>
-                </>
-              ) : null}
+              <span className="gt-y-title">
+                <span className="gt-y-label">{nodeData.label || '--'}</span>
+                {!nodeData.children || !expandedKeys?.includes(nodeData.id) ? (
+                  <>
+                    <span className="gt-y-icon"></span>
+                  </>
+                ) : null}
+              </span>
+              <span className="gt-y-line"></span>
             </>
           );
         }}
