@@ -41,6 +41,19 @@ export default () => {
         expandedKeys={expandedKeys}
         blockNode
         onExpand={(expandedKeys) => setExpandedKeys(expandedKeys)}
+        titleRender={(nodeData: any) => {
+          return (
+            <>
+              <span className="gt-y-label">{nodeData.label || '--'}</span>
+              {!nodeData.children ? (
+                <>
+                  <span className="gt-y-icon"></span>
+                  <span className="gt-y-line"></span>
+                </>
+              ) : null}
+            </>
+          );
+        }}
         fieldNames={{
           title: 'label',
           key: 'id',

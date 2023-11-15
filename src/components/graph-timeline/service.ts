@@ -208,7 +208,8 @@ export const useService = ({
     return d3
       .scalePoint()
       .domain(currZoomAllFlatNodes.map((d) => d.id))
-      .range([0, currZoomAllFlatNodes.length * SINGLE_ITEM_HEIGHT]);
+      .range([0, currZoomAllFlatNodes.length * SINGLE_ITEM_HEIGHT])
+      .padding(0.5);
   }, [selection, currZoomAllFlatNodes]);
 
   const getCurrNodeConfig = useCallback(
