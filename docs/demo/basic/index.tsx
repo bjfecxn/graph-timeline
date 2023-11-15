@@ -116,7 +116,7 @@ export default () => {
   return (
     <div
       onContextMenu={(e) => e.preventDefault()}
-      style={{ height: 800, margin: 16, boxShadow: '6px 6px 6px 6px rgba(0, 0, 0, 0.2)' }}
+      style={{ height: 700, margin: 16, boxShadow: '6px 6px 6px 6px rgba(0, 0, 0, 0.2)' }}
     >
       <GraphTimeline
         {...demoData}

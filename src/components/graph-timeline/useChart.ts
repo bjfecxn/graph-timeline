@@ -146,7 +146,7 @@ export default () => {
   );
 
   const renderHeatMap = () => {
-    if (!chart || !xScale || !yScale || !minAndMax || !edges) return;
+    if (!chart || !xScale || !yScale || !minAndMax || !edges || !size.chartWidth) return;
     chart.selectAll('.__circle').remove();
     chart.selectAll('.__line').remove();
     removeHoverRect(chart);
@@ -175,8 +175,6 @@ export default () => {
         calculateHeatmapValue(theNodeBlockMap, group, node, tickCount, i);
       }
     }
-
-    const theHeatmap: IHeapMapItem[] = [];
     const groupedStats = new Map();
     theNodeBlockMap.forEach((theMap, group) => {
       const heatmap: IHeapMapItem[] = [];
@@ -193,18 +191,15 @@ export default () => {
       });
       groupedStats.set(group, heatmap);
     });
-
-    const leftX = xScale(currentTicks[0].getTime());
-    const rightX = xScale(currentTicks[currentTicks.length - 2].getTime());
-
-    const cellWidth = xScale(currentTicks[1]) - xScale(currentTicks[0]);
+    const cellWidth = (xScale(currentTicks[1]) - xScale(currentTicks[0])) / 4;
+    const rightX = size.chartWidth - cellWidth;
     const cellHeight = HEATMAP_SQUARE_HEIGHT;
     const heatMapChart = chart.selectAll('.__h').data([]);
     groupedStats.forEach((heatmapList, group) => {
       const renderHeatMap: IHeapMapItem[] = heatmapList.filter((item: IHeapMapItem) => {
         const x = xScale(minTime + item.index * tickTimeGap);
         const y = yScale(item.nodeId);
-        return y && x >= leftX && x <= rightX && x >= yAxisStyle.width;
+        return y && x <= rightX && x >= 0;
       });
       const heatMapChartUpdate = heatMapChart.data(renderHeatMap); // 更新数据绑定
       const heatMapChartEnter: any = heatMapChartUpdate.enter().append('rect').attr('class', '__h');
@@ -499,7 +494,7 @@ export default () => {
     wrapper
       .select('svg.chart')
       .select('g.__chart')
-      .style('transform', `translateY(${isHeatMap ? 0 : translateY}px)`);
+      .style('transform', `translateY(${translateY}px)`);
   }, [wrapper, isHeatMap, translateY]);
 
   return chart;
